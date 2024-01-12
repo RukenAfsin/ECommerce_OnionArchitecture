@@ -48,6 +48,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -128,12 +134,12 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistance\\ECommerceAPI.Persistance.csproj": {
+    "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistance\\ECommerceAPI.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistance\\ECommerceAPI.Persistance.csproj",
-        "projectName": "ECommerceAPI.Persistance",
-        "projectPath": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistance\\ECommerceAPI.Persistance.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistance\\ECommerceAPI.Persistence.csproj",
+        "projectName": "ECommerceAPI.Persistence",
+        "projectPath": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistance\\ECommerceAPI.Persistence.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistance\\obj\\",
         "projectStyle": "PackageReference",
@@ -252,8 +258,8 @@
               "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj": {
                 "projectPath": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj"
               },
-              "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistance\\ECommerceAPI.Persistance.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistance\\ECommerceAPI.Persistance.csproj"
+              "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistance\\ECommerceAPI.Persistence.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistance\\ECommerceAPI.Persistence.csproj"
               }
             }
           }

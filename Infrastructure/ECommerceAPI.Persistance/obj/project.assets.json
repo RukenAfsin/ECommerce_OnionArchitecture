@@ -1604,7 +1604,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "ECommerceAPI.Domain": "1.0.0"
+          "ECommerceAPI.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.1"
         },
         "compile": {
           "bin/placeholder/ECommerceAPI.Application.dll": {}
@@ -4361,9 +4362,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistance\\ECommerceAPI.Persistance.csproj",
-      "projectName": "ECommerceAPI.Persistance",
-      "projectPath": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistance\\ECommerceAPI.Persistance.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistance\\ECommerceAPI.Persistence.csproj",
+      "projectName": "ECommerceAPI.Persistence",
+      "projectPath": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistance\\ECommerceAPI.Persistence.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistance\\obj\\",
       "projectStyle": "PackageReference",

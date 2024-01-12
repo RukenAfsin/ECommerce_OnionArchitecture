@@ -9,7 +9,7 @@
       "ECommerceAPI.API/1.0.0": {
         "dependencies": {
           "ECommerceAPI.Application": "1.0.0",
-          "ECommerceAPI.Persistance": "1.0.0",
+          "ECommerceAPI.Persistence": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.1",
           "Microsoft.EntityFrameworkCore.Design": "8.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.1",
@@ -939,7 +939,8 @@
       },
       "ECommerceAPI.Application/1.0.0": {
         "dependencies": {
-          "ECommerceAPI.Domain": "1.0.0"
+          "ECommerceAPI.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.1"
         },
         "runtime": {
           "ECommerceAPI.Application.dll": {}
@@ -950,7 +951,7 @@
           "ECommerceAPI.Domain.dll": {}
         }
       },
-      "ECommerceAPI.Persistance/1.0.0": {
+      "ECommerceAPI.Persistence/1.0.0": {
         "dependencies": {
           "ECommerceAPI.Application": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.1",
@@ -960,7 +961,7 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
         },
         "runtime": {
-          "ECommerceAPI.Persistance.dll": {}
+          "ECommerceAPI.Persistence.dll": {}
         }
       }
     }
@@ -1590,7 +1591,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "ECommerceAPI.Persistance/1.0.0": {
+    "ECommerceAPI.Persistence/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

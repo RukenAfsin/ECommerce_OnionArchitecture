@@ -1691,7 +1691,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "ECommerceAPI.Domain": "1.0.0"
+          "ECommerceAPI.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.1"
         },
         "compile": {
           "bin/placeholder/ECommerceAPI.Application.dll": {}
@@ -1710,7 +1711,7 @@
           "bin/placeholder/ECommerceAPI.Domain.dll": {}
         }
       },
-      "ECommerceAPI.Persistance/1.0.0": {
+      "ECommerceAPI.Persistence/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -1722,10 +1723,10 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
         },
         "compile": {
-          "bin/placeholder/ECommerceAPI.Persistance.dll": {}
+          "bin/placeholder/ECommerceAPI.Persistence.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ECommerceAPI.Persistance.dll": {}
+          "bin/placeholder/ECommerceAPI.Persistence.dll": {}
         }
       }
     }
@@ -4776,16 +4777,16 @@
       "path": "../../Core/ECommerceAPI.Domain/ECommerceAPI.Domain.csproj",
       "msbuildProject": "../../Core/ECommerceAPI.Domain/ECommerceAPI.Domain.csproj"
     },
-    "ECommerceAPI.Persistance/1.0.0": {
+    "ECommerceAPI.Persistence/1.0.0": {
       "type": "project",
-      "path": "../../Infrastructure/ECommerceAPI.Persistance/ECommerceAPI.Persistance.csproj",
-      "msbuildProject": "../../Infrastructure/ECommerceAPI.Persistance/ECommerceAPI.Persistance.csproj"
+      "path": "../../Infrastructure/ECommerceAPI.Persistance/ECommerceAPI.Persistence.csproj",
+      "msbuildProject": "../../Infrastructure/ECommerceAPI.Persistance/ECommerceAPI.Persistence.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "ECommerceAPI.Application >= 1.0.0",
-      "ECommerceAPI.Persistance >= 1.0.0",
+      "ECommerceAPI.Persistence >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.1",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.1",
@@ -4829,8 +4830,8 @@
             "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj": {
               "projectPath": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj"
             },
-            "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistance\\ECommerceAPI.Persistance.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistance\\ECommerceAPI.Persistance.csproj"
+            "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistance\\ECommerceAPI.Persistence.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistance\\ECommerceAPI.Persistence.csproj"
             }
           }
         }
