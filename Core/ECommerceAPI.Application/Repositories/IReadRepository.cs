@@ -12,10 +12,10 @@ namespace ECommerceAPI.Application.Repositories
     //there is methods should be here which query is start with select
     public interface IReadRepository<T>:IRepository<T>where T : BaseEntity
     {
-        IQueryable<T> GetAll();
-        IQueryable<T> GetWhere(Expression<Func<T, bool>> method);
-        Task<T> GetSingleAsync(Expression<Func<T, bool>> method);
-        Task<T> GetByIdAsync(string id);
+        IQueryable<T> GetAll(bool tracking= true);
+        IQueryable<T> GetWhere(Expression<Func<T, bool>> method, bool tracking = true);
+        Task<T> GetSingleAsync(Expression<Func<T, bool>> method, bool tracking = true);
+        Task<T> GetByIdAsync(string id, bool tracking = true);
 
     }
 }
