@@ -30,8 +30,8 @@ namespace ECommerceAPI.Persistance.Context
             {
                 _ = data.State switch
                 {
-                    EntityState.Added=>data.Entity.CreatedDate=DateTime.UtcNow,
-                    EntityState.Modified =>data.Entity.UpdatedDate=DateTime.UtcNow,
+                    EntityState.Added => data.Entity.CreatedDate = DateTime.UtcNow,
+                    EntityState.Modified => data.Entity.UpdatedDate = DateTime.UtcNow
                 };
             }
             return await base.SaveChangesAsync(cancellationToken);
