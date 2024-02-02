@@ -141,3 +141,8 @@ C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\EComme
 C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\obj\Debug\net8.0\ECommerceAPI.API.sourcelink.json
 C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net8.0\ECommerceAPI.Persistence.dll
 C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net8.0\ECommerceAPI.Persistence.pdb
+C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net8.0\ECommerceAPI.Infrastructure.dll
+C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net8.0\ECommerceAPI.Infrastructure.pdb

@@ -16,7 +16,7 @@ namespace ECommerceAPI.API.Controllers
         readonly private IProductReadRepository _productReadRepository;
 
 
-        public ProductsController(IProductWriteRepository productWriteRepository, 
+        public ProductsController(IProductWriteRepository productWriteRepository,
             IProductReadRepository productReadRepository)
         {
             _productWriteRepository = productWriteRepository;
@@ -33,25 +33,30 @@ namespace ECommerceAPI.API.Controllers
         [HttpGet("getid")]
         public async Task<IActionResult> Get(string id)
         {
-            return Ok(await _productReadRepository.GetByIdAsync(id,false));
+            return Ok(await _productReadRepository.GetByIdAsync(id, false));
         }
 
 
-        [HttpPost("add")]
-        public async Task<IActionResult> Add(VM_Create_Product model )
+        [HttpPost]
+        public async Task<IActionResult> Add(VM_Create_Product model)
         {
+            if(ModelState.IsValid)
+            {
+
+            }
+
             await _productWriteRepository.AddAsync(new()
             {
-                Name=model.Name,
-                Price=model.Price,
-                Stock=model.Stock,
+                Name = model.Name,
+                Price = model.Price,
+                Stock = model.Stock,
             });
             await _productWriteRepository.SaveAsync();
             return Ok();
         }
 
-        [HttpPut("post")]
-        public async Task<IActionResult>Put(VM_Update_Product model)
+        [HttpPut]
+        public async Task<IActionResult> Put(VM_Update_Product model)
         {
             Product product = await _productReadRepository.GetByIdAsync(model.Id);
             product.Stock = model.Stock;
@@ -61,7 +66,7 @@ namespace ECommerceAPI.API.Controllers
             return Ok();
         }
 
-        [HttpDelete("delete")]
+        [HttpDelete("{id}")]
         public async Task<IActionResult>Delete (string id)
         {
             await _productWriteRepository.RemoveAsync(id);
