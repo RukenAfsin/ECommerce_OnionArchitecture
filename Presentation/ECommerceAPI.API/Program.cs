@@ -32,6 +32,8 @@ namespace ECommerceAPI.API
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+
+            app.UseStaticFiles();
             app.UseCors();
             app.UseHttpsRedirection();
 

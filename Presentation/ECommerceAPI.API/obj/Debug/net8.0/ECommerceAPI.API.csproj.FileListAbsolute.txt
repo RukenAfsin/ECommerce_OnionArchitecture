@@ -146,3 +146,4 @@ C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\EComme
 C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net8.0\ECommerceAPI.Infrastructure.dll
 C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net8.0\ECommerceAPI.Infrastructure.pdb
+C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net8.0\ECommerceAPI.API.staticwebassets.runtime.json
