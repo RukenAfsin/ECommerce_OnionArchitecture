@@ -1,8 +1,11 @@
-﻿using ECommerceAPI.Application.Repositories;
+﻿using ECommerceAPI.Application.Features.Commands.CreateProduct;
+using ECommerceAPI.Application.Features.Queries.GetAllProduct;
+using ECommerceAPI.Application.Repositories;
 using ECommerceAPI.Application.RequestParameters;
 using ECommerceAPI.Application.Services;
 using ECommerceAPI.Application.ViewModels.Products;
 using ECommerceAPI.Domain.Entities;
+using MediatR;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -14,6 +17,13 @@ namespace ECommerceAPI.API.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
+        readonly IMediator _mediator;
+
+        public ProductsController(IMediator mediator)
+        {
+            _mediator = mediator;
+        }
+
         readonly private IProductWriteRepository _productWriteRepository;
         readonly private IProductReadRepository _productReadRepository;
         private readonly IWebHostEnvironment _webHostEnvironment;
@@ -34,22 +44,10 @@ namespace ECommerceAPI.API.Controllers
             this._webHostEnvironment = webHostEnvironment;
         }
         [HttpGet]
-        public async Task<IActionResult> Get([FromQuery] Pagination pagination)
+        public async Task<IActionResult> Get([FromQuery]GetAllProductQueryRequest getAllProductQueryRequest )
         {
-          var totalCount=_productReadRepository.GetAll(false).Count();
-          var products=  _productReadRepository.GetAll(false).Skip(pagination.Page * pagination.Size).Take(pagination.Size).Select(p => new
-            {
-                p.Id,
-                p.Name,
-                p.Stock,
-                p.Price,
-                p.CreatedDate,
-                p.UpdatedDate
-            }).ToList();
-            return Ok(new {
-                totalCount,
-                products
-            });
+          GetAllProductQueryResponse response = await  _mediator.Send(getAllProductQueryRequest);
+            return Ok(response);
         }
 
 
@@ -61,16 +59,9 @@ namespace ECommerceAPI.API.Controllers
 
 
         [HttpPost]
-        public async Task<IActionResult> Add(VM_Create_Product model)
-        {     
-
-            await _productWriteRepository.AddAsync(new()
-            {
-                Name = model.Name,
-                Price = model.Price,
-                Stock = model.Stock,
-            });
-            await _productWriteRepository.SaveAsync();
+        public async Task<IActionResult> Add(CreateProductCommandRequest createProductCommandRequest)
+        {
+           CreateProductCommandResponse response = await _mediator.Send(createProductCommandRequest);
             return Ok();
         }
 
@@ -93,14 +84,14 @@ namespace ECommerceAPI.API.Controllers
             return Ok();
         }
 
-        [HttpPost("[action]")]
-        public async Task<IActionResult>Upload()
-        {
-           await  _fileService.UploadAsync("resource/product-images",Request.Form.Files);
-            return Ok();
+        //[HttpPost("[action]")]
+        //public async Task<IActionResult>Upload()
+        //{
+        //   await  _fileService.UploadAsync("resource/product-images",Request.Form.Files);
+        //    return Ok();
            
 
-        }
+        //}
 
 
     }
