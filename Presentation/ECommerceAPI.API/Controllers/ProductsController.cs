@@ -17,32 +17,30 @@ namespace ECommerceAPI.API.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
-        readonly IMediator _mediator;
+       
 
-        public ProductsController(IMediator mediator)
+
+        private readonly IMediator _mediator;
+        private readonly IProductWriteRepository _productWriteRepository;
+        private readonly IProductReadRepository _productReadRepository;
+        private readonly IWebHostEnvironment _webHostEnvironment;
+        private readonly IFileService _fileService;
+
+        public ProductsController(IMediator mediator,
+                                  IProductWriteRepository productWriteRepository,
+                                  IProductReadRepository productReadRepository,
+                                  IWebHostEnvironment webHostEnvironment,
+                                  IFileService fileService)
         {
             _mediator = mediator;
-        }
-
-        readonly private IProductWriteRepository _productWriteRepository;
-        readonly private IProductReadRepository _productReadRepository;
-        private readonly IWebHostEnvironment _webHostEnvironment;
-
-        readonly IFileService _fileService;
-
-        public ProductsController(IFileService fileService)
-        {
+            _productWriteRepository = productWriteRepository;
+            _productReadRepository = productReadRepository;
+            _webHostEnvironment = webHostEnvironment;
             _fileService = fileService;
         }
 
-        public ProductsController(IProductWriteRepository productWriteRepository,
-            IProductReadRepository productReadRepository,
-            IWebHostEnvironment webHostEnvironment)
-        {
-            _productWriteRepository = productWriteRepository;
-            _productReadRepository = productReadRepository;
-            this._webHostEnvironment = webHostEnvironment;
-        }
+
+
         [HttpGet]
         public async Task<IActionResult> Get([FromQuery]GetAllProductQueryRequest getAllProductQueryRequest )
         {

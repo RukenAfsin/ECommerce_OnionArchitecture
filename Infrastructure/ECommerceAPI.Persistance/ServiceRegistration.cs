@@ -10,6 +10,8 @@ using System.Threading.Tasks;
 using ETicaretAPI.Persistence;
 using ECommerceAPI.Application.Repositories;
 using ECommerceAPI.Persistence.Repositories;
+//using ECommerceAPI.Application.Services;
+//using ECommerceAPI.Infrastructure.Services;
 
 namespace ECommerceAPI.Persistance
 {
@@ -27,6 +29,10 @@ namespace ECommerceAPI.Persistance
 
             services.AddScoped<IProductReadRepository, ProductReadRepository>();
             services.AddScoped<IProductWriteRepository, ProductWriteRepository>();
+
+
+            //services.AddScoped<IFileService, FileService>();
+
 
 
 

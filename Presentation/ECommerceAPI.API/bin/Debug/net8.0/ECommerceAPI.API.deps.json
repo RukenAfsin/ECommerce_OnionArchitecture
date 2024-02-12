@@ -1032,6 +1032,7 @@
       "ECommerceAPI.Persistence/1.0.0": {
         "dependencies": {
           "ECommerceAPI.Application": "1.0.0",
+          "ECommerceAPI.Infrastructure": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.1",
           "Microsoft.Extensions.Configuration": "8.0.0",

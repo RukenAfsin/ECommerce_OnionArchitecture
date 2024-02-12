@@ -2,8 +2,13 @@ using ECommerceAPI.Application.Validators.Products;
 using ECommerceAPI.Infrastructure;
 using ECommerceAPI.Infrastructure.Filters;
 using ECommerceAPI.Persistance;
+using ETicaretAPI.Application;
 using FluentValidation.AspNetCore;
-using System.Globalization;
+
+
+
+
+
 namespace ECommerceAPI.API
 {
     public class Program
@@ -18,6 +23,7 @@ namespace ECommerceAPI.API
             builder.Services.AddInfrastructureServices();
             builder.Services.AddApplicationServices();
 
+
             builder.Services.AddCors(options => options.AddDefaultPolicy(policy =>
             policy.WithOrigins("http://localhost:4200", "https://localhost:4200").AllowAnyHeader().AllowAnyMethod()));
 
@@ -28,6 +34,7 @@ namespace ECommerceAPI.API
             builder.Services.AddControllers(options=>options.Filters.Add<ValidationFilter>());
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
 
             var app = builder.Build();
 

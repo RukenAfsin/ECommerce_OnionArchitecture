@@ -3,18 +3,17 @@ using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.CompilerServices;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ECommerceAPI.Application
+namespace ETicaretAPI.Application
 {
     public static class ServiceRegistration
     {
-
-        public static void AddInfrastructureServices(this IServiceCollection collection)
+        public static void AddApplicationServices(this IServiceCollection services)
         {
-            collection.AddMediatR(typeof(ServiceRegistration));
+            services.AddMediatR(configuration => configuration.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
         }
     }
 }

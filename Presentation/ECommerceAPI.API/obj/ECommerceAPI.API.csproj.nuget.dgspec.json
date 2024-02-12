@@ -249,6 +249,9 @@
             "projectReferences": {
               "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj": {
                 "projectPath": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj"
+              },
+              "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Infrastructure\\ECommerceAPI.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Infrastructure\\ECommerceAPI.Infrastructure.csproj"
               }
             }
           }

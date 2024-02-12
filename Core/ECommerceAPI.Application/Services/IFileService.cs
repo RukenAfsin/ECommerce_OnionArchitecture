@@ -9,8 +9,8 @@ namespace ECommerceAPI.Application.Services
 {
     public interface IFileService
     {
-        Task<List<(string fileName,string path)>> UploadAsync(string path, FormFileCollection files);
+        Task<List<(string fileName, string path)>> UploadAsync(string path, FormFileCollection files);
 
-        Task<bool> CopyFileAsync(string path,IFormFile file);
+        Task<bool> CopyFileAsync(string path, IFormFile file);
     }
 }
