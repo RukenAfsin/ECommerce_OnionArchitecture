@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 
-namespace ECommerceAPI.Application.Features.Queries.ProductImageFile
-{
-   public class GetProductImagesQueryResponse
-    {
-    }
-}
+//namespace ECommerceAPI.Application.Features.Queries.ProductImageFile
+//{
+//   public class GetProductImagesQueryResponse
+//    {
+//    }
+//}

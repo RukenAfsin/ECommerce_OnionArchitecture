@@ -78,12 +78,14 @@ namespace ECommerceAPI.API.Controllers
           return Ok();
         }
 
+
+
         //[HttpPost("[action]")]
-        //public async Task<IActionResult>Upload()
+        //public async Task<IActionResult> Upload([FromQuery,FromBody] UploadProductImageCommandRequest uploadProductImageCommandRequest )
         //{
-        //   await  _fileService.UploadAsync("resource/product-images",Request.Form.Files);
+        //  await  _mediator.Send(uploadProductImageCommandRequest);
         //    return Ok();
-           
+
 
         //}
 
