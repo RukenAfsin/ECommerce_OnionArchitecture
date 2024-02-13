@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ECommerceAPI.Application.Features.Queries.GetAllProduct
+namespace ECommerceAPI.Application.Features.Queries.Product.GetAllProduct
 {
     public class GetAllProductQueryHandler : IRequestHandler<GetAllProductQueryRequest, GetAllProductQueryResponse>
     {
@@ -18,24 +18,24 @@ namespace ECommerceAPI.Application.Features.Queries.GetAllProduct
             _productReadRepository = productReadRepository;
         }
 
-     
-        public async  Task<GetAllProductQueryResponse> Handle(GetAllProductQueryRequest request, CancellationToken cancellationToken)
+
+        public async Task<GetAllProductQueryResponse> Handle(GetAllProductQueryRequest request, CancellationToken cancellationToken)
         {
             var totalCount = _productReadRepository.GetAll(false).Count();
-            var products = _productReadRepository.GetAll(false).Skip(request.Page * 
+            var products = _productReadRepository.GetAll(false).Skip(request.Page *
                 request.Size).Take(request.Size).Select(p => new
-            {
-                p.Id,
-                p.Name,
-                p.Stock,
-                p.Price,
-                p.CreatedDate,
-                p.UpdatedDate
-            }).ToList();
+                {
+                    p.Id,
+                    p.Name,
+                    p.Stock,
+                    p.Price,
+                    p.CreatedDate,
+                    p.UpdatedDate
+                }).ToList();
             return new()
             {
-             Products=products,
-             TotalCount=totalCount,
+                Products = products,
+                TotalCount = totalCount,
             };
         }
     }

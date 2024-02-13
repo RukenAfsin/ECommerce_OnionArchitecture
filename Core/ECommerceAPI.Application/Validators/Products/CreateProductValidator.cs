@@ -1,4 +1,5 @@
-﻿using ECommerceAPI.Application.Features.Commands.CreateProduct;
+﻿
+using ECommerceAPI.Application.Features.Commands.Product.CreateProduct;
 using ECommerceAPI.Application.ViewModels.Products;
 using ECommerceAPI.Domain.Entities;
 using FluentValidation;

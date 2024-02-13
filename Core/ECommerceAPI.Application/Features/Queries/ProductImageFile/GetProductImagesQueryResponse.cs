@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ECommerceAPI.Application.Features.Commands.CreateProduct
+namespace ECommerceAPI.Application.Features.Queries.ProductImageFile
 {
-    public class CreateProductCommandResponse
+   public class GetProductImagesQueryResponse
     {
     }
 }
