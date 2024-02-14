@@ -8,5 +8,6 @@ namespace ECommerceAPI.Application.Features.Commands.ProductImage.UploadProductI
 {
     public class UploadProductImageCommandResponse
     {
+        public string ErrorMessage { get; set; }
     }
 }

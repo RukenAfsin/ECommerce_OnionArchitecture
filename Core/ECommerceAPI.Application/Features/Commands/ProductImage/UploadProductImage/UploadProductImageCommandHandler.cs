@@ -32,7 +32,13 @@ namespace ECommerceAPI.Application.Features.Commands.ProductImage.UploadProductI
         public async Task<UploadProductImageCommandResponse> Handle(UploadProductImageCommandRequest request, CancellationToken cancellationToken)
         {
             string imagePath = await _fileHelper.UploadAsync(request.File, PathConstants.ImagesPath);
-            p.Product product = await _productReadRepository.GetByIdAsync(request.ProductId);
+            if (string.IsNullOrEmpty(request.Id))
+            {
+                // Hata işleme mekanizması - Geçersiz istek durumu
+                return new UploadProductImageCommandResponse { ErrorMessage = "Geçersiz istek. Ürün ID'si belirtilmemiş." };
+            }
+
+            p.Product product = await _productReadRepository.GetByIdAsync(request.Id);
 
             if (imagePath != null)
             {

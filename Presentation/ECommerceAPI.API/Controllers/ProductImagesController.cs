@@ -29,24 +29,30 @@ namespace ECommerceAPI.API.Controllers
             _webHostEnvironment = webHostEnvironment;
             _productReadRepository = productReadRepository;
         }
-
+        // UploadImage metodunda ürün ID'sinin alınması ve isteğe atanması
         [HttpPost("upload")]
-        public async Task<IActionResult> UploadImage([FromForm] IFormFile file)
+        public async Task<IActionResult> UploadImage([FromForm] IFormFile file, [FromQuery] string productId)
         {
+            if (string.IsNullOrEmpty(productId))
+            {
+                return BadRequest("Ürün ID'si belirtilmemiş.");
+            }
+
             var request = new UploadProductImageCommandRequest
             {
-                File = file
+                File = file,
+                Id = productId 
             };
 
             var response = await _mediator.Send(request);
 
             if (response != null)
             {
-                return Ok(response); 
+                return Ok(response);
             }
             else
             {
-                return BadRequest("Resim yüklenirken bir hata oluştu."); 
+                return BadRequest("Resim yüklenirken bir hata oluştu.");
             }
         }
 
