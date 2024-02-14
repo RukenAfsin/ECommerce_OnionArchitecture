@@ -20,6 +20,7 @@ namespace ECommerceAPI.Persistance.Context
         public DbSet<Product>Products { get; set; }
         public DbSet<Order>Orders { get; set; }
         public DbSet<Customer> Customers { get; set; }
+        public DbSet<ProductImage> ProductImages { get; set; }
 
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {

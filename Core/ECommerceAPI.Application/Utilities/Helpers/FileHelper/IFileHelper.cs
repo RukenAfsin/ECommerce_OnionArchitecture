@@ -9,8 +9,10 @@ namespace ECommerceAPI.Infrastructure.Utilities.Helpers.FileHelper
 {
    public interface IFileHelper
     {
-        string Upload(IFormFile file, string root);
-        void Delete(string filePath);
-        string Update(IFormFile file, string filePath, string root);
+
+        Task<string> UploadAsync(IFormFile file, string root);
+        Task DeleteAsync(string filePath);
+        Task<string> UpdateAsync(IFormFile file, string filePath, string root);
+
     }
 }

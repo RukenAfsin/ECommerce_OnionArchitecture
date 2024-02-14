@@ -1,6 +1,7 @@
 ﻿using ECommerceAPI.Application.Features.Commands.Product.CreateProduct;
 using ECommerceAPI.Application.Features.Commands.Product.RemoveProduct;
 using ECommerceAPI.Application.Features.Commands.Product.UpdateProduct;
+using ECommerceAPI.Application.Features.Commands.ProductImage.UploadProductImage;
 using ECommerceAPI.Application.Features.Queries.Product.GetAllProduct;
 using ECommerceAPI.Application.Features.Queries.Product.GetByIdProduct;
 using ECommerceAPI.Application.Repositories;
@@ -77,6 +78,10 @@ namespace ECommerceAPI.API.Controllers
           RemoveProductCommandResponse response = await _mediator.Send(removeProductCommandRequest);       
           return Ok();
         }
+
+
+
+
 
 
 
