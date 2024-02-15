@@ -4,6 +4,7 @@ using ECommerceAPI.Application.Repositories.ProductImage;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using static ECommerceAPI.Application.Features.Commands.ProductImage.UploadProductImage.UploadProductImageCommandResponse;
 
 namespace ECommerceAPI.API.Controllers
 {
@@ -29,33 +30,32 @@ namespace ECommerceAPI.API.Controllers
             _webHostEnvironment = webHostEnvironment;
             _productReadRepository = productReadRepository;
         }
-        // UploadImage metodunda ürün ID'sinin alınması ve isteğe atanması
         [HttpPost("upload")]
-        public async Task<IActionResult> UploadImage([FromForm] IFormFile file, [FromQuery] string productId)
+        public async Task<UploadProductImageCommandResponse> UploadImage([FromForm] IFormFile file, [FromQuery] string productId)
         {
-            if (string.IsNullOrEmpty(productId))
-            {
-                return BadRequest("Ürün ID'si belirtilmemiş.");
-            }
+            var response = new UploadProductImageCommandResponse();
 
-            var request = new UploadProductImageCommandRequest
+            if (file != null)
             {
-                File = file,
-                Id = productId 
-            };
-
-            var response = await _mediator.Send(request);
-
-            if (response != null)
-            {
-                return Ok(response);
+                response.Status = UploadProductImageCommandResponse.UploadStatus.Success;
             }
             else
             {
-                return BadRequest("Resim yüklenirken bir hata oluştu.");
+                response.Status = UploadProductImageCommandResponse.UploadStatus.Failure;
             }
+
+            response.SetMessage();
+
+            return response;
         }
 
 
     }
+
+
+
+
+
+
 }
+

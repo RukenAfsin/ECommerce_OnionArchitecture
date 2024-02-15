@@ -5,7 +5,7 @@
 namespace ECommerceAPI.Persistance.Migrations
 {
     /// <inheritdoc />
-    public partial class product_ımage : Migration
+    public partial class product_image : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

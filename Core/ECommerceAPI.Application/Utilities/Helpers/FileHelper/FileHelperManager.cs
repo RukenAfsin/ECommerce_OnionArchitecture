@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using ECommerceAPI.Application.Constants;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.IO;
 using System.Threading.Tasks;
@@ -43,7 +44,7 @@ namespace ECommerceAPI.Infrastructure.Utilities.Helpers.FileHelper
                     return filePath;
                 }
             }
-            return string.Empty; // veya null yerine boş bir string döndürebilirsiniz.
+            return Message.UploadSuccess;
         }
     }
 }
