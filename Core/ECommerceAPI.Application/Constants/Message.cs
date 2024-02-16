@@ -10,6 +10,6 @@ namespace ECommerceAPI.Application.Constants
     {
         public static string UploadSuccess = "Images Uploaded successfully";
         public static string UploadFailure = "Images Uploaded Failure";
-
+        public static string Product = "ürün buludnu";
     }
 }

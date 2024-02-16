@@ -13,7 +13,7 @@ namespace ECommerceAPI.Application.Features.Commands.ProductImage.UploadProductI
         }
 
         public UploadStatus Status { get; set; }
-        public string Message { get; private set; }
+        public string Message { get; set; }
 
         public void SetMessage()
         {

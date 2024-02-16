@@ -5,9 +5,11 @@ using ECommerceAPI.Application.Features.Commands.ProductImage.UploadProductImage
 using ECommerceAPI.Application.Features.Queries.Product.GetAllProduct;
 using ECommerceAPI.Application.Features.Queries.Product.GetByIdProduct;
 using ECommerceAPI.Application.Repositories;
+using ECommerceAPI.Application.Repositories.ProductImage;
 using ECommerceAPI.Application.Services;
 using ECommerceAPI.Application.ViewModels.Products;
 using ECommerceAPI.Domain.Entities;
+using ECommerceAPI.Persistence.Repositories.ProductImage;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,26 +19,17 @@ namespace ECommerceAPI.API.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
-       
-
-
         private readonly IMediator _mediator;
         private readonly IProductWriteRepository _productWriteRepository;
         private readonly IProductReadRepository _productReadRepository;
+        private readonly IProductImageWriteRepository _productImageWriteRepository;
+        private readonly IProductImageReadRepository _productImageReadRepository;
         private readonly IWebHostEnvironment _webHostEnvironment;
         private readonly IFileService _fileService;
 
-        public ProductsController(IMediator mediator,
-                                  IProductWriteRepository productWriteRepository,
-                                  IProductReadRepository productReadRepository,
-                                  IWebHostEnvironment webHostEnvironment,
-                                  IFileService fileService)
+        public ProductsController(IMediator mediator)
         {
-            _mediator = mediator;
-            _productWriteRepository = productWriteRepository;
-            _productReadRepository = productReadRepository;
-            _webHostEnvironment = webHostEnvironment;
-            _fileService = fileService;
+            _mediator = mediator;     
         }
 
 
@@ -80,19 +73,25 @@ namespace ECommerceAPI.API.Controllers
         }
 
 
+        [HttpPost("upload")]
+        public async Task<IActionResult> UploadImage([FromForm] IFormFile file, [FromQuery] string Id)
+        {
+            var response = await _mediator.Send(new UploadProductImageCommandRequest
+            {
+                File = file,
+                Id = Id
+            });
 
+            response.SetMessage();
 
+            return response.Status == UploadProductImageCommandResponse.UploadStatus.Success
+                                      ? Ok(response)
+                                      : (response.Status == UploadProductImageCommandResponse.UploadStatus.Failure
+                                      ? BadRequest(response)
+                                      : StatusCode(StatusCodes.Status500InternalServerError));
 
+        }
 
-
-        //[HttpPost("[action]")]
-        //public async Task<IActionResult> Upload([FromQuery,FromBody] UploadProductImageCommandRequest uploadProductImageCommandRequest )
-        //{
-        //  await  _mediator.Send(uploadProductImageCommandRequest);
-        //    return Ok();
-
-
-        //}
 
 
     }
