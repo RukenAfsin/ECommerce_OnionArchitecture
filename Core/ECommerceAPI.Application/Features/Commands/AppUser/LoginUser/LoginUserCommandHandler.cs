@@ -1,4 +1,6 @@
-﻿using ECommerceAPI.Application.Exceptions;
+﻿using ECommerceAPI.Application.Abstractions.DTOs;
+using ECommerceAPI.Application.Exceptions;
+using ECommerceAPI.Application.Security.Token;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
 using System;
@@ -14,30 +16,37 @@ namespace ECommerceAPI.Application.Features.Commands.AppUser.LoginUser
     {
         readonly UserManager<p.AppUser> _userManager;
         readonly SignInManager<p.AppUser> _signInManager;
-        public LoginUserCommandHandler(UserManager<p.AppUser> userManager, SignInManager<p.AppUser> signInManager)
+        readonly ITokenHandler _tokenHandler;
+        public LoginUserCommandHandler(UserManager<p.AppUser> userManager,
+            SignInManager<p.AppUser> signInManager, 
+            ITokenHandler tokenHandler)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _tokenHandler = tokenHandler;
         }
 
-       
+
         public async Task<LoginUserCommandResponse> Handle(LoginUserCommandRequest request, CancellationToken cancellationToken)
         {
-            p.AppUser user =await _userManager.FindByNameAsync(request.UserNameOrEmail);
+            p.AppUser user = await _userManager.FindByNameAsync(request.UserNameOrEmail);
             if (user == null)
                 user = await _userManager.FindByEmailAsync(request.UserNameOrEmail);
 
             if (user == null)
                 throw new NotFoundUserException("User Name or password Error");
 
-          SignInResult result= await  _signInManager.CheckPasswordSignInAsync(user, request.Password, false);
+            SignInResult result = await _signInManager.CheckPasswordSignInAsync(user, request.Password, false);
             if (result.Succeeded)
             {
+                Token token = _tokenHandler.CreateAccessToken(5);
+                return new LoginUserSuccessCommandResponse()
+                {
 
+                    Token = token
+                };
             }
-
-            return null;
-          
+            throw new AuthenticationErrorException();
         }
     }
 }

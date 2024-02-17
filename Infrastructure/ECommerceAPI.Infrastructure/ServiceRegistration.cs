@@ -1,5 +1,7 @@
 ﻿
+using ECommerceAPI.Application.Security.Token;
 using ECommerceAPI.Application.Services;
+using ECommerceAPI.Infrastructure.Security.Token;
 using ECommerceAPI.Infrastructure.Services;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -16,6 +18,7 @@ namespace ECommerceAPI.Infrastructure
         public static void AddInfrastructureServices(this IServiceCollection serviceCollection)
         {
             serviceCollection.AddScoped<IFileService ,FileService>();
+            serviceCollection.AddScoped<ITokenHandler, TokenHandler>();
         }
     }
 }
