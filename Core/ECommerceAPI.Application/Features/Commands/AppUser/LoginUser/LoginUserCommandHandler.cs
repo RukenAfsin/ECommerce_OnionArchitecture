@@ -26,7 +26,6 @@ namespace ECommerceAPI.Application.Features.Commands.AppUser.LoginUser
             _tokenHandler = tokenHandler;
         }
 
-
         public async Task<LoginUserCommandResponse> Handle(LoginUserCommandRequest request, CancellationToken cancellationToken)
         {
             p.AppUser user = await _userManager.FindByNameAsync(request.UserNameOrEmail);
@@ -34,7 +33,7 @@ namespace ECommerceAPI.Application.Features.Commands.AppUser.LoginUser
                 user = await _userManager.FindByEmailAsync(request.UserNameOrEmail);
 
             if (user == null)
-                throw new NotFoundUserException("User Name or password Error");
+                throw new NotFoundUserException("User Name or Mail Error");
 
             SignInResult result = await _signInManager.CheckPasswordSignInAsync(user, request.Password, false);
             if (result.Succeeded)
