@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ETicaretAPI.Application
+namespace ECommerceAPI.Application
 {
     public static class ServiceRegistration
     {

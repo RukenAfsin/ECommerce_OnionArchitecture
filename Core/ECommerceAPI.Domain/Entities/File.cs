@@ -1,7 +1,7 @@
 ﻿using ECommerceAPI.Domain.Entities.Common;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace ETicaretAPI.Domain.Entities
+namespace ECommerceAPI.Domain.Entities
 {
     public class File : BaseEntity
     {

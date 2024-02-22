@@ -1,7 +1,7 @@
 ﻿using ECommerceAPI.Application.Repositories;
-using ETicaretAPI.Domain.Entities;
+using ECommerceAPI.Domain.Entities;
 
-namespace ETicaretAPI.Application.Repositories
+namespace ECommerceAPI.Application.Repositories
 {
     public interface IProductImageFileReadRepository : IReadRepository<ProductImageFile>
     {

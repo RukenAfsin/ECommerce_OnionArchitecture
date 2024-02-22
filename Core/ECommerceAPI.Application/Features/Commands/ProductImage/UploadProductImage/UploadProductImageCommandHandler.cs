@@ -3,7 +3,6 @@ using ECommerceAPI.Application.Repositories;
 using ECommerceAPI.Application.Repositories.ProductImage;
 using ECommerceAPI.Domain.Entities;
 using ECommerceAPI.Infrastructure.Utilities.Helpers.FileHelper;
-using ETicaretAPI.Application.Repositories;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using System;

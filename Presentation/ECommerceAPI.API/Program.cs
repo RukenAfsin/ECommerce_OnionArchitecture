@@ -1,8 +1,8 @@
+using ECommerceAPI.Application;
 using ECommerceAPI.Application.Validators.Products;
 using ECommerceAPI.Infrastructure;
 using ECommerceAPI.Infrastructure.Filters;
 using ECommerceAPI.Persistance;
-using ETicaretAPI.Application;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
@@ -25,6 +25,7 @@ namespace ECommerceAPI.API
             builder.Services.AddPersistanceServices();
             builder.Services.AddInfrastructureServices();
             builder.Services.AddApplicationServices();
+            //builder.Services.AddStorage<LocalStorage>();
 
 
             builder.Services.AddCors(options => options.AddDefaultPolicy(policy =>

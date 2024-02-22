@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using Microsoft.Extensions.Configuration;
 using System.Threading.Tasks;
-using ETicaretAPI.Persistence;
+using ECommerceAPI.Persistence;
 
 namespace ECommerceAPI.Persistance
 {

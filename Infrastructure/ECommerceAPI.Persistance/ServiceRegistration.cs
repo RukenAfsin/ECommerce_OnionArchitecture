@@ -7,7 +7,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ETicaretAPI.Persistence;
 using ECommerceAPI.Application.Repositories;
 using ECommerceAPI.Persistence.Repositories;
 using ECommerceAPI.Infrastructure.Utilities.Helpers.FileHelper;
@@ -15,6 +14,7 @@ using ECommerceAPI.Application.Repositories.ProductImage;
 using ECommerceAPI.Persistence.Repositories.ProductImage;
 using ECommerceAPI.Domain.Entities.Identity;
 using Microsoft.AspNetCore.Identity;
+using ECommerceAPI.Persistence;
 
 
 namespace ECommerceAPI.Persistance
