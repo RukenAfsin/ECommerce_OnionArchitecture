@@ -15,6 +15,9 @@ using ECommerceAPI.Persistence.Repositories.ProductImage;
 using ECommerceAPI.Domain.Entities.Identity;
 using Microsoft.AspNetCore.Identity;
 using ECommerceAPI.Persistence;
+using ECommerceAPI.Application.Abstractions.Services;
+using ECommerceAPI.Persistence.Services;
+using ECommerceAPI.Application.Abstractions.Services.Authentication;
 
 
 namespace ECommerceAPI.Persistance
@@ -50,6 +53,10 @@ namespace ECommerceAPI.Persistance
             services.AddScoped<IProductImageWriteRepository, ProductImageWriteRepository>();
 
             services.AddScoped<IFileHelper, FileHelperManager>();
+
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IAuthService, AuthService>();
+            services.AddScoped<IInternalAuthentication,AuthService>();
 
 
 
