@@ -1,11 +1,9 @@
-﻿using ECommerceAPI.Application.Repositories;
+﻿using ECommerceAPI.Application.Features.SomeFeatures.Rules;
+using ECommerceAPI.Application.Repositories;
 using MediatR;
-using Microsoft.AspNetCore.Http.HttpResults;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using x = ECommerceAPI.Domain.Entities;
+using AutoMapper;
+using ECommerceAPI.Application.Abstractions.DTOs.Product;
 
 
 namespace ECommerceAPI.Application.Features.Commands.Product.CreateProduct
@@ -13,22 +11,33 @@ namespace ECommerceAPI.Application.Features.Commands.Product.CreateProduct
     public class CreateProductCommandHandler : IRequestHandler<CreateProductCommandRequest, CreateProductCommandResponse>
     {
         readonly IProductWriteRepository _productWriteRepository;
+        readonly ProductBusinessRules _productBusinessRules;
+        readonly IMapper _mapper;
 
-        public CreateProductCommandHandler(IProductWriteRepository productWriteRepository)
+        public CreateProductCommandHandler(IProductWriteRepository productWriteRepository, ProductBusinessRules productBusinessRules, IMapper mapper)
         {
             _productWriteRepository = productWriteRepository;
+            _productBusinessRules = productBusinessRules;
+            _mapper = mapper;
         }
 
         public async Task<CreateProductCommandResponse> Handle(CreateProductCommandRequest request, CancellationToken cancellationToken)
         {
-            await _productWriteRepository.AddAsync(new()
-            {
-                Name = request.Name,
-                Price = request.Price,
-                Stock = request.Stock,
-            });
+            await _productBusinessRules.ProductNameCanNotBeDuplicated(request.Name);
+
+
+            x.Product product = _mapper.Map<x.Product>(request);
+            bool isSuccess = await _productWriteRepository.AddAsync(product);
+
+            CreateProductDTO createdProductDto = _mapper.Map<CreateProductDTO>(product);
+          
             await _productWriteRepository.SaveAsync();
-            return new();
+
+            return new CreateProductCommandResponse
+            {
+                Product = createdProductDto
+            };
         }
+
     }
 }

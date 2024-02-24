@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ECommerceAPI.Application.Abstractions.DTOs.User
 {
-    public class CreateUser
+    public class CreateUserDTO
     {
         public string NameSurname { get; set; }
         public string UserName { get; set; }

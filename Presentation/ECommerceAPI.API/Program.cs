@@ -1,4 +1,6 @@
+using AutoMapper;
 using ECommerceAPI.Application;
+using ECommerceAPI.Application.Utilities.Mapper;
 using ECommerceAPI.Application.Validators.Products;
 using ECommerceAPI.Infrastructure;
 using ECommerceAPI.Infrastructure.Filters;
@@ -7,6 +9,7 @@ using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+
 
 
 
@@ -26,7 +29,7 @@ namespace ECommerceAPI.API
             builder.Services.AddInfrastructureServices();
             builder.Services.AddApplicationServices();
             //builder.Services.AddStorage<LocalStorage>();
-
+            builder.Services.AddAutoMapper(typeof(MapperProfile));
 
             builder.Services.AddCors(options => options.AddDefaultPolicy(policy =>
             policy.WithOrigins("http://localhost:4200", "https://localhost:4200").AllowAnyHeader().AllowAnyMethod()));

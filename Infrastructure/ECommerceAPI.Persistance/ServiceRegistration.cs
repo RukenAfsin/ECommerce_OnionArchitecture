@@ -18,6 +18,7 @@ using ECommerceAPI.Persistence;
 using ECommerceAPI.Application.Abstractions.Services;
 using ECommerceAPI.Persistence.Services;
 using ECommerceAPI.Application.Abstractions.Services.Authentication;
+using ECommerceAPI.Application.Features.SomeFeatures.Rules;
 
 
 namespace ECommerceAPI.Persistance
@@ -57,15 +58,6 @@ namespace ECommerceAPI.Persistance
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IInternalAuthentication,AuthService>();
-
-
-
-            //services.AddScoped<IFileService, FileService>();
-
-
-
-
-
         }
     }
 }

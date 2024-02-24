@@ -1,14 +1,6 @@
 ﻿using ECommerceAPI.Application.Abstractions.DTOs.User;
 using ECommerceAPI.Application.Abstractions.Services;
-using ECommerceAPI.Application.Exceptions;
 using MediatR;
-using Microsoft.AspNetCore.Identity;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using p = ECommerceAPI.Domain.Entities.Identity;
 
 namespace ECommerceAPI.Application.Features.Commands.AppUser.CreateUser
 {
@@ -19,7 +11,7 @@ namespace ECommerceAPI.Application.Features.Commands.AppUser.CreateUser
         public async Task<CreateUserCommandResponse> Handle(CreateUserCommandRequest request, CancellationToken cancellationToken)
         {
 
-          CreateUserResponse response =await   _userService.CreateAsync(new()
+          CreateUserResponseDTO response =await   _userService.CreateAsync(new()
             {
                 Email = request.Email,
                 NameSurname=request.NameSurname,
@@ -32,7 +24,6 @@ namespace ECommerceAPI.Application.Features.Commands.AppUser.CreateUser
                 Message = response.Message,
                 Succeeded = response.Succeeded,
             };
-         
         }
     }
 }

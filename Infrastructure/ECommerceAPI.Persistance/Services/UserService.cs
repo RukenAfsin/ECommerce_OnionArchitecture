@@ -21,7 +21,7 @@ namespace ECommerceAPI.Persistence.Services
             _userManager = userManager;
         }
 
-        public async  Task<CreateUserResponse> CreateAsync(CreateUser model)
+        public async  Task<CreateUserResponseDTO> CreateAsync(CreateUserDTO model)
         {
             IdentityResult result = await _userManager.CreateAsync(new()
             {
@@ -31,7 +31,7 @@ namespace ECommerceAPI.Persistence.Services
                 NameSurname = model.NameSurname,
             }, model.Password);
 
-            CreateUserResponse response = new() { Succeeded = result.Succeeded };
+            CreateUserResponseDTO response = new() { Succeeded = result.Succeeded };
 
             if (result.Succeeded)
                 response.Message = "User created successfully";

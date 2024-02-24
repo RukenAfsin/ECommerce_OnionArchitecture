@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tE+k/Kexv+bpqBvaX/RLAmAtX499H1jYniX+72qgQqgdjV+BfiLbyEHV7kaf4HKAzDOBx5MgBPmRAWkNRQLXYA==",
+  "dgSpecHash": "7R/pbTsQ6a9qBWY5Vwe4wFflMyqQBhvXdBiG+HWLrL7xfX56PSKR5d3pBnaWrb25qkXmRPPsxUf2ce7QxJZrPQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",

@@ -9,6 +9,6 @@ namespace ECommerceAPI.Application.Abstractions.Services
 {
     public interface IUserService
     {
-        Task<CreateUserResponse> CreateAsync(CreateUser model );
+        Task<CreateUserResponseDTO> CreateAsync(CreateUserDTO model );
     }
 }

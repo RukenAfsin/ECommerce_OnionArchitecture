@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ECommerceAPI.Application.Abstractions.DTOs.User
 {
-    public class CreateUserResponse
+    public class CreateUserResponseDTO
     {
         public bool Succeeded { get; set; }
         public string Message { get; set; }
