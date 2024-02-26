@@ -4,6 +4,7 @@ using ECommerceAPI.Application.Exceptions;
 using ECommerceAPI.Application.Security.Token;
 using ECommerceAPI.Domain.Entities.Identity;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace ECommerceAPI.Persistence.Services
@@ -13,13 +14,15 @@ namespace ECommerceAPI.Persistence.Services
         readonly ITokenHandler _tokenHandler;
         readonly SignInManager<AppUser> _signInManager;
         readonly UserManager<AppUser> _userManager;
+        readonly IUserService _userService;
 
 
-        public AuthService(ITokenHandler tokenHandler, SignInManager<AppUser> signInManager, UserManager<AppUser> userManager)
+        public AuthService(ITokenHandler tokenHandler, SignInManager<AppUser> signInManager, UserManager<AppUser> userManager, IUserService userService)
         {
             _tokenHandler = tokenHandler;
             _signInManager = signInManager;
             _userManager = userManager;
+            _userService = userService;
         }
 
 
@@ -37,9 +40,23 @@ namespace ECommerceAPI.Persistence.Services
             if (result.Succeeded) 
             {
                 Token token = _tokenHandler.CreateAccessToken(accessTokenLifeTime);
+                await _userService.UpdateRefreshToken(token.RefreshToken, user, token.Expiration, 15);
                 return token;
             }
             throw new AuthenticationErrorException();
+        }
+
+        public async  Task<Token> RefreshTokenLoginAsync(string refreshToken)
+        {
+          AppUser? user = await  _userManager.Users.FirstOrDefaultAsync(u=>u.RefreshToken == refreshToken);
+            if(user !=null && user?.RefreshTokenEndDate>DateTime.UtcNow)
+            {
+               Token token =  _tokenHandler.CreateAccessToken(15);
+              await  _userService.UpdateRefreshToken(token.RefreshToken,user, token.Expiration, 15);
+                return token;
+            }
+           else 
+                throw new NotFoundUserException();
         }
     }
 }

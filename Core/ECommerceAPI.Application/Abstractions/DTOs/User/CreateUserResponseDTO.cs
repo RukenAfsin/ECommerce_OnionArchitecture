@@ -10,5 +10,6 @@ namespace ECommerceAPI.Application.Abstractions.DTOs.User
     {
         public bool Succeeded { get; set; }
         public string Message { get; set; }
+
     }
 }

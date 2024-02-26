@@ -10,6 +10,7 @@ namespace ECommerceAPI.Application.Security.Token
 {
     public interface ITokenHandler
     {
-        p.Token CreateAccessToken(int minute);
+        p.Token CreateAccessToken(int second);
+       string  CreateRefreshToken();
     }
 }
