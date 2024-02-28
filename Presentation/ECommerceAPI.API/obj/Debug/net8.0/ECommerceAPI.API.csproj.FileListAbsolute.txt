@@ -173,3 +173,4 @@ C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\EComme
 C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net8.0\Serilog.Sinks.MSSqlServer.dll
 C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net8.0\Microsoft.Azure.Services.AppAuthentication.dll
 C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net8.0\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net8.0\Serilog.Sinks.Seq.dll

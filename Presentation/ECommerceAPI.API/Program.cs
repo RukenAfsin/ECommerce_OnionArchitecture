@@ -1,4 +1,5 @@
 using AutoMapper;
+using ECommerceAPI.API.Extensions;
 using ECommerceAPI.Application;
 using ECommerceAPI.Application.Utilities.Mapper;
 using ECommerceAPI.Application.Validators.Products;
@@ -108,7 +109,7 @@ namespace ECommerceAPI.API
                 app.UseSwaggerUI();
             }
 
-
+            app.ConfigureExceptionHandler<Program>(app.Services.GetRequiredService<ILogger<Program>>());
             app.UseStaticFiles();
 
             app.UseSerilogRequestLogging();

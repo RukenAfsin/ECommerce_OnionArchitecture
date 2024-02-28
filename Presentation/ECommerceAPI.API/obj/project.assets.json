@@ -2144,20 +2144,18 @@
           }
         }
       },
-      "Serilog.Sinks.PeriodicBatching/2.3.0": {
+      "Serilog.Sinks.PeriodicBatching/3.1.0": {
         "type": "package",
         "dependencies": {
-          "Serilog": "2.0.0",
-          "System.Collections.Concurrent": "4.0.12",
-          "System.Threading.Timer": "4.0.1"
+          "Serilog": "2.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/Serilog.Sinks.PeriodicBatching.dll": {
+          "lib/netstandard2.1/Serilog.Sinks.PeriodicBatching.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Serilog.Sinks.PeriodicBatching.dll": {
+          "lib/netstandard2.1/Serilog.Sinks.PeriodicBatching.dll": {
             "related": ".xml"
           }
         }
@@ -2176,6 +2174,25 @@
         },
         "runtime": {
           "lib/net5.0/Serilog.Sinks.PostgreSQL.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Seq/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "3.1.1",
+          "Serilog.Formatting.Compact": "2.0.0",
+          "Serilog.Sinks.File": "5.0.0",
+          "Serilog.Sinks.PeriodicBatching": "3.1.0"
+        },
+        "compile": {
+          "lib/net6.0/Serilog.Sinks.Seq.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Serilog.Sinks.Seq.dll": {
             "related": ".xml"
           }
         }
@@ -7246,13 +7263,14 @@
         "serilog.sinks.mssqlserver.nuspec"
       ]
     },
-    "Serilog.Sinks.PeriodicBatching/2.3.0": {
-      "sha512": "UYKSjTMTlUY9T3OgzMmLDLD+z0qPfgvq/RvG0rKfyz+O+Zrjw3X/Xpv14J4WMcGVsOjUaR+k8n2MdmqVpJtI6A==",
+    "Serilog.Sinks.PeriodicBatching/3.1.0": {
+      "sha512": "NDWR7m3PalVlGEq3rzoktrXikjFMLmpwF0HI4sowo8YDdU+gqPlTHlDQiOGxHfB0sTfjPA9JjA7ctKG9zqjGkw==",
       "type": "package",
-      "path": "serilog.sinks.periodicbatching/2.3.0",
+      "path": "serilog.sinks.periodicbatching/3.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "icon.png",
         "lib/net45/Serilog.Sinks.PeriodicBatching.dll",
         "lib/net45/Serilog.Sinks.PeriodicBatching.xml",
         "lib/netstandard1.1/Serilog.Sinks.PeriodicBatching.dll",
@@ -7261,7 +7279,9 @@
         "lib/netstandard1.2/Serilog.Sinks.PeriodicBatching.xml",
         "lib/netstandard2.0/Serilog.Sinks.PeriodicBatching.dll",
         "lib/netstandard2.0/Serilog.Sinks.PeriodicBatching.xml",
-        "serilog.sinks.periodicbatching.2.3.0.nupkg.sha512",
+        "lib/netstandard2.1/Serilog.Sinks.PeriodicBatching.dll",
+        "lib/netstandard2.1/Serilog.Sinks.PeriodicBatching.xml",
+        "serilog.sinks.periodicbatching.3.1.0.nupkg.sha512",
         "serilog.sinks.periodicbatching.nuspec"
       ]
     },
@@ -7281,6 +7301,23 @@
         "lib/netstandard2.0/Serilog.Sinks.PostgreSQL.xml",
         "serilog.sinks.postgresql.2.3.0.nupkg.sha512",
         "serilog.sinks.postgresql.nuspec"
+      ]
+    },
+    "Serilog.Sinks.Seq/6.0.0": {
+      "sha512": "LtxlH5xE3ZPxmCYL5+I8tPzytnR91xfFFIIUIcpoGq69a45eyFkrVMonApww+B08a0I++GfM7jP1oB6GBhOR1w==",
+      "type": "package",
+      "path": "serilog.sinks.seq/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net6.0/Serilog.Sinks.Seq.dll",
+        "lib/net6.0/Serilog.Sinks.Seq.xml",
+        "lib/netstandard2.0/Serilog.Sinks.Seq.dll",
+        "lib/netstandard2.0/Serilog.Sinks.Seq.xml",
+        "serilog.sinks.seq.6.0.0.nupkg.sha512",
+        "serilog.sinks.seq.nuspec"
       ]
     },
     "Swashbuckle.AspNetCore/6.4.0": {
@@ -12063,6 +12100,7 @@
       "Serilog.AspNetCore >= 8.0.1",
       "Serilog.Sinks.MSSqlServer >= 5.8.0",
       "Serilog.Sinks.PostgreSQL >= 2.3.0",
+      "Serilog.Sinks.Seq >= 6.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -12160,6 +12198,10 @@
           "Serilog.Sinks.PostgreSQL": {
             "target": "Package",
             "version": "[2.3.0, )"
+          },
+          "Serilog.Sinks.Seq": {
+            "target": "Package",
+            "version": "[6.0.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
