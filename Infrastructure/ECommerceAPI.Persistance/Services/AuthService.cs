@@ -40,7 +40,7 @@ namespace ECommerceAPI.Persistence.Services
             if (result.Succeeded) 
             {
                 Token token = _tokenHandler.CreateAccessToken(accessTokenLifeTime,user);
-                await _userService.UpdateRefreshToken(token.RefreshToken, user, token.Expiration, 15);
+                await _userService.UpdateRefreshToken(token.RefreshToken, user, token.Expiration, 300);
                 return token;
             }
             throw new AuthenticationErrorException();

@@ -964,3 +964,1492 @@ System.Exception: ERROR RECEIVED
    at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
 2024-02-28 10:59:29.570 +03:00 [ERR] ERROR RECEIVED
 2024-02-28 10:59:29.574 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=5 - 500 null application/json 472.7084ms
+2024-03-15 09:24:10.312 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-15 09:24:10.823 +03:00 [INF] Now listening on: https://localhost:7176
+2024-03-15 09:24:10.825 +03:00 [INF] Now listening on: http://localhost:5199
+2024-03-15 09:24:10.828 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-15 09:24:10.829 +03:00 [INF] Hosting environment: Development
+2024-03-15 09:24:10.830 +03:00 [INF] Content root path: C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API
+2024-03-15 09:24:12.873 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger - null null
+2024-03-15 09:24:13.123 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger - 301 0 null 257.717ms
+2024-03-15 09:24:13.129 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2024-03-15 09:24:13.205 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 75.4007ms
+2024-03-15 09:24:13.218 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - null null
+2024-03-15 09:24:13.218 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - null null
+2024-03-15 09:24:13.223 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-15 09:24:13.220 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - null null
+2024-03-15 09:24:13.231 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2024-03-15 09:24:13.267 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 44.2814ms
+2024-03-15 09:24:13.302 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-03-15 09:24:13.302 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-03-15 09:24:13.308 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - 200 143943 text/css 90.814ms
+2024-03-15 09:24:13.309 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 89.1663ms
+2024-03-15 09:24:13.333 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-03-15 09:24:13.336 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 118.4451ms
+2024-03-15 09:24:13.372 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 140.7769ms
+2024-03-15 09:24:13.519 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2024-03-15 09:24:13.588 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - null null
+2024-03-15 09:24:13.613 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-03-15 09:24:13.649 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - 200 628 image/png 61.6002ms
+2024-03-15 09:24:13.708 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 189.4147ms
+2024-03-15 09:26:12.134 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Products/01c6a7cf-580f-40a0-2618-08dc35735a38 - null null
+2024-03-15 09:26:12.160 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Products/01c6a7cf-580f-40a0-2618-08dc35735a38
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="122", "Not(A:Brand";v="24", "Microsoft Edge";v="122"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-03-15 09:26:12.262 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-15 09:26:12.268 +03:00 [INF] AuthenticationScheme: Admin was challenged.
+2024-03-15 09:26:12.271 +03:00 [INF] Response:
+StatusCode: 401
+WWW-Authenticate: [Redacted]
+2024-03-15 09:26:12.275 +03:00 [INF] Duration: 115.7578ms
+2024-03-15 09:26:12.279 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Products/01c6a7cf-580f-40a0-2618-08dc35735a38 - 401 0 null 145.3855ms
+2024-03-15 09:27:07.356 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-15 09:27:07.640 +03:00 [INF] Now listening on: https://localhost:7176
+2024-03-15 09:27:07.642 +03:00 [INF] Now listening on: http://localhost:5199
+2024-03-15 09:27:07.645 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-15 09:27:07.647 +03:00 [INF] Hosting environment: Development
+2024-03-15 09:27:07.648 +03:00 [INF] Content root path: C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API
+2024-03-15 09:27:08.165 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger - null null
+2024-03-15 09:27:08.354 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger - 301 0 null 196.1861ms
+2024-03-15 09:27:08.359 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2024-03-15 09:27:08.431 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 72.1934ms
+2024-03-15 09:27:08.444 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - null null
+2024-03-15 09:27:08.445 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - null null
+2024-03-15 09:27:08.444 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - null null
+2024-03-15 09:27:08.448 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-15 09:27:08.459 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2024-03-15 09:27:08.501 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 52.5528ms
+2024-03-15 09:27:08.519 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-03-15 09:27:08.519 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-03-15 09:27:08.523 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - 200 143943 text/css 79.2997ms
+2024-03-15 09:27:08.523 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 78.4838ms
+2024-03-15 09:27:08.561 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-03-15 09:27:08.563 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 104.3208ms
+2024-03-15 09:27:08.565 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 120.2441ms
+2024-03-15 09:27:08.724 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2024-03-15 09:27:08.772 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - null null
+2024-03-15 09:27:08.777 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-03-15 09:27:08.781 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - 200 628 image/png 9.1772ms
+2024-03-15 09:27:08.870 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 146.3222ms
+2024-03-15 09:27:19.368 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Products/01c6a7cf-580f-40a0-2618-08dc35735a38 - null null
+2024-03-15 09:27:19.388 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Products/01c6a7cf-580f-40a0-2618-08dc35735a38
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="122", "Not(A:Brand";v="24", "Microsoft Edge";v="122"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-03-15 09:27:19.416 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-03-15 09:27:19.492 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetByIdProduct.GetByIdProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-03-15 09:27:21.005 +03:00 [INF] Executed DbCommand (65ms) [Parameters=[@__Parse_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__Parse_0
+2024-03-15 09:27:21.047 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetByIdProduct.GetByIdProductQueryResponse'.
+2024-03-15 09:27:21.060 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-03-15 09:27:21.068 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 1565.1036ms
+2024-03-15 09:27:21.070 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-03-15 09:27:21.074 +03:00 [INF] ResponseBody: {"name":"Samsung Telefon","stock":10,"price":15000}
+2024-03-15 09:27:21.079 +03:00 [INF] Duration: 1690.8761ms
+2024-03-15 09:27:21.083 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Products/01c6a7cf-580f-40a0-2618-08dc35735a38 - 200 null application/json; charset=utf-8 1715.5613ms
+2024-03-15 09:45:02.972 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-15 09:45:03.319 +03:00 [INF] Now listening on: https://localhost:7176
+2024-03-15 09:45:03.322 +03:00 [INF] Now listening on: http://localhost:5199
+2024-03-15 09:45:03.325 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-15 09:45:03.326 +03:00 [INF] Hosting environment: Development
+2024-03-15 09:45:03.327 +03:00 [INF] Content root path: C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API
+2024-03-15 09:45:05.414 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger - null null
+2024-03-15 09:45:05.588 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger - 301 0 null 180.9757ms
+2024-03-15 09:45:05.594 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2024-03-15 09:45:05.676 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 82.2009ms
+2024-03-15 09:45:05.682 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - null null
+2024-03-15 09:45:05.682 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-15 09:45:05.683 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2024-03-15 09:45:05.682 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - null null
+2024-03-15 09:45:05.682 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - null null
+2024-03-15 09:45:05.712 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 30.0161ms
+2024-03-15 09:45:05.754 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-03-15 09:45:05.758 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-03-15 09:45:05.765 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - 200 143943 text/css 83.4509ms
+2024-03-15 09:45:05.766 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 84.3046ms
+2024-03-15 09:45:05.797 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-03-15 09:45:05.804 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 119.6852ms
+2024-03-15 09:45:05.809 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 126.2078ms
+2024-03-15 09:45:05.981 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2024-03-15 09:45:06.015 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - null null
+2024-03-15 09:45:06.022 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-03-15 09:45:06.027 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - 200 628 image/png 12.3651ms
+2024-03-15 09:45:06.181 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 201.1754ms
+2024-03-15 09:46:20.434 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Products - null null
+2024-03-15 09:46:20.452 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="122", "Not(A:Brand";v="24", "Microsoft Edge";v="122"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-03-15 09:46:20.533 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-15 09:46:20.539 +03:00 [INF] AuthenticationScheme: Admin was challenged.
+2024-03-15 09:46:20.542 +03:00 [INF] Response:
+StatusCode: 401
+WWW-Authenticate: [Redacted]
+2024-03-15 09:46:20.546 +03:00 [INF] Duration: 93.333ms
+2024-03-15 09:46:20.550 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Products - 401 0 null 116.9033ms
+2024-03-15 09:46:26.342 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Products?Page=5&Size=15 - null null
+2024-03-15 09:46:26.348 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="122", "Not(A:Brand";v="24", "Microsoft Edge";v="122"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-03-15 09:46:26.355 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-15 09:46:26.357 +03:00 [INF] AuthenticationScheme: Admin was challenged.
+2024-03-15 09:46:26.362 +03:00 [INF] Response:
+StatusCode: 401
+WWW-Authenticate: [Redacted]
+2024-03-15 09:46:26.364 +03:00 [INF] Duration: 15.7606ms
+2024-03-15 09:46:26.367 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Products?Page=5&Size=15 - 401 0 null 25.4758ms
+2024-03-15 09:46:48.454 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Products?Page=5&Size=15 - null null
+2024-03-15 09:46:48.459 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="122", "Not(A:Brand";v="24", "Microsoft Edge";v="122"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-03-15 09:46:48.465 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-15 09:46:48.467 +03:00 [INF] AuthenticationScheme: Admin was challenged.
+2024-03-15 09:46:48.468 +03:00 [INF] Response:
+StatusCode: 401
+WWW-Authenticate: [Redacted]
+2024-03-15 09:46:48.469 +03:00 [INF] Duration: 10.1765ms
+2024-03-15 09:46:48.470 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Products?Page=5&Size=15 - 401 0 null 16.9447ms
+2024-03-15 09:46:57.324 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-15 09:46:57.587 +03:00 [INF] Now listening on: https://localhost:7176
+2024-03-15 09:46:57.596 +03:00 [INF] Now listening on: http://localhost:5199
+2024-03-15 09:46:57.600 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-15 09:46:57.602 +03:00 [INF] Hosting environment: Development
+2024-03-15 09:46:57.604 +03:00 [INF] Content root path: C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API
+2024-03-15 09:46:57.933 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger - null null
+2024-03-15 09:46:58.110 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger - 301 0 null 186.9303ms
+2024-03-15 09:46:58.116 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2024-03-15 09:46:58.210 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 93.2814ms
+2024-03-15 09:46:58.215 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - null null
+2024-03-15 09:46:58.216 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2024-03-15 09:46:58.216 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - null null
+2024-03-15 09:46:58.216 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-15 09:46:58.215 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - null null
+2024-03-15 09:46:58.296 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 80.1718ms
+2024-03-15 09:46:58.318 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-03-15 09:46:58.318 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-03-15 09:46:58.327 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - 200 143943 text/css 112.1999ms
+2024-03-15 09:46:58.327 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 111.85ms
+2024-03-15 09:46:58.337 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-03-15 09:46:58.342 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 126.6319ms
+2024-03-15 09:46:58.364 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 147.6053ms
+2024-03-15 09:46:58.529 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2024-03-15 09:46:58.565 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - null null
+2024-03-15 09:46:58.572 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-03-15 09:46:58.579 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - 200 628 image/png 14.0128ms
+2024-03-15 09:46:58.707 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 178.5662ms
+2024-03-15 09:47:08.946 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Products - null null
+2024-03-15 09:47:08.963 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="122", "Not(A:Brand";v="24", "Microsoft Edge";v="122"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-03-15 09:47:08.982 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-03-15 09:47:09.019 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-03-15 09:47:09.241 +03:00 [INF] Gets all products
+2024-03-15 09:47:10.265 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-03-15 09:47:10.295 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-03-15 09:47:10.297 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-03-15 09:47:10.334 +03:00 [INF] Executed DbCommand (19ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Stock], [p].[Price], [p].[CreatedDate], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-03-15 09:47:10.347 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-03-15 09:47:10.373 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-03-15 09:47:10.379 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 1352.5654ms
+2024-03-15 09:47:10.382 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-03-15 09:47:10.384 +03:00 [INF] ResponseBody: {"totalCount":9,"products":[{"id":"6db1b8b4-e797-4a7e-8f4a-08dc247b945b","name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00"},{"id":"5123e725-f690-4043-9a7c-08dc2f2168f6","name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00"},{"id":"75ac0ef4-71e8-4cd1-dcef-08dc311c84fb","name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00"},{"id":"e92512f8-9765-4f25-4d48-08dc35348831","name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00"},{"id":"82bb4778-190b-409e-5285-08dc35649a9d","name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00"}]}
+2024-03-15 09:47:10.388 +03:00 [INF] Duration: 1425.1456ms
+2024-03-15 09:47:10.391 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Products - 200 null application/json; charset=utf-8 1444.8524ms
+2024-03-15 09:58:28.817 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-15 09:58:29.124 +03:00 [INF] Now listening on: https://localhost:7176
+2024-03-15 09:58:29.125 +03:00 [INF] Now listening on: http://localhost:5199
+2024-03-15 09:58:29.128 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-15 09:58:29.129 +03:00 [INF] Hosting environment: Development
+2024-03-15 09:58:29.130 +03:00 [INF] Content root path: C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API
+2024-03-15 09:58:29.597 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger - null null
+2024-03-15 09:58:29.756 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger - 301 0 null 163.9902ms
+2024-03-15 09:58:29.765 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2024-03-15 09:58:29.865 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 99.6427ms
+2024-03-15 09:58:29.870 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - null null
+2024-03-15 09:58:29.870 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - null null
+2024-03-15 09:58:29.870 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - null null
+2024-03-15 09:58:29.871 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2024-03-15 09:58:29.871 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-15 09:58:30.572 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 701.5315ms
+2024-03-15 09:58:30.592 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-03-15 09:58:30.592 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-03-15 09:58:30.597 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 726.4755ms
+2024-03-15 09:58:30.598 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - 200 143943 text/css 727.64ms
+2024-03-15 09:58:30.628 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-03-15 09:58:30.629 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 757.7751ms
+2024-03-15 09:58:30.632 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 762.1847ms
+2024-03-15 09:58:30.804 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2024-03-15 09:58:30.839 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - null null
+2024-03-15 09:58:30.843 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-03-15 09:58:30.846 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - 200 628 image/png 6.9747ms
+2024-03-15 09:58:30.938 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 134.6521ms
+2024-03-15 09:58:36.614 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Products - null null
+2024-03-15 09:58:36.629 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="122", "Not(A:Brand";v="24", "Microsoft Edge";v="122"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-03-15 09:58:36.650 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-03-15 09:58:36.685 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-03-15 09:58:37.036 +03:00 [INF] Gets all products
+2024-03-15 09:58:37.926 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-03-15 09:58:37.970 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-03-15 09:58:37.972 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-03-15 09:58:38.058 +03:00 [INF] Executed DbCommand (25ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-03-15 09:58:38.081 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'ECommerceAPI.Persistance.Context.ECommerceAPIDbContext'.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Type Map configuration:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Destination Member:
+Id
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Guid -> Int32
+System.Guid -> System.Int32
+
+Destination Member:
+Id
+
+   at lambda_method29(Closure, Guid, Int32, ResolutionContext)
+   at lambda_method28(Closure, Object, GetAllProductDTO, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method28(Closure, Object, GetAllProductDTO, ResolutionContext)
+   at lambda_method26(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Type Map configuration:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Destination Member:
+Id
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Guid -> Int32
+System.Guid -> System.Int32
+
+Destination Member:
+Id
+
+   at lambda_method29(Closure, Guid, Int32, ResolutionContext)
+   at lambda_method28(Closure, Object, GetAllProductDTO, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method28(Closure, Object, GetAllProductDTO, ResolutionContext)
+   at lambda_method26(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2024-03-15 09:58:38.268 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 1577.4385ms
+2024-03-15 09:58:38.272 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-03-15 09:58:38.306 +03:00 [INF] Response:
+StatusCode: 200
+2024-03-15 09:58:38.310 +03:00 [INF] Duration: 1681.2694ms
+2024-03-15 09:58:38.317 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Type Map configuration:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Destination Member:
+Id
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Guid -> Int32
+System.Guid -> System.Int32
+
+Destination Member:
+Id
+
+   at lambda_method29(Closure, Guid, Int32, ResolutionContext)
+   at lambda_method28(Closure, Object, GetAllProductDTO, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method28(Closure, Object, GetAllProductDTO, ResolutionContext)
+   at lambda_method26(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryHandler.Handle(GetAllProductQueryRequest request, CancellationToken cancellationToken) in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Core\ECommerceAPI.Application\Features\Queries\Product\GetAllProduct\GetAllProductQueryHandler.cs:line 35
+   at ECommerceAPI.API.Controllers.ProductsController.Get(GetAllProductQueryRequest getAllProductQueryRequest) in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\Controllers\ProductsController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ECommerceAPI.API.Program.<>c.<<Main>b__0_6>d.MoveNext() in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\Program.cs:line 130
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-03-15 09:58:38.354 +03:00 [ERR] Error mapping types.
+
+Mapping types:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Type Map configuration:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Destination Member:
+Id
+
+2024-03-15 09:58:38.361 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Products - 500 null application/json 1747.5334ms
+2024-03-15 09:59:27.810 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-15 09:59:28.032 +03:00 [INF] Now listening on: https://localhost:7176
+2024-03-15 09:59:28.034 +03:00 [INF] Now listening on: http://localhost:5199
+2024-03-15 09:59:28.038 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-15 09:59:28.040 +03:00 [INF] Hosting environment: Development
+2024-03-15 09:59:28.042 +03:00 [INF] Content root path: C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API
+2024-03-15 09:59:31.434 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger - null null
+2024-03-15 09:59:31.579 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger - 301 0 null 153.7736ms
+2024-03-15 09:59:31.584 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2024-03-15 09:59:31.680 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - null null
+2024-03-15 09:59:31.683 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 98.8838ms
+2024-03-15 09:59:31.683 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - null null
+2024-03-15 09:59:31.694 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2024-03-15 09:59:31.680 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - null null
+2024-03-15 09:59:31.698 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-15 09:59:31.760 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 64.028ms
+2024-03-15 09:59:31.768 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-03-15 09:59:31.778 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-03-15 09:59:31.781 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - 200 143943 text/css 100.3665ms
+2024-03-15 09:59:31.799 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 116.16ms
+2024-03-15 09:59:31.801 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-03-15 09:59:31.816 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 135.0479ms
+2024-03-15 09:59:31.835 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 147.8651ms
+2024-03-15 09:59:32.037 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2024-03-15 09:59:32.084 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - null null
+2024-03-15 09:59:32.116 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-03-15 09:59:32.132 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - 200 628 image/png 48.9492ms
+2024-03-15 09:59:32.250 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 213.3244ms
+2024-03-15 09:59:36.846 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Products - null null
+2024-03-15 09:59:36.866 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="122", "Not(A:Brand";v="24", "Microsoft Edge";v="122"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-03-15 09:59:36.881 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-03-15 09:59:36.906 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-03-15 09:59:37.131 +03:00 [INF] Gets all products
+2024-03-15 09:59:38.011 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-03-15 09:59:38.039 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-03-15 09:59:38.041 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-03-15 09:59:38.102 +03:00 [INF] Executed DbCommand (20ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-03-15 09:59:38.121 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'ECommerceAPI.Persistance.Context.ECommerceAPIDbContext'.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Type Map configuration:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Destination Member:
+Id
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Guid -> Int32
+System.Guid -> System.Int32
+
+Destination Member:
+Id
+
+   at lambda_method29(Closure, Guid, Int32, ResolutionContext)
+   at lambda_method28(Closure, Object, GetAllProductDTO, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method28(Closure, Object, GetAllProductDTO, ResolutionContext)
+   at lambda_method26(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Type Map configuration:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Destination Member:
+Id
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Guid -> Int32
+System.Guid -> System.Int32
+
+Destination Member:
+Id
+
+   at lambda_method29(Closure, Guid, Int32, ResolutionContext)
+   at lambda_method28(Closure, Object, GetAllProductDTO, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method28(Closure, Object, GetAllProductDTO, ResolutionContext)
+   at lambda_method26(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2024-03-15 09:59:38.300 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 1388.1006ms
+2024-03-15 09:59:38.304 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-03-15 09:59:38.334 +03:00 [INF] Response:
+StatusCode: 200
+2024-03-15 09:59:38.339 +03:00 [INF] Duration: 1471.3759ms
+2024-03-15 09:59:38.344 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Type Map configuration:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Destination Member:
+Id
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Guid -> Int32
+System.Guid -> System.Int32
+
+Destination Member:
+Id
+
+   at lambda_method29(Closure, Guid, Int32, ResolutionContext)
+   at lambda_method28(Closure, Object, GetAllProductDTO, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method28(Closure, Object, GetAllProductDTO, ResolutionContext)
+   at lambda_method26(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryHandler.Handle(GetAllProductQueryRequest request, CancellationToken cancellationToken) in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Core\ECommerceAPI.Application\Features\Queries\Product\GetAllProduct\GetAllProductQueryHandler.cs:line 35
+   at ECommerceAPI.API.Controllers.ProductsController.Get(GetAllProductQueryRequest getAllProductQueryRequest) in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\Controllers\ProductsController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ECommerceAPI.API.Program.<>c.<<Main>b__0_6>d.MoveNext() in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\Program.cs:line 130
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-03-15 09:59:38.373 +03:00 [ERR] Error mapping types.
+
+Mapping types:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Type Map configuration:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Destination Member:
+Id
+
+2024-03-15 09:59:38.380 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Products - 500 null application/json 1534.5736ms
+2024-03-15 10:01:48.842 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-15 10:01:49.143 +03:00 [INF] Now listening on: https://localhost:7176
+2024-03-15 10:01:49.145 +03:00 [INF] Now listening on: http://localhost:5199
+2024-03-15 10:01:49.148 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-15 10:01:49.149 +03:00 [INF] Hosting environment: Development
+2024-03-15 10:01:49.151 +03:00 [INF] Content root path: C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API
+2024-03-15 10:01:52.230 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger - null null
+2024-03-15 10:01:52.410 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger - 301 0 null 185.112ms
+2024-03-15 10:01:52.416 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2024-03-15 10:01:52.501 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 84.8259ms
+2024-03-15 10:01:52.508 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - null null
+2024-03-15 10:01:52.509 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2024-03-15 10:01:52.509 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - null null
+2024-03-15 10:01:52.508 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - null null
+2024-03-15 10:01:52.508 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-15 10:01:52.599 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 90.9215ms
+2024-03-15 10:01:52.619 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-03-15 10:01:52.626 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-03-15 10:01:52.628 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - 200 143943 text/css 120.5186ms
+2024-03-15 10:01:52.647 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 137.3982ms
+2024-03-15 10:01:52.665 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 156.1619ms
+2024-03-15 10:01:52.674 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-03-15 10:01:52.678 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 170.0243ms
+2024-03-15 10:01:52.843 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2024-03-15 10:01:52.885 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - null null
+2024-03-15 10:01:52.895 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-03-15 10:01:52.897 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - 200 628 image/png 12.3187ms
+2024-03-15 10:01:53.083 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 240.8504ms
+2024-03-15 10:01:55.840 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Products - null null
+2024-03-15 10:01:55.858 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="122", "Not(A:Brand";v="24", "Microsoft Edge";v="122"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-03-15 10:01:55.873 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-03-15 10:01:55.902 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-03-15 10:01:56.250 +03:00 [INF] Getting all products
+2024-03-15 10:01:57.157 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-03-15 10:01:57.160 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-03-15 10:01:57.309 +03:00 [INF] Executed DbCommand (25ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-03-15 10:01:57.332 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'ECommerceAPI.Persistance.Context.ECommerceAPIDbContext'.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Type Map configuration:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Destination Member:
+Id
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Guid -> Int32
+System.Guid -> System.Int32
+
+Destination Member:
+Id
+
+   at lambda_method27(Closure, Guid, Int32, ResolutionContext)
+   at lambda_method26(Closure, Object, GetAllProductDTO, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method26(Closure, Object, GetAllProductDTO, ResolutionContext)
+   at lambda_method24(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Type Map configuration:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Destination Member:
+Id
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Guid -> Int32
+System.Guid -> System.Int32
+
+Destination Member:
+Id
+
+   at lambda_method27(Closure, Guid, Int32, ResolutionContext)
+   at lambda_method26(Closure, Object, GetAllProductDTO, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method26(Closure, Object, GetAllProductDTO, ResolutionContext)
+   at lambda_method24(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2024-03-15 10:01:57.504 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 1594.3259ms
+2024-03-15 10:01:57.508 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-03-15 10:01:57.535 +03:00 [INF] Response:
+StatusCode: 200
+2024-03-15 10:01:57.540 +03:00 [INF] Duration: 1684.4945ms
+2024-03-15 10:01:57.546 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Type Map configuration:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Destination Member:
+Id
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Guid -> Int32
+System.Guid -> System.Int32
+
+Destination Member:
+Id
+
+   at lambda_method27(Closure, Guid, Int32, ResolutionContext)
+   at lambda_method26(Closure, Object, GetAllProductDTO, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method26(Closure, Object, GetAllProductDTO, ResolutionContext)
+   at lambda_method24(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryHandler.Handle(GetAllProductQueryRequest request, CancellationToken cancellationToken) in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Core\ECommerceAPI.Application\Features\Queries\Product\GetAllProduct\GetAllProductQueryHandler.cs:line 32
+   at ECommerceAPI.API.Controllers.ProductsController.Get(GetAllProductQueryRequest getAllProductQueryRequest) in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\Controllers\ProductsController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ECommerceAPI.API.Program.<>c.<<Main>b__0_6>d.MoveNext() in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\Program.cs:line 130
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-03-15 10:01:57.584 +03:00 [ERR] Error mapping types.
+
+Mapping types:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Type Map configuration:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Destination Member:
+Id
+
+2024-03-15 10:01:57.592 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Products - 500 null application/json 1751.9844ms
+2024-03-15 10:05:09.472 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-15 10:05:09.684 +03:00 [INF] Now listening on: https://localhost:7176
+2024-03-15 10:05:09.687 +03:00 [INF] Now listening on: http://localhost:5199
+2024-03-15 10:05:09.689 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-15 10:05:09.690 +03:00 [INF] Hosting environment: Development
+2024-03-15 10:05:09.692 +03:00 [INF] Content root path: C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API
+2024-03-15 10:05:09.993 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger - null null
+2024-03-15 10:05:10.175 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger - 301 0 null 194.419ms
+2024-03-15 10:05:10.182 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2024-03-15 10:05:10.257 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 74.7536ms
+2024-03-15 10:05:10.262 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - null null
+2024-03-15 10:05:10.262 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - null null
+2024-03-15 10:05:10.262 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - null null
+2024-03-15 10:05:10.263 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2024-03-15 10:05:10.264 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-15 10:05:10.318 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 54.2727ms
+2024-03-15 10:05:10.333 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-03-15 10:05:10.333 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-03-15 10:05:10.337 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - 200 143943 text/css 75.2882ms
+2024-03-15 10:05:10.337 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 75.1107ms
+2024-03-15 10:05:10.348 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-03-15 10:05:10.351 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 88.9125ms
+2024-03-15 10:05:10.373 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 110.0438ms
+2024-03-15 10:05:10.546 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2024-03-15 10:05:10.578 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - null null
+2024-03-15 10:05:10.585 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-03-15 10:05:10.591 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - 200 628 image/png 15.2673ms
+2024-03-15 10:05:10.692 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 147.2476ms
+2024-03-15 10:05:14.986 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Products - null null
+2024-03-15 10:05:15.017 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="122", "Not(A:Brand";v="24", "Microsoft Edge";v="122"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-03-15 10:05:15.033 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-03-15 10:05:15.058 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-03-15 10:05:15.307 +03:00 [INF] Gets all products
+2024-03-15 10:05:16.231 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-03-15 10:05:16.256 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-03-15 10:05:16.258 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-03-15 10:05:16.323 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-03-15 10:05:16.345 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'ECommerceAPI.Persistance.Context.ECommerceAPIDbContext'.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Type Map configuration:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Destination Member:
+Id
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Guid -> Int32
+System.Guid -> System.Int32
+
+Destination Member:
+Id
+
+   at lambda_method29(Closure, Guid, Int32, ResolutionContext)
+   at lambda_method28(Closure, Object, GetAllProductDTO, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method28(Closure, Object, GetAllProductDTO, ResolutionContext)
+   at lambda_method26(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Type Map configuration:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Destination Member:
+Id
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Guid -> Int32
+System.Guid -> System.Int32
+
+Destination Member:
+Id
+
+   at lambda_method29(Closure, Guid, Int32, ResolutionContext)
+   at lambda_method28(Closure, Object, GetAllProductDTO, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method28(Closure, Object, GetAllProductDTO, ResolutionContext)
+   at lambda_method26(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2024-03-15 10:05:16.493 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 1427.7526ms
+2024-03-15 10:05:16.497 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-03-15 10:05:16.524 +03:00 [INF] Response:
+StatusCode: 200
+2024-03-15 10:05:16.528 +03:00 [INF] Duration: 1513.3395ms
+2024-03-15 10:05:16.532 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Type Map configuration:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Destination Member:
+Id
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Guid -> Int32
+System.Guid -> System.Int32
+
+Destination Member:
+Id
+
+   at lambda_method29(Closure, Guid, Int32, ResolutionContext)
+   at lambda_method28(Closure, Object, GetAllProductDTO, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method28(Closure, Object, GetAllProductDTO, ResolutionContext)
+   at lambda_method26(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryHandler.Handle(GetAllProductQueryRequest request, CancellationToken cancellationToken) in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Core\ECommerceAPI.Application\Features\Queries\Product\GetAllProduct\GetAllProductQueryHandler.cs:line 35
+   at ECommerceAPI.API.Controllers.ProductsController.Get(GetAllProductQueryRequest getAllProductQueryRequest) in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\Controllers\ProductsController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ECommerceAPI.API.Program.<>c.<<Main>b__0_6>d.MoveNext() in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\Program.cs:line 130
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-03-15 10:05:16.563 +03:00 [ERR] Error mapping types.
+
+Mapping types:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Type Map configuration:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Destination Member:
+Id
+
+2024-03-15 10:05:16.571 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Products - 500 null application/json 1585.4674ms
+2024-03-15 10:13:24.508 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-15 10:13:24.819 +03:00 [INF] Now listening on: https://localhost:7176
+2024-03-15 10:13:24.821 +03:00 [INF] Now listening on: http://localhost:5199
+2024-03-15 10:13:24.824 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-15 10:13:24.825 +03:00 [INF] Hosting environment: Development
+2024-03-15 10:13:24.826 +03:00 [INF] Content root path: C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API
+2024-03-15 10:13:26.132 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger - null null
+2024-03-15 10:13:26.319 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger - 301 0 null 191.3161ms
+2024-03-15 10:13:26.324 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2024-03-15 10:13:26.407 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 83.0001ms
+2024-03-15 10:13:26.412 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - null null
+2024-03-15 10:13:26.413 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2024-03-15 10:13:26.413 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - null null
+2024-03-15 10:13:26.412 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - null null
+2024-03-15 10:13:26.434 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-15 10:13:26.517 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 92.9491ms
+2024-03-15 10:13:26.538 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-03-15 10:13:26.519 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-03-15 10:13:26.549 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 135.2178ms
+2024-03-15 10:13:26.553 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - 200 143943 text/css 140.8876ms
+2024-03-15 10:13:26.586 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-03-15 10:13:26.586 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 173.2515ms
+2024-03-15 10:13:26.589 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 176.5222ms
+2024-03-15 10:13:26.748 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2024-03-15 10:13:26.790 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - null null
+2024-03-15 10:13:26.793 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-03-15 10:13:26.795 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - 200 628 image/png 5.8936ms
+2024-03-15 10:13:26.927 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 179.171ms
+2024-03-15 10:13:31.475 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Products - null null
+2024-03-15 10:13:31.502 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="122", "Not(A:Brand";v="24", "Microsoft Edge";v="122"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-03-15 10:13:31.523 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-03-15 10:13:31.566 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-03-15 10:13:31.941 +03:00 [INF] Gets all products
+2024-03-15 10:13:32.901 +03:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-03-15 10:13:32.930 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-03-15 10:13:32.932 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-03-15 10:13:32.992 +03:00 [INF] Executed DbCommand (20ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-03-15 10:13:33.010 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'ECommerceAPI.Persistance.Context.ECommerceAPIDbContext'.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Type Map configuration:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Destination Member:
+Id
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Guid -> Int32
+System.Guid -> System.Int32
+
+Destination Member:
+Id
+
+   at lambda_method29(Closure, Guid, Int32, ResolutionContext)
+   at lambda_method28(Closure, Object, GetAllProductDTO, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method28(Closure, Object, GetAllProductDTO, ResolutionContext)
+   at lambda_method26(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Type Map configuration:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Destination Member:
+Id
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Guid -> Int32
+System.Guid -> System.Int32
+
+Destination Member:
+Id
+
+   at lambda_method29(Closure, Guid, Int32, ResolutionContext)
+   at lambda_method28(Closure, Object, GetAllProductDTO, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method28(Closure, Object, GetAllProductDTO, ResolutionContext)
+   at lambda_method26(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2024-03-15 10:13:33.195 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 1622.6238ms
+2024-03-15 10:13:33.199 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-03-15 10:13:33.229 +03:00 [INF] Response:
+StatusCode: 200
+2024-03-15 10:13:33.234 +03:00 [INF] Duration: 1730.8133ms
+2024-03-15 10:13:33.239 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Type Map configuration:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Destination Member:
+Id
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Guid -> Int32
+System.Guid -> System.Int32
+
+Destination Member:
+Id
+
+   at lambda_method29(Closure, Guid, Int32, ResolutionContext)
+   at lambda_method28(Closure, Object, GetAllProductDTO, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method28(Closure, Object, GetAllProductDTO, ResolutionContext)
+   at lambda_method26(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryHandler.Handle(GetAllProductQueryRequest request, CancellationToken cancellationToken) in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Core\ECommerceAPI.Application\Features\Queries\Product\GetAllProduct\GetAllProductQueryHandler.cs:line 35
+   at ECommerceAPI.API.Controllers.ProductsController.Get(GetAllProductQueryRequest getAllProductQueryRequest) in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\Controllers\ProductsController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ECommerceAPI.API.Program.<>c.<<Main>b__0_6>d.MoveNext() in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\Program.cs:line 130
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-03-15 10:13:33.274 +03:00 [ERR] Error mapping types.
+
+Mapping types:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Type Map configuration:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Destination Member:
+Id
+
+2024-03-15 10:13:33.283 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Products - 500 null application/json 1808.4814ms
+2024-03-15 10:14:21.645 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-15 10:14:21.874 +03:00 [INF] Now listening on: https://localhost:7176
+2024-03-15 10:14:21.876 +03:00 [INF] Now listening on: http://localhost:5199
+2024-03-15 10:14:21.878 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-15 10:14:21.879 +03:00 [INF] Hosting environment: Development
+2024-03-15 10:14:21.880 +03:00 [INF] Content root path: C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API
+2024-03-15 10:14:24.575 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger - null null
+2024-03-15 10:14:24.716 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger - 301 0 null 146.9404ms
+2024-03-15 10:14:24.721 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2024-03-15 10:14:24.797 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 75.9096ms
+2024-03-15 10:14:24.801 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - null null
+2024-03-15 10:14:24.801 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - null null
+2024-03-15 10:14:24.802 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-15 10:14:24.803 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2024-03-15 10:14:24.802 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - null null
+2024-03-15 10:14:24.859 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 56.6932ms
+2024-03-15 10:14:24.861 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-03-15 10:14:24.878 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - 200 143943 text/css 77.1012ms
+2024-03-15 10:14:24.882 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-03-15 10:14:24.893 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 90.4112ms
+2024-03-15 10:14:24.896 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-03-15 10:14:24.899 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 97.7716ms
+2024-03-15 10:14:24.925 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 121.7396ms
+2024-03-15 10:14:25.095 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2024-03-15 10:14:25.129 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - null null
+2024-03-15 10:14:25.134 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-03-15 10:14:25.138 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - 200 628 image/png 8.4627ms
+2024-03-15 10:14:25.218 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 123.3441ms
+2024-03-15 10:14:30.560 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Products - null null
+2024-03-15 10:14:30.577 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="122", "Not(A:Brand";v="24", "Microsoft Edge";v="122"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-03-15 10:14:30.594 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-03-15 10:14:30.616 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-03-15 10:14:30.842 +03:00 [INF] Gets all products
+2024-03-15 10:14:31.636 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-03-15 10:14:31.661 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-03-15 10:14:31.664 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-03-15 10:14:31.720 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-03-15 10:14:31.737 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'ECommerceAPI.Persistance.Context.ECommerceAPIDbContext'.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Type Map configuration:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Destination Member:
+Id
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Guid -> Int32
+System.Guid -> System.Int32
+
+Destination Member:
+Id
+
+   at lambda_method29(Closure, Guid, Int32, ResolutionContext)
+   at lambda_method28(Closure, Object, GetAllProductDTO, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method28(Closure, Object, GetAllProductDTO, ResolutionContext)
+   at lambda_method26(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Type Map configuration:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Destination Member:
+Id
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Guid -> Int32
+System.Guid -> System.Int32
+
+Destination Member:
+Id
+
+   at lambda_method29(Closure, Guid, Int32, ResolutionContext)
+   at lambda_method28(Closure, Object, GetAllProductDTO, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method28(Closure, Object, GetAllProductDTO, ResolutionContext)
+   at lambda_method26(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2024-03-15 10:14:31.877 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 1254.5252ms
+2024-03-15 10:14:31.881 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-03-15 10:14:31.910 +03:00 [INF] Response:
+StatusCode: 200
+2024-03-15 10:14:31.914 +03:00 [INF] Duration: 1337.1918ms
+2024-03-15 10:14:31.918 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Type Map configuration:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Destination Member:
+Id
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Guid -> Int32
+System.Guid -> System.Int32
+
+Destination Member:
+Id
+
+   at lambda_method29(Closure, Guid, Int32, ResolutionContext)
+   at lambda_method28(Closure, Object, GetAllProductDTO, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method28(Closure, Object, GetAllProductDTO, ResolutionContext)
+   at lambda_method26(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryHandler.Handle(GetAllProductQueryRequest request, CancellationToken cancellationToken) in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Core\ECommerceAPI.Application\Features\Queries\Product\GetAllProduct\GetAllProductQueryHandler.cs:line 35
+   at ECommerceAPI.API.Controllers.ProductsController.Get(GetAllProductQueryRequest getAllProductQueryRequest) in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\Controllers\ProductsController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ECommerceAPI.API.Program.<>c.<<Main>b__0_6>d.MoveNext() in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\Program.cs:line 130
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-03-15 10:14:31.933 +03:00 [ERR] Error mapping types.
+
+Mapping types:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Type Map configuration:
+Product -> GetAllProductDTO
+ECommerceAPI.Domain.Entities.Product -> ECommerceAPI.Application.Abstractions.DTOs.Product.GetAllProductDTO
+
+Destination Member:
+Id
+
+2024-03-15 10:14:31.940 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Products - 500 null application/json 1380.4331ms
+2024-03-15 10:16:16.699 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-15 10:16:17.010 +03:00 [INF] Now listening on: https://localhost:7176
+2024-03-15 10:16:17.012 +03:00 [INF] Now listening on: http://localhost:5199
+2024-03-15 10:16:17.017 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-15 10:16:17.018 +03:00 [INF] Hosting environment: Development
+2024-03-15 10:16:17.020 +03:00 [INF] Content root path: C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API
+2024-03-15 10:16:20.075 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger - null null
+2024-03-15 10:16:20.247 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger - 301 0 null 178.0871ms
+2024-03-15 10:16:20.252 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2024-03-15 10:16:20.360 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 108.1423ms
+2024-03-15 10:16:20.367 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - null null
+2024-03-15 10:16:20.367 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2024-03-15 10:16:20.367 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - null null
+2024-03-15 10:16:20.366 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - null null
+2024-03-15 10:16:20.367 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-15 10:16:20.431 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 64.5233ms
+2024-03-15 10:16:20.454 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-03-15 10:16:20.454 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-03-15 10:16:20.461 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - 200 143943 text/css 95.3029ms
+2024-03-15 10:16:20.463 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 96.1468ms
+2024-03-15 10:16:20.500 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 132.9436ms
+2024-03-15 10:16:20.518 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-03-15 10:16:20.519 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 152.8664ms
+2024-03-15 10:16:20.768 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2024-03-15 10:16:20.811 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - null null
+2024-03-15 10:16:20.820 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-03-15 10:16:20.825 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - 200 628 image/png 15.4369ms
+2024-03-15 10:16:20.938 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 170.4124ms
+2024-03-15 10:16:25.874 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Products - null null
+2024-03-15 10:16:25.898 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="122", "Not(A:Brand";v="24", "Microsoft Edge";v="122"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-03-15 10:16:25.915 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-03-15 10:16:25.943 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-03-15 10:16:26.253 +03:00 [INF] Gets all products
+2024-03-15 10:16:27.243 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-03-15 10:16:27.274 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-03-15 10:16:27.277 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-03-15 10:16:27.341 +03:00 [INF] Executed DbCommand (23ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-03-15 10:16:27.358 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-03-15 10:16:27.378 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-03-15 10:16:27.385 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 1436.47ms
+2024-03-15 10:16:27.388 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-03-15 10:16:27.391 +03:00 [INF] ResponseBody: {"totalCount":9,"products":[{"id":"6db1b8b4-e797-4a7e-8f4a-08dc247b945b","name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00"},{"id":"5123e725-f690-4043-9a7c-08dc2f2168f6","name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00"},{"id":"75ac0ef4-71e8-4cd1-dcef-08dc311c84fb","name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00"},{"id":"e92512f8-9765-4f25-4d48-08dc35348831","name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00"},{"id":"82bb4778-190b-409e-5285-08dc35649a9d","name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00"}]}
+2024-03-15 10:16:27.395 +03:00 [INF] Duration: 1498.9908ms
+2024-03-15 10:16:27.398 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Products - 200 null application/json; charset=utf-8 1524.0966ms

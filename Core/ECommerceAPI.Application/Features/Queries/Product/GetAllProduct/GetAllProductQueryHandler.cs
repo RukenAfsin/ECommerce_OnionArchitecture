@@ -1,4 +1,7 @@
-﻿using ECommerceAPI.Application.Features.Commands.Product.UpdateProduct;
+﻿using AutoMapper;
+using ECommerceAPI.Application.Abstractions.DTOs.Product;
+using ECommerceAPI.Application.Features.Commands.Product.UpdateProduct;
+using ECommerceAPI.Application.Features.Queries.Product.GetAllProduct;
 using ECommerceAPI.Application.Repositories;
 using ECommerceAPI.Application.RequestParameters;
 using MediatR;
@@ -15,36 +18,32 @@ namespace ECommerceAPI.Application.Features.Queries.Product.GetAllProduct
     {
         readonly IProductReadRepository _productReadRepository;
         readonly ILogger<UpdateProductCommandHandler> _logger;
+        readonly IMapper _mapper;
 
-        public GetAllProductQueryHandler(IProductReadRepository productReadRepository, ILogger<UpdateProductCommandHandler> logger)
+        public GetAllProductQueryHandler(IProductReadRepository productReadRepository, ILogger<UpdateProductCommandHandler> logger, IMapper mapper)
         {
             _productReadRepository = productReadRepository;
             _logger = logger;
+            _mapper = mapper;
         }
 
 
         public async Task<GetAllProductQueryResponse> Handle(GetAllProductQueryRequest request, CancellationToken cancellationToken)
         {
             _logger.LogInformation("Gets all products");
-            throw new Exception("ERROR RECEIVED");
             var totalCount = _productReadRepository.GetAll(false).Count();
-            var products = _productReadRepository.GetAll(false).Skip(request.Page *
-                request.Size).Take(request.Size).Select(p => new
-                {
-                    p.Id,
-                    p.Name,
-                    p.Stock,
-                    p.Price,
-                    p.CreatedDate,
-                    p.UpdatedDate
-                }).ToList();
+            var products = _productReadRepository.GetAll(false)
+                .Skip(request.Page * request.Size)
+                .Take(request.Size)
+                .Select(p => _mapper.Map<GetAllProductDTO>(p))
+                .ToList();
 
-
-            return new()
+            return new GetAllProductQueryResponse
             {
                 Products = products,
-                TotalCount = totalCount,
+                TotalCount = totalCount
             };
         }
+
     }
 }
