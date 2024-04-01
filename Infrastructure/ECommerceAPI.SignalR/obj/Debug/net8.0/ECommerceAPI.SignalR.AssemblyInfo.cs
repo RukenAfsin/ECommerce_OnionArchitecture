@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ECommerceAPI.SignalR")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+136ed83b9026a118a62927ca44aad0c18dd1d667")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bf9684611d55d4c31db16a44243168dba0405ea")]
 [assembly: System.Reflection.AssemblyProductAttribute("ECommerceAPI.SignalR")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ECommerceAPI.SignalR")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

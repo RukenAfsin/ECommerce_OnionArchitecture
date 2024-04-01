@@ -4,6 +4,7 @@ using MediatR;
 using x = ECommerceAPI.Domain.Entities;
 using AutoMapper;
 using ECommerceAPI.Application.Abstractions.DTOs.Product;
+using ECommerceAPI.Application.Abstractions.Hubs;
 
 
 namespace ECommerceAPI.Application.Features.Commands.Product.CreateProduct
@@ -12,13 +13,15 @@ namespace ECommerceAPI.Application.Features.Commands.Product.CreateProduct
     {
         readonly IProductWriteRepository _productWriteRepository;
         readonly ProductBusinessRules _productBusinessRules;
+        readonly IProductHubService _productHubService;
         readonly IMapper _mapper;
 
-        public CreateProductCommandHandler(IProductWriteRepository productWriteRepository, ProductBusinessRules productBusinessRules, IMapper mapper)
+        public CreateProductCommandHandler(IProductWriteRepository productWriteRepository, ProductBusinessRules productBusinessRules, IMapper mapper, IProductHubService productHubService)
         {
             _productWriteRepository = productWriteRepository;
             _productBusinessRules = productBusinessRules;
             _mapper = mapper;
+            _productHubService = productHubService;
         }
 
         public async Task<CreateProductCommandResponse> Handle(CreateProductCommandRequest request, CancellationToken cancellationToken)
@@ -32,7 +35,7 @@ namespace ECommerceAPI.Application.Features.Commands.Product.CreateProduct
             CreateProductDTO createdProductDto = _mapper.Map<CreateProductDTO>(product);
           
             await _productWriteRepository.SaveAsync();
-
+            await  _productHubService.ProductAddedMessageAsync($"The name is {request.Name}product added ");
             return new CreateProductCommandResponse
             {
                 Product = createdProductDto

@@ -24,8 +24,8 @@ namespace ECommerceAPI.Application.Utilities.Mapper
             CreateMap<Product, CreateProductCommandRequest>().ReverseMap();
             CreateMap<Product, UpdateProductDTO>().ReverseMap();
             CreateMap<Product, UpdateProductCommandRequest>().ReverseMap();
-            CreateMap<AppUser, CreateUserDTO>().ReverseMap();
-            CreateMap<AppUser, CreateUserCommandRequest>().ReverseMap();
+            //CreateMap<AppUser, CreateUserDTO>().ReverseMap();
+            //CreateMap<AppUser, CreateUserCommandRequest>().ReverseMap();
             CreateMap<Product, GetByIdProductQueryResponse>().ReverseMap();
             CreateMap<Product, GetAllProductDTO>().ReverseMap();
         }

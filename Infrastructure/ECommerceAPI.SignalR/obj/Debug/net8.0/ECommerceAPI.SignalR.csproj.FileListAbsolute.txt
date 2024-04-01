@@ -10,3 +10,9 @@ C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Infrastructure\ECom
 C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Infrastructure\ECommerceAPI.SignalR\obj\Debug\net8.0\refint\ECommerceAPI.SignalR.dll
 C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Infrastructure\ECommerceAPI.SignalR\obj\Debug\net8.0\ECommerceAPI.SignalR.pdb
 C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Infrastructure\ECommerceAPI.SignalR\obj\Debug\net8.0\ref\ECommerceAPI.SignalR.dll
+C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Infrastructure\ECommerceAPI.SignalR\bin\Debug\net8.0\ECommerceAPI.Application.dll
+C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Infrastructure\ECommerceAPI.SignalR\bin\Debug\net8.0\ECommerceAPI.Domain.dll
+C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Infrastructure\ECommerceAPI.SignalR\bin\Debug\net8.0\ECommerceAPI.Application.pdb
+C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Infrastructure\ECommerceAPI.SignalR\bin\Debug\net8.0\ECommerceAPI.Domain.pdb
+C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Infrastructure\ECommerceAPI.SignalR\obj\Debug\net8.0\ECommerceAPI.SignalR.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Infrastructure\ECommerceAPI.SignalR\obj\Debug\net8.0\ECommerceAPI.SignalR.csproj.CopyComplete
