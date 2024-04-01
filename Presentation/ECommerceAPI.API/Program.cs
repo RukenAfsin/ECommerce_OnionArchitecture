@@ -6,6 +6,8 @@ using ECommerceAPI.Application.Validators.Products;
 using ECommerceAPI.Infrastructure;
 using ECommerceAPI.Infrastructure.Filters;
 using ECommerceAPI.Persistance;
+using ECommerceAPI.SignalR;
+using ECommerceAPI.SignalR.Hubs;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.HttpLogging;
@@ -35,6 +37,7 @@ namespace ECommerceAPI.API
             builder.Services.AddInfrastructureServices();
             builder.Services.AddApplicationServices();
             builder.Services.AddAutoMapper(typeof(MapperProfile));
+            builder.Services.AddSignalRServices();
 
             builder.Services.AddCors(options => options.AddDefaultPolicy(policy =>
             policy.WithOrigins("http://localhost:4200", "https://localhost:4200").AllowAnyHeader().AllowAnyMethod()));
@@ -132,6 +135,7 @@ namespace ECommerceAPI.API
 
 
             app.MapControllers();
+            app.MapHubs();
 
             app.Run();
         }
