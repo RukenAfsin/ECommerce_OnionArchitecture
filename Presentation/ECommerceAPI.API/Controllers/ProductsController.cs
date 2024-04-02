@@ -18,7 +18,7 @@ namespace ECommerceAPI.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(AuthenticationSchemes ="Admin")]
+
     public class ProductsController : ControllerBase
     {
         private readonly IMediator _mediator;
@@ -53,6 +53,7 @@ namespace ECommerceAPI.API.Controllers
 
 
         [HttpPost]
+        [Authorize(AuthenticationSchemes = "Admin")]
         public async Task<IActionResult> Add(CreateProductCommandRequest createProductCommandRequest)
         {
            CreateProductCommandResponse response = await _mediator.Send(createProductCommandRequest);
@@ -60,6 +61,7 @@ namespace ECommerceAPI.API.Controllers
         }
 
         [HttpPut]
+        [Authorize(AuthenticationSchemes = "Admin")]
         public async Task<IActionResult> Put([FromBody]UpdateProductCommandRequest updateProductCommandRequest)
         {
 
@@ -68,6 +70,7 @@ namespace ECommerceAPI.API.Controllers
         }
 
         [HttpDelete("{Id}")]
+        [Authorize(AuthenticationSchemes = "Admin")]
         public async Task<IActionResult>Delete ([FromRoute]RemoveProductCommandRequest removeProductCommandRequest)
         {
           RemoveProductCommandResponse response = await _mediator.Send(removeProductCommandRequest);       
@@ -76,6 +79,7 @@ namespace ECommerceAPI.API.Controllers
 
 
         [HttpPost("upload")]
+        [Authorize(AuthenticationSchemes = "Admin")]
         public async Task<IActionResult> UploadImage([FromForm] IFormFile file, [FromQuery] string Id)
         {
             var response = await _mediator.Send(new UploadProductImageCommandRequest

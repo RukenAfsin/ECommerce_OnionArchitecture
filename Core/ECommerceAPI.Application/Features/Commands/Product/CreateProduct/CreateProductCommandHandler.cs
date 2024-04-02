@@ -35,7 +35,7 @@ namespace ECommerceAPI.Application.Features.Commands.Product.CreateProduct
             CreateProductDTO createdProductDto = _mapper.Map<CreateProductDTO>(product);
           
             await _productWriteRepository.SaveAsync();
-            await  _productHubService.ProductAddedMessageAsync($"The name is {request.Name}product added ");
+            await  _productHubService.ProductAddedMessageAsync($" {request.Name} product added ");
             return new CreateProductCommandResponse
             {
                 Product = createdProductDto

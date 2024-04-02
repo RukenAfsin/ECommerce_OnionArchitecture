@@ -31,7 +31,7 @@ namespace ECommerceAPI.Application.Features.Queries.Product.GetAllProduct
         public async Task<GetAllProductQueryResponse> Handle(GetAllProductQueryRequest request, CancellationToken cancellationToken)
         {
             _logger.LogInformation("Gets all products");
-            var totalCount = _productReadRepository.GetAll(false).Count();
+            var totalProductCount = _productReadRepository.GetAll(false).Count();
             var products = _productReadRepository.GetAll(false)
                 .Skip(request.Page * request.Size)
                 .Take(request.Size)
@@ -41,7 +41,7 @@ namespace ECommerceAPI.Application.Features.Queries.Product.GetAllProduct
             return new GetAllProductQueryResponse
             {
                 Products = products,
-                TotalCount = totalCount
+                TotalProductCount = totalProductCount
             };
         }
 
