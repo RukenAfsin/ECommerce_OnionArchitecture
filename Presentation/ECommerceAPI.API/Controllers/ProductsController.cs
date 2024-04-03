@@ -79,13 +79,12 @@ namespace ECommerceAPI.API.Controllers
 
 
         [HttpPost("upload")]
-        [Authorize(AuthenticationSchemes = "Admin")]
-        public async Task<IActionResult> UploadImage([FromForm] IFormFile file, [FromQuery] string Id)
+        public async Task<IActionResult> UploadImage([FromForm] IFormFile file, [FromQuery] Guid id) 
         {
             var response = await _mediator.Send(new UploadProductImageCommandRequest
             {
                 File = file,
-                Id = Id
+                Id = id 
             });
 
             response.SetMessage();
@@ -95,10 +94,6 @@ namespace ECommerceAPI.API.Controllers
                                       : (response.Status == UploadProductImageCommandResponse.UploadStatus.Failure
                                       ? BadRequest(response)
                                       : StatusCode(StatusCodes.Status500InternalServerError));
-
         }
-
-
-
     }
 }

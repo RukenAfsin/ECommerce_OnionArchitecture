@@ -30,7 +30,7 @@ namespace ECommerceAPI.Application.Features.Commands.ProductImage.UploadProductI
 
         public async Task<UploadProductImageCommandResponse> Handle(UploadProductImageCommandRequest request, CancellationToken cancellationToken)
         {
-            if (string.IsNullOrEmpty(request.Id))
+            if (request.Id == Guid.Empty) // Guid.Empty ile kontrol yapın
             {
                 return new UploadProductImageCommandResponse();
             }
@@ -41,7 +41,7 @@ namespace ECommerceAPI.Application.Features.Commands.ProductImage.UploadProductI
                 return new UploadProductImageCommandResponse();
             }
 
-            p.Product product = await _productReadRepository.GetByIdAsync(request.Id);
+            p.Product product = await _productReadRepository.GetByIdAsync(request.Id.ToString());
             if (product == null)
             {
                 return new UploadProductImageCommandResponse();
