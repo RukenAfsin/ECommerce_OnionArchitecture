@@ -1,4 +1,5 @@
 ﻿using System;
+using ECommerceAPI.Application.Abstractions.DTOs.ProductImage;
 using ECommerceAPI.Application.Constants;
 using p = ECommerceAPI.Application.Constants;
 
@@ -6,19 +7,10 @@ namespace ECommerceAPI.Application.Features.Commands.ProductImage.UploadProductI
 {
     public class UploadProductImageCommandResponse
     {
-        public enum UploadStatus
-        {
-            Success,
-            Failure
-        }
 
-        public UploadStatus Status { get; set; }
-        public string Message { get; set; }
+        public string ErrorMessage { get; set; }
+        public CreateProductImageDTO ProductImage { get; set; }
 
-        public void SetMessage()
-        {
-            Message = Status == UploadStatus.Success ? p.Message.UploadSuccess : p.Message.UploadFailure;
-        }
     }
 }
 

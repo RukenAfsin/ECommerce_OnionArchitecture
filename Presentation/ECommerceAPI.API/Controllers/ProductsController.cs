@@ -1,4 +1,5 @@
-﻿using ECommerceAPI.Application.Features.Commands.Product.CreateProduct;
+﻿using ECommerceAPI.Application.Abstractions.DTOs.ProductImage;
+using ECommerceAPI.Application.Features.Commands.Product.CreateProduct;
 using ECommerceAPI.Application.Features.Commands.Product.RemoveProduct;
 using ECommerceAPI.Application.Features.Commands.Product.UpdateProduct;
 using ECommerceAPI.Application.Features.Commands.ProductImage.UploadProductImage;
@@ -79,21 +80,15 @@ namespace ECommerceAPI.API.Controllers
 
 
         [HttpPost("upload")]
-        public async Task<IActionResult> UploadImage([FromForm] IFormFile file, [FromQuery] Guid id) 
+        public async Task<IActionResult> Upload([FromForm] UploadProductImageCommandRequest uploadProductImageCommandRequest)
         {
-            var response = await _mediator.Send(new UploadProductImageCommandRequest
-            {
-                File = file,
-                Id = id 
-            });
+            // Dosya zaten istek gövdesinde olduğu için bu satır gereksiz
+            // uploadProductImageCommandRequest.File = CreateProductImageDTO.File;
 
-            response.SetMessage();
-
-            return response.Status == UploadProductImageCommandResponse.UploadStatus.Success
-                                      ? Ok(response)
-                                      : (response.Status == UploadProductImageCommandResponse.UploadStatus.Failure
-                                      ? BadRequest(response)
-                                      : StatusCode(StatusCodes.Status500InternalServerError));
+            UploadProductImageCommandResponse response = await _mediator.Send(uploadProductImageCommandRequest);
+            return Ok();
         }
+
+
     }
 }

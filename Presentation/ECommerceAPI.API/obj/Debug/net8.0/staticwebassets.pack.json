@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\Uploads\\Images\\01879b09-603d-412f-a5bf-7c5706614857.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\Images\\01879b09-603d-412f-a5bf-7c5706614857.jpeg"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\Uploads\\Images\\04fdf7c3-1b1e-438c-81c4-8c4d05bac73c.jpg",
       "PackagePath": "staticwebassets\\Uploads\\Images\\04fdf7c3-1b1e-438c-81c4-8c4d05bac73c.jpg"
     },
@@ -39,6 +43,10 @@
     {
       "Id": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\Uploads\\Images\\2acc0a6f-3ba9-4839-b519-e605e237eca5.jpg",
       "PackagePath": "staticwebassets\\Uploads\\Images\\2acc0a6f-3ba9-4839-b519-e605e237eca5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\Uploads\\Images\\2d45d4bf-ab35-42e9-b7b8-35ddfe8f0956.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\Images\\2d45d4bf-ab35-42e9-b7b8-35ddfe8f0956.jpeg"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\Uploads\\Images\\32b5f68d-9931-48c0-b61a-3b4080bbb549.jpg",
@@ -83,6 +91,10 @@
     {
       "Id": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\Uploads\\Images\\7398a01b-be8a-47a5-8624-0973bcef37b5.jpg",
       "PackagePath": "staticwebassets\\Uploads\\Images\\7398a01b-be8a-47a5-8624-0973bcef37b5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\Uploads\\Images\\74c92d53-b4cf-4a75-8d31-016f876aa0ef.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\Images\\74c92d53-b4cf-4a75-8d31-016f876aa0ef.jpeg"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\Uploads\\Images\\778f4391-92e4-4045-99ec-1d828e79402f.jpg",
@@ -135,6 +147,10 @@
     {
       "Id": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\Uploads\\Images\\c2cc715b-5985-4a4f-98b0-967d319c0bb7.jpg",
       "PackagePath": "staticwebassets\\Uploads\\Images\\c2cc715b-5985-4a4f-98b0-967d319c0bb7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\Uploads\\Images\\c3dfc2e1-a93c-43ac-853e-9037c78608de.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\Images\\c3dfc2e1-a93c-43ac-853e-9037c78608de.jpeg"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\Uploads\\Images\\c3e0fa54-2350-4de0-a9e9-bc5b5ff07386.jpg",
