@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nGHfToRlmMdYHxzueVwsChA6Tw9r0oQP4zA8Gsro1PU=",
+  "Hash": "Hw7yl9fZiC8IxQfso3UD5v8MNkwsm6G4+dJh4fqfFis=",
   "Source": "ECommerceAPI.API",
   "BasePath": "_content/ECommerceAPI.API",
   "Mode": "Default",
@@ -207,6 +207,25 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Images\\27457041-54df-45fb-8715-da91d31a1b0a.jpg"
     },
     {
+      "Identity": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\Uploads\\Images\\277efdcf-a821-48cb-9d0c-a24724925a72.jpeg",
+      "SourceId": "ECommerceAPI.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\",
+      "BasePath": "_content/ECommerceAPI.API",
+      "RelativePath": "Uploads/Images/277efdcf-a821-48cb-9d0c-a24724925a72.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Images\\277efdcf-a821-48cb-9d0c-a24724925a72.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\Uploads\\Images\\2acc0a6f-3ba9-4839-b519-e605e237eca5.jpg",
       "SourceId": "ECommerceAPI.API",
       "SourceType": "Discovered",
@@ -302,6 +321,25 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Images\\35809fb6-24dd-4c29-b44e-3a43b78bd0e9.jpg"
     },
     {
+      "Identity": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\Uploads\\Images\\370d9850-ef76-43b5-97eb-172cd9066690.jpeg",
+      "SourceId": "ECommerceAPI.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\",
+      "BasePath": "_content/ECommerceAPI.API",
+      "RelativePath": "Uploads/Images/370d9850-ef76-43b5-97eb-172cd9066690.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Images\\370d9850-ef76-43b5-97eb-172cd9066690.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\Uploads\\Images\\41409138-5c58-4596-8311-002c6a5e7180.jpg",
       "SourceId": "ECommerceAPI.API",
       "SourceType": "Discovered",
@@ -395,6 +433,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\Images\\6536b717-0998-451b-968c-48b045c0bbdf.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\Uploads\\Images\\6e616155-51bc-4548-a864-24b197db40fd.jpeg",
+      "SourceId": "ECommerceAPI.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\",
+      "BasePath": "_content/ECommerceAPI.API",
+      "RelativePath": "Uploads/Images/6e616155-51bc-4548-a864-24b197db40fd.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Images\\6e616155-51bc-4548-a864-24b197db40fd.jpeg"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\Uploads\\Images\\70855eed-fefb-403d-9319-e49af09f191f.jpg",
@@ -777,6 +834,25 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Images\\c7a91e64-2a8e-4b9d-b5fd-f1cb27490d00.jpg"
     },
     {
+      "Identity": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\Uploads\\Images\\c93dacaa-6ca5-48dd-a4f6-263ea794766b.jpeg",
+      "SourceId": "ECommerceAPI.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\",
+      "BasePath": "_content/ECommerceAPI.API",
+      "RelativePath": "Uploads/Images/c93dacaa-6ca5-48dd-a4f6-263ea794766b.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Images\\c93dacaa-6ca5-48dd-a4f6-263ea794766b.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\Uploads\\Images\\c9ccbc92-2f74-45b5-9232-46a1e82f7887.jpg",
       "SourceId": "ECommerceAPI.API",
       "SourceType": "Discovered",
@@ -908,6 +984,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\Images\\f6ca1215-9099-4a03-9597-39342a85908f.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\Uploads\\Images\\fe208878-352c-4308-bf3d-29b5bd13089a.jpeg",
+      "SourceId": "ECommerceAPI.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\",
+      "BasePath": "_content/ECommerceAPI.API",
+      "RelativePath": "Uploads/Images/fe208878-352c-4308-bf3d-29b5bd13089a.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Images\\fe208878-352c-4308-bf3d-29b5bd13089a.jpeg"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Applications\\ECommerceApp\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\wwwroot\\Uploads\\Images\\fe91b7a7-bd26-427c-9379-ad7fe531f675.jpg",

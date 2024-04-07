@@ -8,6 +8,7 @@ using ECommerceAPI.Application.Features.Commands.Product.UpdateProduct;
 using ECommerceAPI.Application.Features.Commands.ProductImage.UploadProductImage;
 using ECommerceAPI.Application.Features.Queries.Product.GetAllProduct;
 using ECommerceAPI.Application.Features.Queries.Product.GetByIdProduct;
+using ECommerceAPI.Application.Features.Queries.ProductImage;
 using ECommerceAPI.Domain.Entities;
 using ECommerceAPI.Domain.Entities.Identity;
 using System;
@@ -26,12 +27,12 @@ namespace ECommerceAPI.Application.Utilities.Mapper
             CreateMap<Product, CreateProductCommandRequest>().ReverseMap();
             CreateMap<Product, UpdateProductDTO>().ReverseMap();
             CreateMap<Product, UpdateProductCommandRequest>().ReverseMap();
-            CreateMap<ProductImage, CreateProductImageDTO>();
-            CreateMap<ProductImage, UploadProductImageCommandRequest>();
-            //CreateMap<AppUser, CreateUserDTO>().ReverseMap();
-            //CreateMap<AppUser, CreateUserCommandRequest>().ReverseMap();
             CreateMap<Product, GetByIdProductQueryResponse>().ReverseMap();
             CreateMap<Product, GetAllProductDTO>().ReverseMap();
+            CreateMap<ProductImage, CreateProductImageDTO>();
+            CreateMap<ProductImage, UploadProductImageCommandRequest>();
+            CreateMap<ProductImage,GetAllProductImageDTO>().ReverseMap();
+            CreateMap<ProductImage, GetProductImagesQueryResponse>().ReverseMap();
         }
     }
 }

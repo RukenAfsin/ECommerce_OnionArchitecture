@@ -5,6 +5,7 @@ using ECommerceAPI.Application.Features.Commands.Product.UpdateProduct;
 using ECommerceAPI.Application.Features.Commands.ProductImage.UploadProductImage;
 using ECommerceAPI.Application.Features.Queries.Product.GetAllProduct;
 using ECommerceAPI.Application.Features.Queries.Product.GetByIdProduct;
+using ECommerceAPI.Application.Features.Queries.ProductImage;
 using ECommerceAPI.Application.Repositories;
 using ECommerceAPI.Application.Repositories.ProductImage;
 using ECommerceAPI.Application.Services;
@@ -82,13 +83,16 @@ namespace ECommerceAPI.API.Controllers
         [HttpPost("upload")]
         public async Task<IActionResult> Upload([FromForm] UploadProductImageCommandRequest uploadProductImageCommandRequest)
         {
-            // Dosya zaten istek gövdesinde olduğu için bu satır gereksiz
-            // uploadProductImageCommandRequest.File = CreateProductImageDTO.File;
-
             UploadProductImageCommandResponse response = await _mediator.Send(uploadProductImageCommandRequest);
             return Ok();
         }
 
+        [HttpGet("GetAllImage")]
+        public async Task<IActionResult> GetImage([FromQuery]GetProductImagesQueryRequest getProductImagesQueryRequest)
+        {
+            GetProductImagesQueryResponse response =await _mediator.Send(getProductImagesQueryRequest);
+            return Ok(response);
+        }
 
     }
 }

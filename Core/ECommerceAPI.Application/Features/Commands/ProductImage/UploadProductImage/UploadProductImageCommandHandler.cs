@@ -16,10 +16,10 @@ namespace ECommerceAPI.Application.Features.Commands.ProductImage.UploadProductI
 {
     public class UploadProductImageCommandHandler : IRequestHandler<UploadProductImageCommandRequest, UploadProductImageCommandResponse>
     {
-        private readonly IFileHelper _fileHelper;
-        private readonly IProductReadRepository _productReadRepository;
-        private readonly IProductImageWriteRepository _productImageWriteRepository;
-        private readonly IMapper _mapper;
+         readonly IFileHelper _fileHelper;
+         readonly IProductReadRepository _productReadRepository;
+         readonly IProductImageWriteRepository _productImageWriteRepository;
+         readonly IMapper _mapper;
 
         public UploadProductImageCommandHandler(IProductReadRepository productReadRepository, IFileHelper fileHelper, IProductImageWriteRepository productImageWriteRepository, IMapper mapper)
         {
