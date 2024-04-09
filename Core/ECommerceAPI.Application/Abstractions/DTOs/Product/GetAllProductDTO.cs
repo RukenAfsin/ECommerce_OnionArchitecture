@@ -14,5 +14,7 @@ namespace ECommerceAPI.Application.Abstractions.DTOs.Product
         public decimal Price { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime UpdatedDate { get; set; }
+        public string ImagePath { get; set; }
+
     }
 }

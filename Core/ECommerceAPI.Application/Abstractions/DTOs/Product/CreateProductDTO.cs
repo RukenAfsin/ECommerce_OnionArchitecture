@@ -13,5 +13,6 @@ namespace ECommerceAPI.Application.Abstractions.DTOs.Product
         public int Stock { get; set; }
 
         public float Price { get; set; }
+
     }
 }
