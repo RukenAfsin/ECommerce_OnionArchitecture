@@ -23522,3 +23522,705 @@ Content-Type: application/json; charset=utf-8
 2024-04-09 20:17:32.247 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null}]}
 2024-04-09 20:17:32.248 +03:00 [INF] Duration: 1655.2173ms
 2024-04-09 20:17:32.250 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Products - 200 null application/json; charset=utf-8 1665.0309ms
+2024-04-10 22:58:31.404 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-10 22:58:31.904 +03:00 [INF] Now listening on: https://localhost:7176
+2024-04-10 22:58:31.907 +03:00 [INF] Now listening on: http://localhost:5199
+2024-04-10 22:58:31.909 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-10 22:58:31.910 +03:00 [INF] Hosting environment: Development
+2024-04-10 22:58:31.911 +03:00 [INF] Content root path: C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API
+2024-04-10 22:58:33.350 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger - null null
+2024-04-10 22:58:33.579 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger - 301 0 null 242.5173ms
+2024-04-10 22:58:33.583 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2024-04-10 22:58:33.686 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 102.5711ms
+2024-04-10 22:58:33.692 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - null null
+2024-04-10 22:58:33.693 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-10 22:58:33.693 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - null null
+2024-04-10 22:58:33.699 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - null null
+2024-04-10 22:58:33.709 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2024-04-10 22:58:33.745 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 52.379ms
+2024-04-10 22:58:33.798 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-10 22:58:33.800 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-10 22:58:33.804 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - 200 143943 text/css 112.2542ms
+2024-04-10 22:58:33.806 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 112.2383ms
+2024-04-10 22:58:33.838 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-10 22:58:33.841 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 148.2743ms
+2024-04-10 22:58:33.864 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 162.1716ms
+2024-04-10 22:58:34.093 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2024-04-10 22:58:34.129 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - null null
+2024-04-10 22:58:34.132 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-10 22:58:34.134 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - 200 628 image/png 6.7101ms
+2024-04-10 22:58:34.256 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 163.2432ms
+2024-04-10 22:58:40.931 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Products - null null
+2024-04-10 22:58:40.950 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Referer: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-10 22:58:40.971 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-10 22:58:41.011 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-10 22:58:41.461 +03:00 [INF] Gets all products
+2024-04-10 22:58:43.100 +03:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-04-10 22:58:43.131 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-04-10 22:58:43.133 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-04-10 22:58:43.234 +03:00 [INF] Executed DbCommand (38ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-10 22:58:43.261 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-04-10 22:58:43.284 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-10 22:58:43.293 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 2275.1928ms
+2024-04-10 22:58:43.295 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-10 22:58:43.298 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null}]}
+2024-04-10 22:58:43.302 +03:00 [INF] Duration: 2352.4693ms
+2024-04-10 22:58:43.306 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Products - 200 null application/json; charset=utf-8 2375.6014ms
+2024-04-10 22:58:50.018 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Products?Size=50 - null null
+2024-04-10 22:58:50.027 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Referer: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-10 22:58:50.031 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-10 22:58:50.032 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-10 22:58:50.044 +03:00 [INF] Gets all products
+2024-04-10 22:58:50.048 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-04-10 22:58:50.057 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-10 22:58:50.061 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-04-10 22:58:50.063 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-10 22:58:50.067 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 33.4191ms
+2024-04-10 22:58:50.069 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-10 22:58:50.072 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon","stock":10,"price":15000,"createdDate":"2024-02-24T19:47:22.5695647","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon Ünitesi","stock":30,"price":5000,"createdDate":"2024-02-24T19:50:38.0487963","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Samsung Telefon","stock":10,"price":15000,"createdDate":"2024-02-24T20:01:13.1763301","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 9","stock":10,"price":10,"createdDate":"2024-04-02T16:20:50.7206205","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 10","stock":10,"price":10,"createdDate":"2024-04-02T16:20:59.2825418","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 11","stock":11,"price":11,"createdDate":"2024-04-02T16:21:05.017345","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 12","stock":12,"price":12,"createdDate":"2024-04-02T16:21:10.9891024","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 13","stock":13,"price":13,"createdDate":"2024-04-02T16:21:17.2629589","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 14","stock":14,"price":14,"createdDate":"2024-04-02T16:21:23.3952967","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 15","stock":15,"price":15,"createdDate":"2024-04-02T16:21:30.2724293","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 16","stock":16,"price":16,"createdDate":"2024-04-02T16:21:35.9450865","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 17","stock":17,"price":17,"createdDate":"2024-04-02T16:21:41.3401102","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 18","stock":18,"price":18,"createdDate":"2024-04-02T16:21:47.5619497","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 19","stock":19,"price":19,"createdDate":"2024-04-02T16:21:54.0229151","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 20","stock":20,"price":20,"createdDate":"2024-04-02T16:22:00.8597016","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 21","stock":21,"price":21,"createdDate":"2024-04-02T16:22:09.2495304","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 22","stock":22,"price":22,"createdDate":"2024-04-02T16:22:14.129288","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 23","stock":23,"price":23,"createdDate":"2024-04-02T16:22:19.6401977","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 24","stock":24,"price":24,"createdDate":"2024-04-02T16:22:26.5845971","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 25","stock":25,"price":25,"createdDate":"2024-04-02T16:22:33.5192729","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 26","stock":26,"price":26,"createdDate":"2024-04-02T16:22:38.7696542","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 27","stock":27,"price":27,"createdDate":"2024-04-02T16:22:45.4088621","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 28","stock":28,"price":28,"createdDate":"2024-04-08T17:21:28.1876209","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 29","stock":29,"price":29,"createdDate":"2024-04-08T17:21:50.0432973","update
+2024-04-10 22:58:50.075 +03:00 [INF] Duration: 47.9449ms
+2024-04-10 22:58:50.076 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Products?Size=50 - 200 null application/json; charset=utf-8 58.3203ms
+2024-04-10 23:04:27.560 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-10 23:04:27.971 +03:00 [INF] Now listening on: https://localhost:7176
+2024-04-10 23:04:27.972 +03:00 [INF] Now listening on: http://localhost:5199
+2024-04-10 23:04:27.975 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-10 23:04:27.976 +03:00 [INF] Hosting environment: Development
+2024-04-10 23:04:27.978 +03:00 [INF] Content root path: C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API
+2024-04-10 23:04:32.115 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger - null null
+2024-04-10 23:04:32.470 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger - 301 0 null 503.818ms
+2024-04-10 23:04:32.487 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2024-04-10 23:04:32.738 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 250.4812ms
+2024-04-10 23:04:32.754 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - null null
+2024-04-10 23:04:32.808 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-10 23:04:32.754 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - null null
+2024-04-10 23:04:32.758 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2024-04-10 23:04:32.753 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - null null
+2024-04-10 23:04:32.826 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 42.0148ms
+2024-04-10 23:04:32.915 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-10 23:04:32.919 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - 200 143943 text/css 164.9023ms
+2024-04-10 23:04:32.952 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-10 23:04:32.966 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 207.0717ms
+2024-04-10 23:04:32.967 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 209.3722ms
+2024-04-10 23:04:33.090 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-10 23:04:33.097 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 343.5762ms
+2024-04-10 23:04:34.489 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2024-04-10 23:04:34.671 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - null null
+2024-04-10 23:04:34.684 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-10 23:04:34.688 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - 200 628 image/png 17.7945ms
+2024-04-10 23:04:34.762 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 273.2595ms
+2024-04-10 23:05:07.051 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7176/api/Products/upload - multipart/form-data; boundary=----WebKitFormBoundaryhKB52Ltl2LhFAtjN 3559
+2024-04-10 23:05:07.066 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/Products/upload
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryhKB52Ltl2LhFAtjN
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 3559
+sec-ch-ua: "Microsoft Edge";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-10 23:05:07.073 +03:00 [INF] CORS policy execution failed.
+2024-04-10 23:05:07.075 +03:00 [INF] Request origin https://localhost:7176 does not have permission to access the resource.
+2024-04-10 23:05:07.093 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Upload (ECommerceAPI.API)'
+2024-04-10 23:05:07.129 +03:00 [INF] Route matched with {action = "Upload", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Upload(ECommerceAPI.Application.Features.Commands.ProductImage.UploadProductImage.UploadProductImageCommandRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-10 23:05:08.531 +03:00 [INF] Executed DbCommand (71ms) [Parameters=[@__Parse_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__Parse_0
+2024-04-10 23:05:08.811 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Guid), @p4='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [ProductImages] ([Id], [CreatedDate], [ImagePath], [ProductId], [UpdatedDate])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-04-10 23:05:08.840 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-04-10 23:05:08.846 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Upload (ECommerceAPI.API) in 1710.2344ms
+2024-04-10 23:05:08.849 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Upload (ECommerceAPI.API)'
+2024-04-10 23:05:08.854 +03:00 [INF] Response:
+StatusCode: 200
+2024-04-10 23:05:08.860 +03:00 [INF] Duration: 1792.8027ms
+2024-04-10 23:05:08.864 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7176/api/Products/upload - 200 0 null 1812.9593ms
+2024-04-10 23:05:28.824 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Products?Size=50 - null null
+2024-04-10 23:05:28.831 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Referer: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-10 23:05:28.838 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-10 23:05:28.844 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-10 23:05:28.856 +03:00 [INF] Gets all products
+2024-04-10 23:05:28.908 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-04-10 23:05:28.920 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-04-10 23:05:28.922 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-04-10 23:05:28.935 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-10 23:05:28.946 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-04-10 23:05:28.964 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-10 23:05:28.972 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 125.134ms
+2024-04-10 23:05:28.974 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-10 23:05:28.978 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon","stock":10,"price":15000,"createdDate":"2024-02-24T19:47:22.5695647","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon Ünitesi","stock":30,"price":5000,"createdDate":"2024-02-24T19:50:38.0487963","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Samsung Telefon","stock":10,"price":15000,"createdDate":"2024-02-24T20:01:13.1763301","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 9","stock":10,"price":10,"createdDate":"2024-04-02T16:20:50.7206205","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 10","stock":10,"price":10,"createdDate":"2024-04-02T16:20:59.2825418","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 11","stock":11,"price":11,"createdDate":"2024-04-02T16:21:05.017345","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 12","stock":12,"price":12,"createdDate":"2024-04-02T16:21:10.9891024","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 13","stock":13,"price":13,"createdDate":"2024-04-02T16:21:17.2629589","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 14","stock":14,"price":14,"createdDate":"2024-04-02T16:21:23.3952967","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 15","stock":15,"price":15,"createdDate":"2024-04-02T16:21:30.2724293","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 16","stock":16,"price":16,"createdDate":"2024-04-02T16:21:35.9450865","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 17","stock":17,"price":17,"createdDate":"2024-04-02T16:21:41.3401102","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 18","stock":18,"price":18,"createdDate":"2024-04-02T16:21:47.5619497","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 19","stock":19,"price":19,"createdDate":"2024-04-02T16:21:54.0229151","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 20","stock":20,"price":20,"createdDate":"2024-04-02T16:22:00.8597016","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 21","stock":21,"price":21,"createdDate":"2024-04-02T16:22:09.2495304","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 22","stock":22,"price":22,"createdDate":"2024-04-02T16:22:14.129288","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 23","stock":23,"price":23,"createdDate":"2024-04-02T16:22:19.6401977","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 24","stock":24,"price":24,"createdDate":"2024-04-02T16:22:26.5845971","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 25","stock":25,"price":25,"createdDate":"2024-04-02T16:22:33.5192729","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 26","stock":26,"price":26,"createdDate":"2024-04-02T16:22:38.7696542","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 27","stock":27,"price":27,"createdDate":"2024-04-02T16:22:45.4088621","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 28","stock":28,"price":28,"createdDate":"2024-04-08T17:21:28.1876209","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 29","stock":29,"price":29,"createdDate":"2024-04-08T17:21:50.0432973","update
+2024-04-10 23:05:28.981 +03:00 [INF] Duration: 149.7603ms
+2024-04-10 23:05:28.982 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Products?Size=50 - 200 null application/json; charset=utf-8 159.0057ms
+2024-04-10 23:06:42.244 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-10 23:06:42.472 +03:00 [INF] Now listening on: https://localhost:7176
+2024-04-10 23:06:42.474 +03:00 [INF] Now listening on: http://localhost:5199
+2024-04-10 23:06:42.477 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-10 23:06:42.478 +03:00 [INF] Hosting environment: Development
+2024-04-10 23:06:42.479 +03:00 [INF] Content root path: C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API
+2024-04-10 23:06:46.108 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger - null null
+2024-04-10 23:06:46.246 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger - 301 0 null 145.1989ms
+2024-04-10 23:06:46.251 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2024-04-10 23:06:46.323 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 71.4451ms
+2024-04-10 23:06:46.330 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - null null
+2024-04-10 23:06:46.331 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2024-04-10 23:06:46.330 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - null null
+2024-04-10 23:06:46.331 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - null null
+2024-04-10 23:06:46.331 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-10 23:06:46.404 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 72.8161ms
+2024-04-10 23:06:46.416 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-10 23:06:46.422 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-10 23:06:46.431 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - 200 143943 text/css 100.98ms
+2024-04-10 23:06:46.437 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 106.7896ms
+2024-04-10 23:06:46.457 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-10 23:06:46.478 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 146.808ms
+2024-04-10 23:06:46.482 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 151.3471ms
+2024-04-10 23:06:46.659 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2024-04-10 23:06:46.692 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - null null
+2024-04-10 23:06:46.699 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-10 23:06:46.700 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - 200 628 image/png 8.9786ms
+2024-04-10 23:06:46.797 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 138.2988ms
+2024-04-10 23:06:55.168 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Products?Size=50 - null null
+2024-04-10 23:06:55.182 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Referer: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-10 23:06:55.196 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-10 23:06:55.218 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-10 23:06:55.494 +03:00 [INF] Gets all products
+2024-04-10 23:06:56.352 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-04-10 23:06:56.379 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-04-10 23:06:56.381 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-04-10 23:06:56.440 +03:00 [INF] Executed DbCommand (20ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-10 23:06:56.460 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-04-10 23:06:56.478 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-10 23:06:56.492 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 1267.8867ms
+2024-04-10 23:06:56.495 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-10 23:06:56.499 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon","stock":10,"price":15000,"createdDate":"2024-02-24T19:47:22.5695647","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon Ünitesi","stock":30,"price":5000,"createdDate":"2024-02-24T19:50:38.0487963","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Samsung Telefon","stock":10,"price":15000,"createdDate":"2024-02-24T20:01:13.1763301","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 9","stock":10,"price":10,"createdDate":"2024-04-02T16:20:50.7206205","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 10","stock":10,"price":10,"createdDate":"2024-04-02T16:20:59.2825418","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 11","stock":11,"price":11,"createdDate":"2024-04-02T16:21:05.017345","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 12","stock":12,"price":12,"createdDate":"2024-04-02T16:21:10.9891024","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 13","stock":13,"price":13,"createdDate":"2024-04-02T16:21:17.2629589","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 14","stock":14,"price":14,"createdDate":"2024-04-02T16:21:23.3952967","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 15","stock":15,"price":15,"createdDate":"2024-04-02T16:21:30.2724293","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 16","stock":16,"price":16,"createdDate":"2024-04-02T16:21:35.9450865","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 17","stock":17,"price":17,"createdDate":"2024-04-02T16:21:41.3401102","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 18","stock":18,"price":18,"createdDate":"2024-04-02T16:21:47.5619497","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 19","stock":19,"price":19,"createdDate":"2024-04-02T16:21:54.0229151","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 20","stock":20,"price":20,"createdDate":"2024-04-02T16:22:00.8597016","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 21","stock":21,"price":21,"createdDate":"2024-04-02T16:22:09.2495304","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 22","stock":22,"price":22,"createdDate":"2024-04-02T16:22:14.129288","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 23","stock":23,"price":23,"createdDate":"2024-04-02T16:22:19.6401977","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 24","stock":24,"price":24,"createdDate":"2024-04-02T16:22:26.5845971","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 25","stock":25,"price":25,"createdDate":"2024-04-02T16:22:33.5192729","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 26","stock":26,"price":26,"createdDate":"2024-04-02T16:22:38.7696542","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 27","stock":27,"price":27,"createdDate":"2024-04-02T16:22:45.4088621","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 28","stock":28,"price":28,"createdDate":"2024-04-08T17:21:28.1876209","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 29","stock":29,"price":29,"createdDate":"2024-04-08T17:21:50.0432973","update
+2024-04-10 23:06:56.503 +03:00 [INF] Duration: 1321.9152ms
+2024-04-10 23:06:56.507 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Products?Size=50 - 200 null application/json; charset=utf-8 1339.3632ms
+2024-04-10 23:39:03.051 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-10 23:39:03.354 +03:00 [INF] Now listening on: https://localhost:7176
+2024-04-10 23:39:03.357 +03:00 [INF] Now listening on: http://localhost:5199
+2024-04-10 23:39:03.359 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-10 23:39:03.360 +03:00 [INF] Hosting environment: Development
+2024-04-10 23:39:03.361 +03:00 [INF] Content root path: C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API
+2024-04-10 23:39:06.012 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger - null null
+2024-04-10 23:39:06.556 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger - 301 0 null 483.4728ms
+2024-04-10 23:39:06.613 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2024-04-10 23:39:06.813 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 200.2272ms
+2024-04-10 23:39:06.817 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - null null
+2024-04-10 23:39:06.831 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-10 23:39:06.816 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - null null
+2024-04-10 23:39:06.816 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - null null
+2024-04-10 23:39:06.891 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 59.7073ms
+2024-04-10 23:39:06.838 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2024-04-10 23:39:06.952 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-10 23:39:06.964 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - 200 143943 text/css 148.2443ms
+2024-04-10 23:39:06.985 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-10 23:39:06.991 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 174.6176ms
+2024-04-10 23:39:07.049 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-10 23:39:07.053 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 236.7726ms
+2024-04-10 23:39:07.170 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 336.4744ms
+2024-04-10 23:39:07.324 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2024-04-10 23:39:07.372 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - null null
+2024-04-10 23:39:07.379 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-10 23:39:07.388 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - 200 628 image/png 16.8949ms
+2024-04-10 23:39:07.540 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 216.6939ms
+2024-04-10 23:39:13.567 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Products?Size=50 - null null
+2024-04-10 23:39:13.581 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Referer: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-10 23:39:13.605 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-10 23:39:13.638 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-10 23:39:13.974 +03:00 [INF] Gets all products
+2024-04-10 23:39:14.964 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-04-10 23:39:14.995 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-04-10 23:39:14.997 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-04-10 23:39:15.059 +03:00 [INF] Executed DbCommand (18ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-10 23:39:15.079 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-04-10 23:39:15.098 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-10 23:39:15.108 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 1463.9622ms
+2024-04-10 23:39:15.110 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-10 23:39:15.113 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon","stock":10,"price":15000,"createdDate":"2024-02-24T19:47:22.5695647","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon Ünitesi","stock":30,"price":5000,"createdDate":"2024-02-24T19:50:38.0487963","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Samsung Telefon","stock":10,"price":15000,"createdDate":"2024-02-24T20:01:13.1763301","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 9","stock":10,"price":10,"createdDate":"2024-04-02T16:20:50.7206205","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 10","stock":10,"price":10,"createdDate":"2024-04-02T16:20:59.2825418","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 11","stock":11,"price":11,"createdDate":"2024-04-02T16:21:05.017345","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 12","stock":12,"price":12,"createdDate":"2024-04-02T16:21:10.9891024","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 13","stock":13,"price":13,"createdDate":"2024-04-02T16:21:17.2629589","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 14","stock":14,"price":14,"createdDate":"2024-04-02T16:21:23.3952967","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 15","stock":15,"price":15,"createdDate":"2024-04-02T16:21:30.2724293","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 16","stock":16,"price":16,"createdDate":"2024-04-02T16:21:35.9450865","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 17","stock":17,"price":17,"createdDate":"2024-04-02T16:21:41.3401102","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 18","stock":18,"price":18,"createdDate":"2024-04-02T16:21:47.5619497","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 19","stock":19,"price":19,"createdDate":"2024-04-02T16:21:54.0229151","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 20","stock":20,"price":20,"createdDate":"2024-04-02T16:22:00.8597016","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 21","stock":21,"price":21,"createdDate":"2024-04-02T16:22:09.2495304","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 22","stock":22,"price":22,"createdDate":"2024-04-02T16:22:14.129288","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 23","stock":23,"price":23,"createdDate":"2024-04-02T16:22:19.6401977","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 24","stock":24,"price":24,"createdDate":"2024-04-02T16:22:26.5845971","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 25","stock":25,"price":25,"createdDate":"2024-04-02T16:22:33.5192729","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 26","stock":26,"price":26,"createdDate":"2024-04-02T16:22:38.7696542","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 27","stock":27,"price":27,"createdDate":"2024-04-02T16:22:45.4088621","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 28","stock":28,"price":28,"createdDate":"2024-04-08T17:21:28.1876209","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 29","stock":29,"price":29,"createdDate":"2024-04-08T17:21:50.0432973","update
+2024-04-10 23:39:15.118 +03:00 [INF] Duration: 1536.9311ms
+2024-04-10 23:39:15.122 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Products?Size=50 - 200 null application/json; charset=utf-8 1555.1687ms
+2024-04-10 23:51:11.246 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-10 23:51:11.552 +03:00 [INF] Now listening on: https://localhost:7176
+2024-04-10 23:51:11.554 +03:00 [INF] Now listening on: http://localhost:5199
+2024-04-10 23:51:11.557 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-10 23:51:11.558 +03:00 [INF] Hosting environment: Development
+2024-04-10 23:51:11.559 +03:00 [INF] Content root path: C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API
+2024-04-10 23:51:12.306 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger - null null
+2024-04-10 23:51:12.499 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger - 301 0 null 198.468ms
+2024-04-10 23:51:12.505 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2024-04-10 23:51:12.605 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 99.7994ms
+2024-04-10 23:51:12.615 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - null null
+2024-04-10 23:51:12.616 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - null null
+2024-04-10 23:51:12.617 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - null null
+2024-04-10 23:51:12.620 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-10 23:51:12.627 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2024-04-10 23:51:12.651 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 30.9452ms
+2024-04-10 23:51:12.685 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-10 23:51:12.685 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-10 23:51:12.688 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 70.7899ms
+2024-04-10 23:51:12.696 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - 200 143943 text/css 80.6952ms
+2024-04-10 23:51:12.719 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-10 23:51:12.724 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 105.5055ms
+2024-04-10 23:51:12.733 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 105.7943ms
+2024-04-10 23:51:12.886 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2024-04-10 23:51:12.928 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - null null
+2024-04-10 23:51:12.935 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-10 23:51:12.942 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - 200 628 image/png 12.9387ms
+2024-04-10 23:51:13.071 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 185.5539ms
+2024-04-10 23:51:18.481 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Products?Size=50 - null null
+2024-04-10 23:51:18.498 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Referer: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-10 23:51:18.518 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-10 23:51:18.557 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-10 23:51:18.881 +03:00 [INF] Gets all products
+2024-04-10 23:51:19.939 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-04-10 23:51:19.965 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-04-10 23:51:19.967 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-04-10 23:51:20.026 +03:00 [INF] Executed DbCommand (19ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-10 23:51:20.048 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-04-10 23:51:20.076 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-10 23:51:20.086 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 1521.6499ms
+2024-04-10 23:51:20.087 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-10 23:51:20.092 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon","stock":10,"price":15000,"createdDate":"2024-02-24T19:47:22.5695647","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon Ünitesi","stock":30,"price":5000,"createdDate":"2024-02-24T19:50:38.0487963","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Samsung Telefon","stock":10,"price":15000,"createdDate":"2024-02-24T20:01:13.1763301","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 9","stock":10,"price":10,"createdDate":"2024-04-02T16:20:50.7206205","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 10","stock":10,"price":10,"createdDate":"2024-04-02T16:20:59.2825418","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 11","stock":11,"price":11,"createdDate":"2024-04-02T16:21:05.017345","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 12","stock":12,"price":12,"createdDate":"2024-04-02T16:21:10.9891024","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 13","stock":13,"price":13,"createdDate":"2024-04-02T16:21:17.2629589","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 14","stock":14,"price":14,"createdDate":"2024-04-02T16:21:23.3952967","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 15","stock":15,"price":15,"createdDate":"2024-04-02T16:21:30.2724293","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 16","stock":16,"price":16,"createdDate":"2024-04-02T16:21:35.9450865","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 17","stock":17,"price":17,"createdDate":"2024-04-02T16:21:41.3401102","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 18","stock":18,"price":18,"createdDate":"2024-04-02T16:21:47.5619497","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 19","stock":19,"price":19,"createdDate":"2024-04-02T16:21:54.0229151","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 20","stock":20,"price":20,"createdDate":"2024-04-02T16:22:00.8597016","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 21","stock":21,"price":21,"createdDate":"2024-04-02T16:22:09.2495304","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 22","stock":22,"price":22,"createdDate":"2024-04-02T16:22:14.129288","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 23","stock":23,"price":23,"createdDate":"2024-04-02T16:22:19.6401977","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 24","stock":24,"price":24,"createdDate":"2024-04-02T16:22:26.5845971","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 25","stock":25,"price":25,"createdDate":"2024-04-02T16:22:33.5192729","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 26","stock":26,"price":26,"createdDate":"2024-04-02T16:22:38.7696542","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 27","stock":27,"price":27,"createdDate":"2024-04-02T16:22:45.4088621","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 28","stock":28,"price":28,"createdDate":"2024-04-08T17:21:28.1876209","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 29","stock":29,"price":29,"createdDate":"2024-04-08T17:21:50.0432973","update
+2024-04-10 23:51:20.098 +03:00 [INF] Duration: 1599.1465ms
+2024-04-10 23:51:20.101 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Products?Size=50 - 200 null application/json; charset=utf-8 1620.4449ms
+2024-04-10 23:55:15.853 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-10 23:55:16.176 +03:00 [INF] Now listening on: https://localhost:7176
+2024-04-10 23:55:16.178 +03:00 [INF] Now listening on: http://localhost:5199
+2024-04-10 23:55:16.181 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-10 23:55:16.182 +03:00 [INF] Hosting environment: Development
+2024-04-10 23:55:16.183 +03:00 [INF] Content root path: C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API
+2024-04-10 23:55:18.909 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger - null null
+2024-04-10 23:55:19.350 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger - 301 0 null 446.3229ms
+2024-04-10 23:55:19.359 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2024-04-10 23:55:19.724 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 365.2118ms
+2024-04-10 23:55:19.880 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - null null
+2024-04-10 23:55:19.879 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - null null
+2024-04-10 23:55:19.880 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-10 23:55:19.880 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - null null
+2024-04-10 23:55:19.930 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 50.6082ms
+2024-04-10 23:55:19.985 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2024-04-10 23:55:20.144 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-10 23:55:20.148 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - 200 143943 text/css 268.8266ms
+2024-04-10 23:55:20.284 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-10 23:55:20.405 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 525.2799ms
+2024-04-10 23:55:20.462 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 525.4706ms
+2024-04-10 23:55:20.516 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-10 23:55:20.518 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 638.9287ms
+2024-04-10 23:55:21.011 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2024-04-10 23:55:21.114 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - null null
+2024-04-10 23:55:21.135 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-10 23:55:21.151 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - 200 628 image/png 36.7657ms
+2024-04-10 23:55:21.313 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 302.3226ms
+2024-04-10 23:55:26.285 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Products?Size=50 - null null
+2024-04-10 23:55:26.301 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Referer: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-10 23:55:26.321 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-10 23:55:26.364 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-10 23:55:26.678 +03:00 [INF] Gets all products
+2024-04-10 23:55:27.676 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-04-10 23:55:27.707 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-04-10 23:55:27.709 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-04-10 23:55:27.776 +03:00 [INF] Executed DbCommand (19ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-10 23:55:27.795 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-04-10 23:55:27.815 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-10 23:55:27.831 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 1460.9657ms
+2024-04-10 23:55:27.833 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-10 23:55:27.838 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon","stock":10,"price":15000,"createdDate":"2024-02-24T19:47:22.5695647","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon Ünitesi","stock":30,"price":5000,"createdDate":"2024-02-24T19:50:38.0487963","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Samsung Telefon","stock":10,"price":15000,"createdDate":"2024-02-24T20:01:13.1763301","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 9","stock":10,"price":10,"createdDate":"2024-04-02T16:20:50.7206205","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 10","stock":10,"price":10,"createdDate":"2024-04-02T16:20:59.2825418","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 11","stock":11,"price":11,"createdDate":"2024-04-02T16:21:05.017345","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 12","stock":12,"price":12,"createdDate":"2024-04-02T16:21:10.9891024","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 13","stock":13,"price":13,"createdDate":"2024-04-02T16:21:17.2629589","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 14","stock":14,"price":14,"createdDate":"2024-04-02T16:21:23.3952967","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 15","stock":15,"price":15,"createdDate":"2024-04-02T16:21:30.2724293","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 16","stock":16,"price":16,"createdDate":"2024-04-02T16:21:35.9450865","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 17","stock":17,"price":17,"createdDate":"2024-04-02T16:21:41.3401102","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 18","stock":18,"price":18,"createdDate":"2024-04-02T16:21:47.5619497","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 19","stock":19,"price":19,"createdDate":"2024-04-02T16:21:54.0229151","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 20","stock":20,"price":20,"createdDate":"2024-04-02T16:22:00.8597016","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 21","stock":21,"price":21,"createdDate":"2024-04-02T16:22:09.2495304","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 22","stock":22,"price":22,"createdDate":"2024-04-02T16:22:14.129288","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 23","stock":23,"price":23,"createdDate":"2024-04-02T16:22:19.6401977","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 24","stock":24,"price":24,"createdDate":"2024-04-02T16:22:26.5845971","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 25","stock":25,"price":25,"createdDate":"2024-04-02T16:22:33.5192729","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 26","stock":26,"price":26,"createdDate":"2024-04-02T16:22:38.7696542","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 27","stock":27,"price":27,"createdDate":"2024-04-02T16:22:45.4088621","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 28","stock":28,"price":28,"createdDate":"2024-04-08T17:21:28.1876209","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 29","stock":29,"price":29,"createdDate":"2024-04-08T17:21:50.0432973","update
+2024-04-10 23:55:27.843 +03:00 [INF] Duration: 1542.6347ms
+2024-04-10 23:55:27.846 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Products?Size=50 - 200 null application/json; charset=utf-8 1560.7132ms
+2024-04-10 23:57:17.977 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-10 23:57:18.207 +03:00 [INF] Now listening on: https://localhost:7176
+2024-04-10 23:57:18.210 +03:00 [INF] Now listening on: http://localhost:5199
+2024-04-10 23:57:18.212 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-10 23:57:18.213 +03:00 [INF] Hosting environment: Development
+2024-04-10 23:57:18.214 +03:00 [INF] Content root path: C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API
+2024-04-10 23:57:21.209 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger - null null
+2024-04-10 23:57:21.350 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger - 301 0 null 147.1947ms
+2024-04-10 23:57:21.356 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2024-04-10 23:57:21.436 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 79.4818ms
+2024-04-10 23:57:21.449 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - null null
+2024-04-10 23:57:21.451 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - null null
+2024-04-10 23:57:21.454 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-10 23:57:21.450 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - null null
+2024-04-10 23:57:21.455 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2024-04-10 23:57:21.477 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 22.9409ms
+2024-04-10 23:57:21.524 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-10 23:57:21.526 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-10 23:57:21.534 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - 200 143943 text/css 84.6724ms
+2024-04-10 23:57:21.534 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 83.7486ms
+2024-04-10 23:57:21.574 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-10 23:57:21.580 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 131.0859ms
+2024-04-10 23:57:21.583 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 128.1343ms
+2024-04-10 23:57:21.731 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2024-04-10 23:57:21.776 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - null null
+2024-04-10 23:57:21.781 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-10 23:57:21.783 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - 200 628 image/png 7.7678ms
+2024-04-10 23:57:21.869 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 138.1028ms
+2024-04-10 23:57:27.122 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Products?Size=50 - null null
+2024-04-10 23:57:27.138 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Referer: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-10 23:57:27.154 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-10 23:57:27.185 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-10 23:57:27.499 +03:00 [INF] Gets all products
+2024-04-10 23:57:28.476 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-04-10 23:57:28.503 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-04-10 23:57:28.505 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-04-10 23:57:28.563 +03:00 [INF] Executed DbCommand (19ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-10 23:57:28.580 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-04-10 23:57:28.598 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-10 23:57:28.613 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 1420.6822ms
+2024-04-10 23:57:28.616 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-10 23:57:28.619 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon","stock":10,"price":15000,"createdDate":"2024-02-24T19:47:22.5695647","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon Ünitesi","stock":30,"price":5000,"createdDate":"2024-02-24T19:50:38.0487963","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Samsung Telefon","stock":10,"price":15000,"createdDate":"2024-02-24T20:01:13.1763301","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 9","stock":10,"price":10,"createdDate":"2024-04-02T16:20:50.7206205","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 10","stock":10,"price":10,"createdDate":"2024-04-02T16:20:59.2825418","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 11","stock":11,"price":11,"createdDate":"2024-04-02T16:21:05.017345","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 12","stock":12,"price":12,"createdDate":"2024-04-02T16:21:10.9891024","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 13","stock":13,"price":13,"createdDate":"2024-04-02T16:21:17.2629589","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 14","stock":14,"price":14,"createdDate":"2024-04-02T16:21:23.3952967","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 15","stock":15,"price":15,"createdDate":"2024-04-02T16:21:30.2724293","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 16","stock":16,"price":16,"createdDate":"2024-04-02T16:21:35.9450865","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 17","stock":17,"price":17,"createdDate":"2024-04-02T16:21:41.3401102","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 18","stock":18,"price":18,"createdDate":"2024-04-02T16:21:47.5619497","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 19","stock":19,"price":19,"createdDate":"2024-04-02T16:21:54.0229151","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 20","stock":20,"price":20,"createdDate":"2024-04-02T16:22:00.8597016","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 21","stock":21,"price":21,"createdDate":"2024-04-02T16:22:09.2495304","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 22","stock":22,"price":22,"createdDate":"2024-04-02T16:22:14.129288","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 23","stock":23,"price":23,"createdDate":"2024-04-02T16:22:19.6401977","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 24","stock":24,"price":24,"createdDate":"2024-04-02T16:22:26.5845971","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 25","stock":25,"price":25,"createdDate":"2024-04-02T16:22:33.5192729","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 26","stock":26,"price":26,"createdDate":"2024-04-02T16:22:38.7696542","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 27","stock":27,"price":27,"createdDate":"2024-04-02T16:22:45.4088621","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 28","stock":28,"price":28,"createdDate":"2024-04-08T17:21:28.1876209","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 29","stock":29,"price":29,"createdDate":"2024-04-08T17:21:50.0432973","update
+2024-04-10 23:57:28.625 +03:00 [INF] Duration: 1485.9479ms
+2024-04-10 23:57:28.629 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Products?Size=50 - 200 null application/json; charset=utf-8 1506.47ms
+2024-04-10 23:58:06.364 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-10 23:58:06.619 +03:00 [INF] Now listening on: https://localhost:7176
+2024-04-10 23:58:06.621 +03:00 [INF] Now listening on: http://localhost:5199
+2024-04-10 23:58:06.625 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-10 23:58:06.626 +03:00 [INF] Hosting environment: Development
+2024-04-10 23:58:06.628 +03:00 [INF] Content root path: C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API
+2024-04-10 23:58:09.293 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger - null null
+2024-04-10 23:58:10.259 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger - 301 0 null 979.8703ms
+2024-04-10 23:58:10.277 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2024-04-10 23:58:10.538 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - null null
+2024-04-10 23:58:10.539 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - null null
+2024-04-10 23:58:10.559 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - null null
+2024-04-10 23:58:10.561 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 283.8425ms
+2024-04-10 23:58:10.559 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2024-04-10 23:58:10.575 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-10 23:58:10.653 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 87.0472ms
+2024-04-10 23:58:10.655 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-10 23:58:10.655 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-10 23:58:10.681 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 121.9534ms
+2024-04-10 23:58:10.694 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - 200 143943 text/css 156.3335ms
+2024-04-10 23:58:10.758 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-10 23:58:10.760 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 221.0457ms
+2024-04-10 23:58:10.874 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 315.5394ms
+2024-04-10 23:58:11.068 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2024-04-10 23:58:11.112 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - null null
+2024-04-10 23:58:11.132 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-10 23:58:11.142 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - 200 628 image/png 30.2563ms
+2024-04-10 23:58:11.310 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 242.7774ms
+2024-04-10 23:58:16.443 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Products?Size=50 - null null
+2024-04-10 23:58:16.461 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Referer: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-10 23:58:16.482 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-10 23:58:16.516 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-10 23:58:16.830 +03:00 [INF] Gets all products
+2024-04-10 23:58:17.839 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-04-10 23:58:17.870 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-04-10 23:58:17.873 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-04-10 23:58:17.936 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-10 23:58:17.954 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-04-10 23:58:17.971 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-10 23:58:17.979 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 1456.4546ms
+2024-04-10 23:58:17.981 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-10 23:58:17.986 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon","stock":10,"price":15000,"createdDate":"2024-02-24T19:47:22.5695647","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon Ünitesi","stock":30,"price":5000,"createdDate":"2024-02-24T19:50:38.0487963","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Samsung Telefon","stock":10,"price":15000,"createdDate":"2024-02-24T20:01:13.1763301","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 9","stock":10,"price":10,"createdDate":"2024-04-02T16:20:50.7206205","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 10","stock":10,"price":10,"createdDate":"2024-04-02T16:20:59.2825418","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 11","stock":11,"price":11,"createdDate":"2024-04-02T16:21:05.017345","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 12","stock":12,"price":12,"createdDate":"2024-04-02T16:21:10.9891024","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 13","stock":13,"price":13,"createdDate":"2024-04-02T16:21:17.2629589","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 14","stock":14,"price":14,"createdDate":"2024-04-02T16:21:23.3952967","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 15","stock":15,"price":15,"createdDate":"2024-04-02T16:21:30.2724293","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 16","stock":16,"price":16,"createdDate":"2024-04-02T16:21:35.9450865","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 17","stock":17,"price":17,"createdDate":"2024-04-02T16:21:41.3401102","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 18","stock":18,"price":18,"createdDate":"2024-04-02T16:21:47.5619497","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 19","stock":19,"price":19,"createdDate":"2024-04-02T16:21:54.0229151","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 20","stock":20,"price":20,"createdDate":"2024-04-02T16:22:00.8597016","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 21","stock":21,"price":21,"createdDate":"2024-04-02T16:22:09.2495304","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 22","stock":22,"price":22,"createdDate":"2024-04-02T16:22:14.129288","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 23","stock":23,"price":23,"createdDate":"2024-04-02T16:22:19.6401977","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 24","stock":24,"price":24,"createdDate":"2024-04-02T16:22:26.5845971","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 25","stock":25,"price":25,"createdDate":"2024-04-02T16:22:33.5192729","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 26","stock":26,"price":26,"createdDate":"2024-04-02T16:22:38.7696542","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 27","stock":27,"price":27,"createdDate":"2024-04-02T16:22:45.4088621","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 28","stock":28,"price":28,"createdDate":"2024-04-08T17:21:28.1876209","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 29","stock":29,"price":29,"createdDate":"2024-04-08T17:21:50.0432973","update
+2024-04-10 23:58:17.992 +03:00 [INF] Duration: 1530.4367ms
+2024-04-10 23:58:17.994 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Products?Size=50 - 200 null application/json; charset=utf-8 1551.6937ms
+2024-04-11 00:04:40.100 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-11 00:04:40.364 +03:00 [INF] Now listening on: https://localhost:7176
+2024-04-11 00:04:40.367 +03:00 [INF] Now listening on: http://localhost:5199
+2024-04-11 00:04:40.369 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-11 00:04:40.370 +03:00 [INF] Hosting environment: Development
+2024-04-11 00:04:40.371 +03:00 [INF] Content root path: C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API
+2024-04-11 00:04:44.443 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger - null null
+2024-04-11 00:04:44.597 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger - 301 0 null 158.9758ms
+2024-04-11 00:04:44.605 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2024-04-11 00:04:44.682 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 77.4273ms
+2024-04-11 00:04:44.694 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - null null
+2024-04-11 00:04:44.694 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - null null
+2024-04-11 00:04:44.700 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-11 00:04:44.696 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - null null
+2024-04-11 00:04:44.709 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2024-04-11 00:04:44.729 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 30.0577ms
+2024-04-11 00:04:44.767 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-11 00:04:44.767 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-11 00:04:44.770 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 74.7902ms
+2024-04-11 00:04:44.771 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - 200 143943 text/css 77.2117ms
+2024-04-11 00:04:44.796 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-11 00:04:44.804 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 109.0298ms
+2024-04-11 00:04:44.813 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 108.5885ms
+2024-04-11 00:04:44.974 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2024-04-11 00:04:45.013 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - null null
+2024-04-11 00:04:45.021 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-11 00:04:45.025 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - 200 628 image/png 11.6781ms
+2024-04-11 00:04:45.143 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 169.0287ms
+2024-04-11 00:04:52.702 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Products?Size=50 - null null
+2024-04-11 00:04:52.720 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Referer: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-11 00:04:52.738 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-11 00:04:52.769 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-11 00:04:53.041 +03:00 [INF] Gets all products
+2024-04-11 00:04:53.964 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-04-11 00:04:53.995 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-04-11 00:04:53.997 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-04-11 00:04:54.056 +03:00 [INF] Executed DbCommand (18ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-11 00:04:54.074 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-04-11 00:04:54.092 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-11 00:04:54.103 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 1329.7174ms
+2024-04-11 00:04:54.105 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-11 00:04:54.108 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon","stock":10,"price":15000,"createdDate":"2024-02-24T19:47:22.5695647","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon Ünitesi","stock":30,"price":5000,"createdDate":"2024-02-24T19:50:38.0487963","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Samsung Telefon","stock":10,"price":15000,"createdDate":"2024-02-24T20:01:13.1763301","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 9","stock":10,"price":10,"createdDate":"2024-04-02T16:20:50.7206205","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 10","stock":10,"price":10,"createdDate":"2024-04-02T16:20:59.2825418","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 11","stock":11,"price":11,"createdDate":"2024-04-02T16:21:05.017345","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 12","stock":12,"price":12,"createdDate":"2024-04-02T16:21:10.9891024","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 13","stock":13,"price":13,"createdDate":"2024-04-02T16:21:17.2629589","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 14","stock":14,"price":14,"createdDate":"2024-04-02T16:21:23.3952967","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 15","stock":15,"price":15,"createdDate":"2024-04-02T16:21:30.2724293","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 16","stock":16,"price":16,"createdDate":"2024-04-02T16:21:35.9450865","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 17","stock":17,"price":17,"createdDate":"2024-04-02T16:21:41.3401102","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 18","stock":18,"price":18,"createdDate":"2024-04-02T16:21:47.5619497","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 19","stock":19,"price":19,"createdDate":"2024-04-02T16:21:54.0229151","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 20","stock":20,"price":20,"createdDate":"2024-04-02T16:22:00.8597016","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 21","stock":21,"price":21,"createdDate":"2024-04-02T16:22:09.2495304","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 22","stock":22,"price":22,"createdDate":"2024-04-02T16:22:14.129288","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 23","stock":23,"price":23,"createdDate":"2024-04-02T16:22:19.6401977","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 24","stock":24,"price":24,"createdDate":"2024-04-02T16:22:26.5845971","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 25","stock":25,"price":25,"createdDate":"2024-04-02T16:22:33.5192729","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 26","stock":26,"price":26,"createdDate":"2024-04-02T16:22:38.7696542","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 27","stock":27,"price":27,"createdDate":"2024-04-02T16:22:45.4088621","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 28","stock":28,"price":28,"createdDate":"2024-04-08T17:21:28.1876209","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 29","stock":29,"price":29,"createdDate":"2024-04-08T17:21:50.0432973","update
+2024-04-11 00:04:54.112 +03:00 [INF] Duration: 1396.8311ms
+2024-04-11 00:04:54.117 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Products?Size=50 - 200 null application/json; charset=utf-8 1415.428ms
