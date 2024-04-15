@@ -24224,3 +24224,1402 @@ Content-Type: application/json; charset=utf-8
 2024-04-11 00:04:54.108 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon","stock":10,"price":15000,"createdDate":"2024-02-24T19:47:22.5695647","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon Ünitesi","stock":30,"price":5000,"createdDate":"2024-02-24T19:50:38.0487963","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Samsung Telefon","stock":10,"price":15000,"createdDate":"2024-02-24T20:01:13.1763301","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 9","stock":10,"price":10,"createdDate":"2024-04-02T16:20:50.7206205","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 10","stock":10,"price":10,"createdDate":"2024-04-02T16:20:59.2825418","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 11","stock":11,"price":11,"createdDate":"2024-04-02T16:21:05.017345","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 12","stock":12,"price":12,"createdDate":"2024-04-02T16:21:10.9891024","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 13","stock":13,"price":13,"createdDate":"2024-04-02T16:21:17.2629589","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 14","stock":14,"price":14,"createdDate":"2024-04-02T16:21:23.3952967","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 15","stock":15,"price":15,"createdDate":"2024-04-02T16:21:30.2724293","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 16","stock":16,"price":16,"createdDate":"2024-04-02T16:21:35.9450865","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 17","stock":17,"price":17,"createdDate":"2024-04-02T16:21:41.3401102","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 18","stock":18,"price":18,"createdDate":"2024-04-02T16:21:47.5619497","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 19","stock":19,"price":19,"createdDate":"2024-04-02T16:21:54.0229151","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 20","stock":20,"price":20,"createdDate":"2024-04-02T16:22:00.8597016","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 21","stock":21,"price":21,"createdDate":"2024-04-02T16:22:09.2495304","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 22","stock":22,"price":22,"createdDate":"2024-04-02T16:22:14.129288","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 23","stock":23,"price":23,"createdDate":"2024-04-02T16:22:19.6401977","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 24","stock":24,"price":24,"createdDate":"2024-04-02T16:22:26.5845971","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 25","stock":25,"price":25,"createdDate":"2024-04-02T16:22:33.5192729","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 26","stock":26,"price":26,"createdDate":"2024-04-02T16:22:38.7696542","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 27","stock":27,"price":27,"createdDate":"2024-04-02T16:22:45.4088621","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 28","stock":28,"price":28,"createdDate":"2024-04-08T17:21:28.1876209","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 29","stock":29,"price":29,"createdDate":"2024-04-08T17:21:50.0432973","update
 2024-04-11 00:04:54.112 +03:00 [INF] Duration: 1396.8311ms
 2024-04-11 00:04:54.117 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Products?Size=50 - 200 null application/json; charset=utf-8 1415.428ms
+2024-04-12 14:31:32.238 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-12 14:31:32.740 +03:00 [INF] Now listening on: https://localhost:7176
+2024-04-12 14:31:32.742 +03:00 [INF] Now listening on: http://localhost:5199
+2024-04-12 14:31:32.745 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-12 14:31:32.746 +03:00 [INF] Hosting environment: Development
+2024-04-12 14:31:32.747 +03:00 [INF] Content root path: C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API
+2024-04-12 14:31:33.932 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger - null null
+2024-04-12 14:31:34.178 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger - 301 0 null 256.8607ms
+2024-04-12 14:31:34.187 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2024-04-12 14:31:34.266 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 79.1678ms
+2024-04-12 14:31:34.297 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - null null
+2024-04-12 14:31:34.298 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - null null
+2024-04-12 14:31:34.317 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-12 14:31:34.299 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - null null
+2024-04-12 14:31:34.322 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2024-04-12 14:31:34.346 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 41.0699ms
+2024-04-12 14:31:34.413 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-12 14:31:34.421 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - 200 143943 text/css 123.8428ms
+2024-04-12 14:31:34.428 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-12 14:31:34.446 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 146.7749ms
+2024-04-12 14:31:34.487 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-12 14:31:34.490 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 191.3164ms
+2024-04-12 14:31:34.533 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 212.5113ms
+2024-04-12 14:31:34.768 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2024-04-12 14:31:34.809 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - null null
+2024-04-12 14:31:34.815 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-12 14:31:34.817 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - 200 628 image/png 9.7296ms
+2024-04-12 14:31:34.903 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 134.6568ms
+2024-04-12 14:31:40.881 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Products?Size=50 - null null
+2024-04-12 14:31:40.895 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Referer: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:31:40.915 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:31:40.952 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-12 14:31:41.387 +03:00 [INF] Gets all products
+2024-04-12 14:31:42.471 +03:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-04-12 14:31:42.499 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-04-12 14:31:42.501 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-04-12 14:31:42.574 +03:00 [INF] Executed DbCommand (34ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-12 14:31:42.592 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-04-12 14:31:42.611 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-12 14:31:42.628 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 1666.1915ms
+2024-04-12 14:31:42.631 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:31:42.636 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon","stock":10,"price":15000,"createdDate":"2024-02-24T19:47:22.5695647","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon Ünitesi","stock":30,"price":5000,"createdDate":"2024-02-24T19:50:38.0487963","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Samsung Telefon","stock":10,"price":15000,"createdDate":"2024-02-24T20:01:13.1763301","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 9","stock":10,"price":10,"createdDate":"2024-04-02T16:20:50.7206205","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 10","stock":10,"price":10,"createdDate":"2024-04-02T16:20:59.2825418","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 11","stock":11,"price":11,"createdDate":"2024-04-02T16:21:05.017345","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 12","stock":12,"price":12,"createdDate":"2024-04-02T16:21:10.9891024","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 13","stock":13,"price":13,"createdDate":"2024-04-02T16:21:17.2629589","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 14","stock":14,"price":14,"createdDate":"2024-04-02T16:21:23.3952967","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 15","stock":15,"price":15,"createdDate":"2024-04-02T16:21:30.2724293","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 16","stock":16,"price":16,"createdDate":"2024-04-02T16:21:35.9450865","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 17","stock":17,"price":17,"createdDate":"2024-04-02T16:21:41.3401102","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 18","stock":18,"price":18,"createdDate":"2024-04-02T16:21:47.5619497","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 19","stock":19,"price":19,"createdDate":"2024-04-02T16:21:54.0229151","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 20","stock":20,"price":20,"createdDate":"2024-04-02T16:22:00.8597016","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 21","stock":21,"price":21,"createdDate":"2024-04-02T16:22:09.2495304","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 22","stock":22,"price":22,"createdDate":"2024-04-02T16:22:14.129288","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 23","stock":23,"price":23,"createdDate":"2024-04-02T16:22:19.6401977","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 24","stock":24,"price":24,"createdDate":"2024-04-02T16:22:26.5845971","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 25","stock":25,"price":25,"createdDate":"2024-04-02T16:22:33.5192729","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 26","stock":26,"price":26,"createdDate":"2024-04-02T16:22:38.7696542","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 27","stock":27,"price":27,"createdDate":"2024-04-02T16:22:45.4088621","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 28","stock":28,"price":28,"createdDate":"2024-04-08T17:21:28.1876209","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 29","stock":29,"price":29,"createdDate":"2024-04-08T17:21:50.0432973","update
+2024-04-12 14:31:42.643 +03:00 [INF] Duration: 1747.468ms
+2024-04-12 14:31:42.648 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Products?Size=50 - 200 null application/json; charset=utf-8 1767.6475ms
+2024-04-12 14:36:01.244 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-12 14:36:01.625 +03:00 [INF] Now listening on: https://localhost:7176
+2024-04-12 14:36:01.627 +03:00 [INF] Now listening on: http://localhost:5199
+2024-04-12 14:36:01.630 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-12 14:36:01.631 +03:00 [INF] Hosting environment: Development
+2024-04-12 14:36:01.632 +03:00 [INF] Content root path: C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API
+2024-04-12 14:36:04.708 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger - null null
+2024-04-12 14:36:04.889 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger - 301 0 null 188.2659ms
+2024-04-12 14:36:04.896 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2024-04-12 14:36:04.998 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 101.9696ms
+2024-04-12 14:36:05.031 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - null null
+2024-04-12 14:36:05.032 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - null null
+2024-04-12 14:36:05.031 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - null null
+2024-04-12 14:36:05.041 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-12 14:36:05.047 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2024-04-12 14:36:05.078 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 41.4775ms
+2024-04-12 14:36:05.127 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-12 14:36:05.127 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-12 14:36:05.133 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 101.0468ms
+2024-04-12 14:36:05.133 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - 200 143943 text/css 101.8125ms
+2024-04-12 14:36:05.170 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-12 14:36:05.182 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 151.3346ms
+2024-04-12 14:36:05.198 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 151.745ms
+2024-04-12 14:36:05.532 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2024-04-12 14:36:05.583 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - null null
+2024-04-12 14:36:05.589 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-12 14:36:05.594 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - 200 628 image/png 10.589ms
+2024-04-12 14:36:05.660 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 127.5056ms
+2024-04-12 14:36:09.232 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:36:09.244 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:36:09.249 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:36:09.252 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2024-04-12 14:36:09.257 +03:00 [INF] Duration: 12.9213ms
+2024-04-12 14:36:09.260 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/products?%20%20page=0&size=50 - 204 null null 28.0842ms
+2024-04-12 14:36:09.262 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:36:09.267 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:36:09.268 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:36:09.287 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:36:09.318 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-12 14:36:09.618 +03:00 [INF] Gets all products
+2024-04-12 14:36:10.519 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-04-12 14:36:10.555 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-04-12 14:36:10.558 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-04-12 14:36:10.626 +03:00 [INF] Executed DbCommand (18ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-12 14:36:10.645 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-04-12 14:36:10.664 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-12 14:36:10.681 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 1354.0609ms
+2024-04-12 14:36:10.684 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:36:10.691 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon","stock":10,"price":15000,"createdDate":"2024-02-24T19:47:22.5695647","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon Ünitesi","stock":30,"price":5000,"createdDate":"2024-02-24T19:50:38.0487963","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Samsung Telefon","stock":10,"price":15000,"createdDate":"2024-02-24T20:01:13.1763301","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 9","stock":10,"price":10,"createdDate":"2024-04-02T16:20:50.7206205","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 10","stock":10,"price":10,"createdDate":"2024-04-02T16:20:59.2825418","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 11","stock":11,"price":11,"createdDate":"2024-04-02T16:21:05.017345","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 12","stock":12,"price":12,"createdDate":"2024-04-02T16:21:10.9891024","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 13","stock":13,"price":13,"createdDate":"2024-04-02T16:21:17.2629589","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 14","stock":14,"price":14,"createdDate":"2024-04-02T16:21:23.3952967","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 15","stock":15,"price":15,"createdDate":"2024-04-02T16:21:30.2724293","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 16","stock":16,"price":16,"createdDate":"2024-04-02T16:21:35.9450865","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 17","stock":17,"price":17,"createdDate":"2024-04-02T16:21:41.3401102","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 18","stock":18,"price":18,"createdDate":"2024-04-02T16:21:47.5619497","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 19","stock":19,"price":19,"createdDate":"2024-04-02T16:21:54.0229151","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 20","stock":20,"price":20,"createdDate":"2024-04-02T16:22:00.8597016","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 21","stock":21,"price":21,"createdDate":"2024-04-02T16:22:09.2495304","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 22","stock":22,"price":22,"createdDate":"2024-04-02T16:22:14.129288","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 23","stock":23,"price":23,"createdDate":"2024-04-02T16:22:19.6401977","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 24","stock":24,"price":24,"createdDate":"2024-04-02T16:22:26.5845971","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 25","stock":25,"price":25,"createdDate":"2024-04-02T16:22:33.5192729","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 26","stock":26,"price":26,"createdDate":"2024-04-02T16:22:38.7696542","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 27","stock":27,"price":27,"createdDate":"2024-04-02T16:22:45.4088621","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 28","stock":28,"price":28,"createdDate":"2024-04-08T17:21:28.1876209","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 29","stock":29,"price":29,"createdDate":"2024-04-08T17:21:50.0432973","update
+2024-04-12 14:36:10.694 +03:00 [INF] Duration: 1426.7299ms
+2024-04-12 14:36:10.696 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - 200 null application/json; charset=utf-8 1433.889ms
+2024-04-12 14:36:10.878 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:36:10.884 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:36:10.888 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:36:10.893 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:36:10.895 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-12 14:36:10.900 +03:00 [INF] Gets all products
+2024-04-12 14:36:10.902 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-04-12 14:36:10.910 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-12 14:36:10.912 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-04-12 14:36:10.914 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-12 14:36:10.916 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 18.5368ms
+2024-04-12 14:36:10.918 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:36:10.919 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon","stock":10,"price":15000,"createdDate":"2024-02-24T19:47:22.5695647","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon Ünitesi","stock":30,"price":5000,"createdDate":"2024-02-24T19:50:38.0487963","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Samsung Telefon","stock":10,"price":15000,"createdDate":"2024-02-24T20:01:13.1763301","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 9","stock":10,"price":10,"createdDate":"2024-04-02T16:20:50.7206205","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 10","stock":10,"price":10,"createdDate":"2024-04-02T16:20:59.2825418","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 11","stock":11,"price":11,"createdDate":"2024-04-02T16:21:05.017345","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 12","stock":12,"price":12,"createdDate":"2024-04-02T16:21:10.9891024","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 13","stock":13,"price":13,"createdDate":"2024-04-02T16:21:17.2629589","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 14","stock":14,"price":14,"createdDate":"2024-04-02T16:21:23.3952967","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 15","stock":15,"price":15,"createdDate":"2024-04-02T16:21:30.2724293","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 16","stock":16,"price":16,"createdDate":"2024-04-02T16:21:35.9450865","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 17","stock":17,"price":17,"createdDate":"2024-04-02T16:21:41.3401102","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 18","stock":18,"price":18,"createdDate":"2024-04-02T16:21:47.5619497","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 19","stock":19,"price":19,"createdDate":"2024-04-02T16:21:54.0229151","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 20","stock":20,"price":20,"createdDate":"2024-04-02T16:22:00.8597016","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 21","stock":21,"price":21,"createdDate":"2024-04-02T16:22:09.2495304","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 22","stock":22,"price":22,"createdDate":"2024-04-02T16:22:14.129288","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 23","stock":23,"price":23,"createdDate":"2024-04-02T16:22:19.6401977","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 24","stock":24,"price":24,"createdDate":"2024-04-02T16:22:26.5845971","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 25","stock":25,"price":25,"createdDate":"2024-04-02T16:22:33.5192729","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 26","stock":26,"price":26,"createdDate":"2024-04-02T16:22:38.7696542","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 27","stock":27,"price":27,"createdDate":"2024-04-02T16:22:45.4088621","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 28","stock":28,"price":28,"createdDate":"2024-04-08T17:21:28.1876209","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 29","stock":29,"price":29,"createdDate":"2024-04-08T17:21:50.0432973","update
+2024-04-12 14:36:10.923 +03:00 [INF] Duration: 38.8951ms
+2024-04-12 14:36:10.925 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - 200 null application/json; charset=utf-8 47.6216ms
+2024-04-12 14:36:57.823 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:36:57.861 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:36:57.863 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:36:57.864 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2024-04-12 14:36:57.865 +03:00 [INF] Duration: 3.7533ms
+2024-04-12 14:36:57.868 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/products?%20%20page=0&size=50 - 204 null null 44.9544ms
+2024-04-12 14:46:42.057 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-12 14:46:42.329 +03:00 [INF] Now listening on: https://localhost:7176
+2024-04-12 14:46:42.331 +03:00 [INF] Now listening on: http://localhost:5199
+2024-04-12 14:46:42.334 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-12 14:46:42.335 +03:00 [INF] Hosting environment: Development
+2024-04-12 14:46:42.336 +03:00 [INF] Content root path: C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API
+2024-04-12 14:46:42.916 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger - null null
+2024-04-12 14:46:43.129 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger - 301 0 null 272.4246ms
+2024-04-12 14:46:43.134 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2024-04-12 14:46:43.225 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - null null
+2024-04-12 14:46:43.226 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - null null
+2024-04-12 14:46:43.230 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - null null
+2024-04-12 14:46:43.241 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2024-04-12 14:46:43.249 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 114.3642ms
+2024-04-12 14:46:43.242 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-12 14:46:43.308 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 67.0307ms
+2024-04-12 14:46:43.321 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-12 14:46:43.321 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-12 14:46:43.327 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 101.5339ms
+2024-04-12 14:46:43.330 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - 200 143943 text/css 104.9341ms
+2024-04-12 14:46:43.363 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-12 14:46:43.366 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 137.0514ms
+2024-04-12 14:46:43.379 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 138.9946ms
+2024-04-12 14:46:43.572 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2024-04-12 14:46:43.602 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - null null
+2024-04-12 14:46:43.610 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-12 14:46:43.615 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - 200 628 image/png 13.0153ms
+2024-04-12 14:46:43.729 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 157.7828ms
+2024-04-12 14:47:06.172 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:47:06.181 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:47:06.188 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:47:06.191 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2024-04-12 14:47:06.194 +03:00 [INF] Duration: 12.7406ms
+2024-04-12 14:47:06.196 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/products?%20%20page=0&size=50 - 204 null null 24.6309ms
+2024-04-12 14:47:06.198 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:47:06.205 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:47:06.206 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:47:06.222 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:47:06.255 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-12 14:47:06.542 +03:00 [INF] Gets all products
+2024-04-12 14:47:07.691 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-04-12 14:47:07.742 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-04-12 14:47:07.744 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-04-12 14:47:07.842 +03:00 [INF] Executed DbCommand (29ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-12 14:47:07.882 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:47:07.890 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-04-12 14:47:07.894 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:47:07.897 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:47:07.900 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:47:07.909 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-12 14:47:07.914 +03:00 [INF] Gets all products
+2024-04-12 14:47:07.923 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-04-12 14:47:07.928 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-12 14:47:07.930 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-12 14:47:07.938 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-04-12 14:47:07.940 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-12 14:47:07.944 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 1681.7374ms
+2024-04-12 14:47:07.946 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:47:07.951 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon","stock":10,"price":15000,"createdDate":"2024-02-24T19:47:22.5695647","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon Ünitesi","stock":30,"price":5000,"createdDate":"2024-02-24T19:50:38.0487963","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Samsung Telefon","stock":10,"price":15000,"createdDate":"2024-02-24T20:01:13.1763301","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 9","stock":10,"price":10,"createdDate":"2024-04-02T16:20:50.7206205","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 10","stock":10,"price":10,"createdDate":"2024-04-02T16:20:59.2825418","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 11","stock":11,"price":11,"createdDate":"2024-04-02T16:21:05.017345","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 12","stock":12,"price":12,"createdDate":"2024-04-02T16:21:10.9891024","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 13","stock":13,"price":13,"createdDate":"2024-04-02T16:21:17.2629589","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 14","stock":14,"price":14,"createdDate":"2024-04-02T16:21:23.3952967","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 15","stock":15,"price":15,"createdDate":"2024-04-02T16:21:30.2724293","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 16","stock":16,"price":16,"createdDate":"2024-04-02T16:21:35.9450865","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 17","stock":17,"price":17,"createdDate":"2024-04-02T16:21:41.3401102","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 18","stock":18,"price":18,"createdDate":"2024-04-02T16:21:47.5619497","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 19","stock":19,"price":19,"createdDate":"2024-04-02T16:21:54.0229151","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 20","stock":20,"price":20,"createdDate":"2024-04-02T16:22:00.8597016","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 21","stock":21,"price":21,"createdDate":"2024-04-02T16:22:09.2495304","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 22","stock":22,"price":22,"createdDate":"2024-04-02T16:22:14.129288","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 23","stock":23,"price":23,"createdDate":"2024-04-02T16:22:19.6401977","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 24","stock":24,"price":24,"createdDate":"2024-04-02T16:22:26.5845971","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 25","stock":25,"price":25,"createdDate":"2024-04-02T16:22:33.5192729","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 26","stock":26,"price":26,"createdDate":"2024-04-02T16:22:38.7696542","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 27","stock":27,"price":27,"createdDate":"2024-04-02T16:22:45.4088621","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 28","stock":28,"price":28,"createdDate":"2024-04-08T17:21:28.1876209","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 29","stock":29,"price":29,"createdDate":"2024-04-08T17:21:50.0432973","update
+2024-04-12 14:47:07.953 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 42.2702ms
+2024-04-12 14:47:07.956 +03:00 [INF] Duration: 1751.2597ms
+2024-04-12 14:47:07.958 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:47:07.959 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - 499 null application/json; charset=utf-8 1761.3231ms
+2024-04-12 14:47:07.962 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon","stock":10,"price":15000,"createdDate":"2024-02-24T19:47:22.5695647","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon Ünitesi","stock":30,"price":5000,"createdDate":"2024-02-24T19:50:38.0487963","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Samsung Telefon","stock":10,"price":15000,"createdDate":"2024-02-24T20:01:13.1763301","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 9","stock":10,"price":10,"createdDate":"2024-04-02T16:20:50.7206205","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 10","stock":10,"price":10,"createdDate":"2024-04-02T16:20:59.2825418","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 11","stock":11,"price":11,"createdDate":"2024-04-02T16:21:05.017345","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 12","stock":12,"price":12,"createdDate":"2024-04-02T16:21:10.9891024","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 13","stock":13,"price":13,"createdDate":"2024-04-02T16:21:17.2629589","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 14","stock":14,"price":14,"createdDate":"2024-04-02T16:21:23.3952967","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 15","stock":15,"price":15,"createdDate":"2024-04-02T16:21:30.2724293","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 16","stock":16,"price":16,"createdDate":"2024-04-02T16:21:35.9450865","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 17","stock":17,"price":17,"createdDate":"2024-04-02T16:21:41.3401102","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 18","stock":18,"price":18,"createdDate":"2024-04-02T16:21:47.5619497","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 19","stock":19,"price":19,"createdDate":"2024-04-02T16:21:54.0229151","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 20","stock":20,"price":20,"createdDate":"2024-04-02T16:22:00.8597016","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 21","stock":21,"price":21,"createdDate":"2024-04-02T16:22:09.2495304","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 22","stock":22,"price":22,"createdDate":"2024-04-02T16:22:14.129288","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 23","stock":23,"price":23,"createdDate":"2024-04-02T16:22:19.6401977","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 24","stock":24,"price":24,"createdDate":"2024-04-02T16:22:26.5845971","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 25","stock":25,"price":25,"createdDate":"2024-04-02T16:22:33.5192729","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 26","stock":26,"price":26,"createdDate":"2024-04-02T16:22:38.7696542","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 27","stock":27,"price":27,"createdDate":"2024-04-02T16:22:45.4088621","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 28","stock":28,"price":28,"createdDate":"2024-04-08T17:21:28.1876209","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 29","stock":29,"price":29,"createdDate":"2024-04-08T17:21:50.0432973","update
+2024-04-12 14:47:07.967 +03:00 [INF] Duration: 72.4784ms
+2024-04-12 14:47:07.971 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - 200 null application/json; charset=utf-8 89.3195ms
+2024-04-12 14:47:28.002 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:47:28.005 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:47:28.006 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:47:28.007 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2024-04-12 14:47:28.008 +03:00 [INF] Duration: 2.8663ms
+2024-04-12 14:47:28.009 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/products?%20%20page=0&size=50 - 204 null null 8.9397ms
+2024-04-12 14:47:28.011 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:47:28.017 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:47:28.019 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:47:28.022 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:47:28.023 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-12 14:47:28.026 +03:00 [INF] Gets all products
+2024-04-12 14:47:28.030 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-04-12 14:47:28.038 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-12 14:47:28.040 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-04-12 14:47:28.041 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-12 14:47:28.044 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 18.7745ms
+2024-04-12 14:47:28.046 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:47:28.047 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon","stock":10,"price":15000,"createdDate":"2024-02-24T19:47:22.5695647","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon Ünitesi","stock":30,"price":5000,"createdDate":"2024-02-24T19:50:38.0487963","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Samsung Telefon","stock":10,"price":15000,"createdDate":"2024-02-24T20:01:13.1763301","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 9","stock":10,"price":10,"createdDate":"2024-04-02T16:20:50.7206205","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 10","stock":10,"price":10,"createdDate":"2024-04-02T16:20:59.2825418","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 11","stock":11,"price":11,"createdDate":"2024-04-02T16:21:05.017345","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 12","stock":12,"price":12,"createdDate":"2024-04-02T16:21:10.9891024","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 13","stock":13,"price":13,"createdDate":"2024-04-02T16:21:17.2629589","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 14","stock":14,"price":14,"createdDate":"2024-04-02T16:21:23.3952967","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 15","stock":15,"price":15,"createdDate":"2024-04-02T16:21:30.2724293","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 16","stock":16,"price":16,"createdDate":"2024-04-02T16:21:35.9450865","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 17","stock":17,"price":17,"createdDate":"2024-04-02T16:21:41.3401102","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 18","stock":18,"price":18,"createdDate":"2024-04-02T16:21:47.5619497","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 19","stock":19,"price":19,"createdDate":"2024-04-02T16:21:54.0229151","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 20","stock":20,"price":20,"createdDate":"2024-04-02T16:22:00.8597016","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 21","stock":21,"price":21,"createdDate":"2024-04-02T16:22:09.2495304","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 22","stock":22,"price":22,"createdDate":"2024-04-02T16:22:14.129288","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 23","stock":23,"price":23,"createdDate":"2024-04-02T16:22:19.6401977","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 24","stock":24,"price":24,"createdDate":"2024-04-02T16:22:26.5845971","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 25","stock":25,"price":25,"createdDate":"2024-04-02T16:22:33.5192729","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 26","stock":26,"price":26,"createdDate":"2024-04-02T16:22:38.7696542","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 27","stock":27,"price":27,"createdDate":"2024-04-02T16:22:45.4088621","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 28","stock":28,"price":28,"createdDate":"2024-04-08T17:21:28.1876209","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 29","stock":29,"price":29,"createdDate":"2024-04-08T17:21:50.0432973","update
+2024-04-12 14:47:28.050 +03:00 [INF] Duration: 32.6887ms
+2024-04-12 14:47:28.052 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - 200 null application/json; charset=utf-8 41.2099ms
+2024-04-12 14:48:56.235 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:48:56.248 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:48:56.249 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:48:56.250 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2024-04-12 14:48:56.251 +03:00 [INF] Duration: 2.8763ms
+2024-04-12 14:48:56.252 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/products?%20%20page=0&size=50 - 204 null null 17.4913ms
+2024-04-12 14:48:56.255 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:48:56.260 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:48:56.261 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:48:56.262 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:48:56.263 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-12 14:48:56.266 +03:00 [INF] Gets all products
+2024-04-12 14:48:56.273 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-04-12 14:48:56.277 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-12 14:48:56.280 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-04-12 14:48:56.281 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-12 14:48:56.283 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 17.623ms
+2024-04-12 14:48:56.285 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:48:56.286 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon","stock":10,"price":15000,"createdDate":"2024-02-24T19:47:22.5695647","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon Ünitesi","stock":30,"price":5000,"createdDate":"2024-02-24T19:50:38.0487963","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Samsung Telefon","stock":10,"price":15000,"createdDate":"2024-02-24T20:01:13.1763301","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 9","stock":10,"price":10,"createdDate":"2024-04-02T16:20:50.7206205","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 10","stock":10,"price":10,"createdDate":"2024-04-02T16:20:59.2825418","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 11","stock":11,"price":11,"createdDate":"2024-04-02T16:21:05.017345","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 12","stock":12,"price":12,"createdDate":"2024-04-02T16:21:10.9891024","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 13","stock":13,"price":13,"createdDate":"2024-04-02T16:21:17.2629589","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 14","stock":14,"price":14,"createdDate":"2024-04-02T16:21:23.3952967","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 15","stock":15,"price":15,"createdDate":"2024-04-02T16:21:30.2724293","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 16","stock":16,"price":16,"createdDate":"2024-04-02T16:21:35.9450865","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 17","stock":17,"price":17,"createdDate":"2024-04-02T16:21:41.3401102","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 18","stock":18,"price":18,"createdDate":"2024-04-02T16:21:47.5619497","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 19","stock":19,"price":19,"createdDate":"2024-04-02T16:21:54.0229151","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 20","stock":20,"price":20,"createdDate":"2024-04-02T16:22:00.8597016","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 21","stock":21,"price":21,"createdDate":"2024-04-02T16:22:09.2495304","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 22","stock":22,"price":22,"createdDate":"2024-04-02T16:22:14.129288","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 23","stock":23,"price":23,"createdDate":"2024-04-02T16:22:19.6401977","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 24","stock":24,"price":24,"createdDate":"2024-04-02T16:22:26.5845971","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 25","stock":25,"price":25,"createdDate":"2024-04-02T16:22:33.5192729","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 26","stock":26,"price":26,"createdDate":"2024-04-02T16:22:38.7696542","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 27","stock":27,"price":27,"createdDate":"2024-04-02T16:22:45.4088621","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 28","stock":28,"price":28,"createdDate":"2024-04-08T17:21:28.1876209","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 29","stock":29,"price":29,"createdDate":"2024-04-08T17:21:50.0432973","update
+2024-04-12 14:48:56.289 +03:00 [INF] Duration: 29.0482ms
+2024-04-12 14:48:56.291 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - 200 null application/json; charset=utf-8 35.619ms
+2024-04-12 14:49:00.658 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:49:00.663 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:49:00.665 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:49:00.668 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:49:00.671 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-12 14:49:00.676 +03:00 [INF] Gets all products
+2024-04-12 14:49:00.678 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-04-12 14:49:00.682 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-12 14:49:00.684 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-04-12 14:49:00.686 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-12 14:49:00.690 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 14.0124ms
+2024-04-12 14:49:00.692 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:49:00.693 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon","stock":10,"price":15000,"createdDate":"2024-02-24T19:47:22.5695647","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon Ünitesi","stock":30,"price":5000,"createdDate":"2024-02-24T19:50:38.0487963","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Samsung Telefon","stock":10,"price":15000,"createdDate":"2024-02-24T20:01:13.1763301","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 9","stock":10,"price":10,"createdDate":"2024-04-02T16:20:50.7206205","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 10","stock":10,"price":10,"createdDate":"2024-04-02T16:20:59.2825418","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 11","stock":11,"price":11,"createdDate":"2024-04-02T16:21:05.017345","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 12","stock":12,"price":12,"createdDate":"2024-04-02T16:21:10.9891024","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 13","stock":13,"price":13,"createdDate":"2024-04-02T16:21:17.2629589","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 14","stock":14,"price":14,"createdDate":"2024-04-02T16:21:23.3952967","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 15","stock":15,"price":15,"createdDate":"2024-04-02T16:21:30.2724293","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 16","stock":16,"price":16,"createdDate":"2024-04-02T16:21:35.9450865","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 17","stock":17,"price":17,"createdDate":"2024-04-02T16:21:41.3401102","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 18","stock":18,"price":18,"createdDate":"2024-04-02T16:21:47.5619497","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 19","stock":19,"price":19,"createdDate":"2024-04-02T16:21:54.0229151","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 20","stock":20,"price":20,"createdDate":"2024-04-02T16:22:00.8597016","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 21","stock":21,"price":21,"createdDate":"2024-04-02T16:22:09.2495304","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 22","stock":22,"price":22,"createdDate":"2024-04-02T16:22:14.129288","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 23","stock":23,"price":23,"createdDate":"2024-04-02T16:22:19.6401977","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 24","stock":24,"price":24,"createdDate":"2024-04-02T16:22:26.5845971","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 25","stock":25,"price":25,"createdDate":"2024-04-02T16:22:33.5192729","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 26","stock":26,"price":26,"createdDate":"2024-04-02T16:22:38.7696542","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 27","stock":27,"price":27,"createdDate":"2024-04-02T16:22:45.4088621","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 28","stock":28,"price":28,"createdDate":"2024-04-08T17:21:28.1876209","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 29","stock":29,"price":29,"createdDate":"2024-04-08T17:21:50.0432973","update
+2024-04-12 14:49:00.694 +03:00 [INF] Duration: 31.0955ms
+2024-04-12 14:49:00.695 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - 200 null application/json; charset=utf-8 37.5939ms
+2024-04-12 14:50:11.337 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-12 14:50:11.574 +03:00 [INF] Now listening on: https://localhost:7176
+2024-04-12 14:50:11.576 +03:00 [INF] Now listening on: http://localhost:5199
+2024-04-12 14:50:11.579 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-12 14:50:11.580 +03:00 [INF] Hosting environment: Development
+2024-04-12 14:50:11.581 +03:00 [INF] Content root path: C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API
+2024-04-12 14:50:15.271 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger - null null
+2024-04-12 14:50:15.449 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger - 301 0 null 183.0959ms
+2024-04-12 14:50:15.454 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2024-04-12 14:50:15.544 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-12 14:50:15.544 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - null null
+2024-04-12 14:50:15.545 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - null null
+2024-04-12 14:50:15.544 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2024-04-12 14:50:15.544 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 89.3345ms
+2024-04-12 14:50:15.544 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - null null
+2024-04-12 14:50:15.583 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 38.8185ms
+2024-04-12 14:50:15.632 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-12 14:50:15.632 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-12 14:50:15.637 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 91.7486ms
+2024-04-12 14:50:15.637 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - 200 143943 text/css 93.6245ms
+2024-04-12 14:50:15.659 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-12 14:50:15.669 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 124.4839ms
+2024-04-12 14:50:15.671 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 126.2881ms
+2024-04-12 14:50:15.893 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2024-04-12 14:50:15.915 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - null null
+2024-04-12 14:50:15.919 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-12 14:50:15.922 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - 200 628 image/png 7.1319ms
+2024-04-12 14:50:16.017 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 124.3887ms
+2024-04-12 14:50:20.255 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:50:20.269 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:50:20.274 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:50:20.279 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2024-04-12 14:50:20.283 +03:00 [INF] Duration: 13.9378ms
+2024-04-12 14:50:20.286 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/products?%20%20page=0&size=50 - 204 null null 31.4902ms
+2024-04-12 14:50:20.288 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:50:20.297 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:50:20.299 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:50:20.317 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:50:20.341 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-12 14:50:20.605 +03:00 [INF] Gets all products
+2024-04-12 14:50:20.913 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:50:20.923 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:50:20.926 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:50:20.932 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:50:20.934 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-12 14:50:20.937 +03:00 [INF] Gets all products
+2024-04-12 14:50:21.492 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:50:21.497 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:50:21.499 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:50:21.504 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:50:21.506 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-12 14:50:21.514 +03:00 [INF] Gets all products
+2024-04-12 14:50:21.514 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'ECommerceAPI.Persistance.Context.ECommerceAPIDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2024-04-12 14:50:21.516 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'ECommerceAPI.Persistance.Context.ECommerceAPIDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2024-04-12 14:50:21.758 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 245.9343ms
+2024-04-12 14:50:21.758 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 1409.8663ms
+2024-04-12 14:50:21.762 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:50:21.763 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:50:21.816 +03:00 [INF] Response:
+StatusCode: 200
+2024-04-12 14:50:21.816 +03:00 [INF] Response:
+StatusCode: 200
+2024-04-12 14:50:21.817 +03:00 [INF] Duration: 320.3729ms
+2024-04-12 14:50:21.818 +03:00 [INF] Duration: 1521.006ms
+2024-04-12 14:50:21.822 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method25(Closure, QueryContext)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryHandler.Handle(GetAllProductQueryRequest request, CancellationToken cancellationToken) in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Core\ECommerceAPI.Application\Features\Queries\Product\GetAllProduct\GetAllProductQueryHandler.cs:line 34
+   at ECommerceAPI.API.Controllers.ProductsController.Get(GetAllProductQueryRequest getAllProductQueryRequest) in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\Controllers\ProductsController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ECommerceAPI.API.Program.<>c.<<Main>b__0_6>d.MoveNext() in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\Program.cs:line 133
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-04-12 14:50:21.822 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method25(Closure, QueryContext)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryHandler.Handle(GetAllProductQueryRequest request, CancellationToken cancellationToken) in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Core\ECommerceAPI.Application\Features\Queries\Product\GetAllProduct\GetAllProductQueryHandler.cs:line 34
+   at ECommerceAPI.API.Controllers.ProductsController.Get(GetAllProductQueryRequest getAllProductQueryRequest) in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\Controllers\ProductsController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ECommerceAPI.API.Program.<>c.<<Main>b__0_6>d.MoveNext() in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\Program.cs:line 133
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-04-12 14:50:21.840 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-04-12 14:50:21.860 +03:00 [ERR] A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+2024-04-12 14:50:21.866 +03:00 [ERR] A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+2024-04-12 14:50:21.875 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - 500 null application/json 1587.1782ms
+2024-04-12 14:50:21.875 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - 500 null application/json 382.793ms
+2024-04-12 14:50:21.896 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-04-12 14:50:21.898 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-04-12 14:50:21.970 +03:00 [INF] Executed DbCommand (23ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-12 14:50:22.005 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-04-12 14:50:22.021 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-12 14:50:22.028 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 1091.8521ms
+2024-04-12 14:50:22.032 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:50:22.035 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon","stock":10,"price":15000,"createdDate":"2024-02-24T19:47:22.5695647","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon Ünitesi","stock":30,"price":5000,"createdDate":"2024-02-24T19:50:38.0487963","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Samsung Telefon","stock":10,"price":15000,"createdDate":"2024-02-24T20:01:13.1763301","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 9","stock":10,"price":10,"createdDate":"2024-04-02T16:20:50.7206205","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 10","stock":10,"price":10,"createdDate":"2024-04-02T16:20:59.2825418","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 11","stock":11,"price":11,"createdDate":"2024-04-02T16:21:05.017345","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 12","stock":12,"price":12,"createdDate":"2024-04-02T16:21:10.9891024","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 13","stock":13,"price":13,"createdDate":"2024-04-02T16:21:17.2629589","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 14","stock":14,"price":14,"createdDate":"2024-04-02T16:21:23.3952967","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 15","stock":15,"price":15,"createdDate":"2024-04-02T16:21:30.2724293","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 16","stock":16,"price":16,"createdDate":"2024-04-02T16:21:35.9450865","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 17","stock":17,"price":17,"createdDate":"2024-04-02T16:21:41.3401102","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 18","stock":18,"price":18,"createdDate":"2024-04-02T16:21:47.5619497","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 19","stock":19,"price":19,"createdDate":"2024-04-02T16:21:54.0229151","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 20","stock":20,"price":20,"createdDate":"2024-04-02T16:22:00.8597016","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 21","stock":21,"price":21,"createdDate":"2024-04-02T16:22:09.2495304","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 22","stock":22,"price":22,"createdDate":"2024-04-02T16:22:14.129288","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 23","stock":23,"price":23,"createdDate":"2024-04-02T16:22:19.6401977","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 24","stock":24,"price":24,"createdDate":"2024-04-02T16:22:26.5845971","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 25","stock":25,"price":25,"createdDate":"2024-04-02T16:22:33.5192729","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 26","stock":26,"price":26,"createdDate":"2024-04-02T16:22:38.7696542","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 27","stock":27,"price":27,"createdDate":"2024-04-02T16:22:45.4088621","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 28","stock":28,"price":28,"createdDate":"2024-04-08T17:21:28.1876209","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 29","stock":29,"price":29,"createdDate":"2024-04-08T17:21:50.0432973","update
+2024-04-12 14:50:22.037 +03:00 [INF] Duration: 1114.877ms
+2024-04-12 14:50:22.039 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - 499 null application/json; charset=utf-8 1125.9812ms
+2024-04-12 14:50:22.072 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:50:22.081 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:50:22.083 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:50:22.085 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:50:22.086 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-12 14:50:22.088 +03:00 [INF] Gets all products
+2024-04-12 14:50:22.091 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-04-12 14:50:22.100 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-12 14:50:22.103 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-04-12 14:50:22.104 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-12 14:50:22.116 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 27.748ms
+2024-04-12 14:50:22.119 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:50:22.122 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon","stock":10,"price":15000,"createdDate":"2024-02-24T19:47:22.5695647","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon Ünitesi","stock":30,"price":5000,"createdDate":"2024-02-24T19:50:38.0487963","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Samsung Telefon","stock":10,"price":15000,"createdDate":"2024-02-24T20:01:13.1763301","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 9","stock":10,"price":10,"createdDate":"2024-04-02T16:20:50.7206205","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 10","stock":10,"price":10,"createdDate":"2024-04-02T16:20:59.2825418","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 11","stock":11,"price":11,"createdDate":"2024-04-02T16:21:05.017345","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 12","stock":12,"price":12,"createdDate":"2024-04-02T16:21:10.9891024","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 13","stock":13,"price":13,"createdDate":"2024-04-02T16:21:17.2629589","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 14","stock":14,"price":14,"createdDate":"2024-04-02T16:21:23.3952967","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 15","stock":15,"price":15,"createdDate":"2024-04-02T16:21:30.2724293","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 16","stock":16,"price":16,"createdDate":"2024-04-02T16:21:35.9450865","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 17","stock":17,"price":17,"createdDate":"2024-04-02T16:21:41.3401102","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 18","stock":18,"price":18,"createdDate":"2024-04-02T16:21:47.5619497","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 19","stock":19,"price":19,"createdDate":"2024-04-02T16:21:54.0229151","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 20","stock":20,"price":20,"createdDate":"2024-04-02T16:22:00.8597016","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 21","stock":21,"price":21,"createdDate":"2024-04-02T16:22:09.2495304","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 22","stock":22,"price":22,"createdDate":"2024-04-02T16:22:14.129288","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 23","stock":23,"price":23,"createdDate":"2024-04-02T16:22:19.6401977","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 24","stock":24,"price":24,"createdDate":"2024-04-02T16:22:26.5845971","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 25","stock":25,"price":25,"createdDate":"2024-04-02T16:22:33.5192729","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 26","stock":26,"price":26,"createdDate":"2024-04-02T16:22:38.7696542","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 27","stock":27,"price":27,"createdDate":"2024-04-02T16:22:45.4088621","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 28","stock":28,"price":28,"createdDate":"2024-04-08T17:21:28.1876209","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 29","stock":29,"price":29,"createdDate":"2024-04-08T17:21:50.0432973","update
+2024-04-12 14:50:22.125 +03:00 [INF] Duration: 43.6299ms
+2024-04-12 14:50:22.129 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - 200 null application/json; charset=utf-8 57.7298ms
+2024-04-12 14:50:23.067 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:50:23.077 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:50:23.079 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:50:23.082 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:50:23.084 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-12 14:50:23.087 +03:00 [INF] Gets all products
+2024-04-12 14:50:23.090 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-04-12 14:50:23.097 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-12 14:50:23.100 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-04-12 14:50:23.102 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-12 14:50:23.104 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 16.8525ms
+2024-04-12 14:50:23.106 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:50:23.108 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon","stock":10,"price":15000,"createdDate":"2024-02-24T19:47:22.5695647","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon Ünitesi","stock":30,"price":5000,"createdDate":"2024-02-24T19:50:38.0487963","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Samsung Telefon","stock":10,"price":15000,"createdDate":"2024-02-24T20:01:13.1763301","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 9","stock":10,"price":10,"createdDate":"2024-04-02T16:20:50.7206205","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 10","stock":10,"price":10,"createdDate":"2024-04-02T16:20:59.2825418","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 11","stock":11,"price":11,"createdDate":"2024-04-02T16:21:05.017345","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 12","stock":12,"price":12,"createdDate":"2024-04-02T16:21:10.9891024","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 13","stock":13,"price":13,"createdDate":"2024-04-02T16:21:17.2629589","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 14","stock":14,"price":14,"createdDate":"2024-04-02T16:21:23.3952967","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 15","stock":15,"price":15,"createdDate":"2024-04-02T16:21:30.2724293","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 16","stock":16,"price":16,"createdDate":"2024-04-02T16:21:35.9450865","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 17","stock":17,"price":17,"createdDate":"2024-04-02T16:21:41.3401102","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 18","stock":18,"price":18,"createdDate":"2024-04-02T16:21:47.5619497","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 19","stock":19,"price":19,"createdDate":"2024-04-02T16:21:54.0229151","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 20","stock":20,"price":20,"createdDate":"2024-04-02T16:22:00.8597016","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 21","stock":21,"price":21,"createdDate":"2024-04-02T16:22:09.2495304","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 22","stock":22,"price":22,"createdDate":"2024-04-02T16:22:14.129288","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 23","stock":23,"price":23,"createdDate":"2024-04-02T16:22:19.6401977","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 24","stock":24,"price":24,"createdDate":"2024-04-02T16:22:26.5845971","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 25","stock":25,"price":25,"createdDate":"2024-04-02T16:22:33.5192729","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 26","stock":26,"price":26,"createdDate":"2024-04-02T16:22:38.7696542","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 27","stock":27,"price":27,"createdDate":"2024-04-02T16:22:45.4088621","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 28","stock":28,"price":28,"createdDate":"2024-04-08T17:21:28.1876209","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 29","stock":29,"price":29,"createdDate":"2024-04-08T17:21:50.0432973","update
+2024-04-12 14:50:23.112 +03:00 [INF] Duration: 34.6992ms
+2024-04-12 14:50:23.113 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - 200 null application/json; charset=utf-8 45.9194ms
+2024-04-12 14:51:35.046 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:51:35.058 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:51:35.060 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:51:35.061 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2024-04-12 14:51:35.062 +03:00 [INF] Duration: 4.3119ms
+2024-04-12 14:51:35.064 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/products?%20%20page=0&size=50 - 204 null null 18.3361ms
+2024-04-12 14:51:35.067 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:51:35.072 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:51:35.073 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:51:35.074 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:51:35.075 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-12 14:51:35.078 +03:00 [INF] Gets all products
+2024-04-12 14:51:35.085 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-04-12 14:51:35.090 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-12 14:51:35.094 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-04-12 14:51:35.095 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-12 14:51:35.103 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 21.3923ms
+2024-04-12 14:51:35.114 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:51:35.118 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon","stock":10,"price":15000,"createdDate":"2024-02-24T19:47:22.5695647","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon Ünitesi","stock":30,"price":5000,"createdDate":"2024-02-24T19:50:38.0487963","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Samsung Telefon","stock":10,"price":15000,"createdDate":"2024-02-24T20:01:13.1763301","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 9","stock":10,"price":10,"createdDate":"2024-04-02T16:20:50.7206205","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 10","stock":10,"price":10,"createdDate":"2024-04-02T16:20:59.2825418","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 11","stock":11,"price":11,"createdDate":"2024-04-02T16:21:05.017345","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 12","stock":12,"price":12,"createdDate":"2024-04-02T16:21:10.9891024","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 13","stock":13,"price":13,"createdDate":"2024-04-02T16:21:17.2629589","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 14","stock":14,"price":14,"createdDate":"2024-04-02T16:21:23.3952967","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 15","stock":15,"price":15,"createdDate":"2024-04-02T16:21:30.2724293","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 16","stock":16,"price":16,"createdDate":"2024-04-02T16:21:35.9450865","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 17","stock":17,"price":17,"createdDate":"2024-04-02T16:21:41.3401102","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 18","stock":18,"price":18,"createdDate":"2024-04-02T16:21:47.5619497","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 19","stock":19,"price":19,"createdDate":"2024-04-02T16:21:54.0229151","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 20","stock":20,"price":20,"createdDate":"2024-04-02T16:22:00.8597016","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 21","stock":21,"price":21,"createdDate":"2024-04-02T16:22:09.2495304","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 22","stock":22,"price":22,"createdDate":"2024-04-02T16:22:14.129288","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 23","stock":23,"price":23,"createdDate":"2024-04-02T16:22:19.6401977","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 24","stock":24,"price":24,"createdDate":"2024-04-02T16:22:26.5845971","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 25","stock":25,"price":25,"createdDate":"2024-04-02T16:22:33.5192729","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 26","stock":26,"price":26,"createdDate":"2024-04-02T16:22:38.7696542","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 27","stock":27,"price":27,"createdDate":"2024-04-02T16:22:45.4088621","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 28","stock":28,"price":28,"createdDate":"2024-04-08T17:21:28.1876209","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 29","stock":29,"price":29,"createdDate":"2024-04-08T17:21:50.0432973","update
+2024-04-12 14:51:35.120 +03:00 [INF] Duration: 48.359ms
+2024-04-12 14:51:35.121 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - 200 null application/json; charset=utf-8 55.2396ms
+2024-04-12 14:53:25.662 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:53:25.680 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:53:25.682 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:53:25.684 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2024-04-12 14:53:25.685 +03:00 [INF] Duration: 5.6368ms
+2024-04-12 14:53:25.688 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/products?%20%20page=0&size=50 - 204 null null 26.5456ms
+2024-04-12 14:53:25.690 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:53:25.695 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:53:25.696 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:53:25.697 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:53:25.699 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-12 14:53:25.703 +03:00 [INF] Gets all products
+2024-04-12 14:53:25.712 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-04-12 14:53:25.718 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-12 14:53:25.722 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-04-12 14:53:25.724 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-12 14:53:25.727 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 25.2675ms
+2024-04-12 14:53:25.730 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:53:25.731 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon","stock":10,"price":15000,"createdDate":"2024-02-24T19:47:22.5695647","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon Ünitesi","stock":30,"price":5000,"createdDate":"2024-02-24T19:50:38.0487963","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Samsung Telefon","stock":10,"price":15000,"createdDate":"2024-02-24T20:01:13.1763301","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 9","stock":10,"price":10,"createdDate":"2024-04-02T16:20:50.7206205","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 10","stock":10,"price":10,"createdDate":"2024-04-02T16:20:59.2825418","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 11","stock":11,"price":11,"createdDate":"2024-04-02T16:21:05.017345","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 12","stock":12,"price":12,"createdDate":"2024-04-02T16:21:10.9891024","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 13","stock":13,"price":13,"createdDate":"2024-04-02T16:21:17.2629589","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 14","stock":14,"price":14,"createdDate":"2024-04-02T16:21:23.3952967","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 15","stock":15,"price":15,"createdDate":"2024-04-02T16:21:30.2724293","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 16","stock":16,"price":16,"createdDate":"2024-04-02T16:21:35.9450865","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 17","stock":17,"price":17,"createdDate":"2024-04-02T16:21:41.3401102","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 18","stock":18,"price":18,"createdDate":"2024-04-02T16:21:47.5619497","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 19","stock":19,"price":19,"createdDate":"2024-04-02T16:21:54.0229151","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 20","stock":20,"price":20,"createdDate":"2024-04-02T16:22:00.8597016","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 21","stock":21,"price":21,"createdDate":"2024-04-02T16:22:09.2495304","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 22","stock":22,"price":22,"createdDate":"2024-04-02T16:22:14.129288","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 23","stock":23,"price":23,"createdDate":"2024-04-02T16:22:19.6401977","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 24","stock":24,"price":24,"createdDate":"2024-04-02T16:22:26.5845971","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 25","stock":25,"price":25,"createdDate":"2024-04-02T16:22:33.5192729","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 26","stock":26,"price":26,"createdDate":"2024-04-02T16:22:38.7696542","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 27","stock":27,"price":27,"createdDate":"2024-04-02T16:22:45.4088621","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 28","stock":28,"price":28,"createdDate":"2024-04-08T17:21:28.1876209","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 29","stock":29,"price":29,"createdDate":"2024-04-08T17:21:50.0432973","update
+2024-04-12 14:53:25.734 +03:00 [INF] Duration: 39.384ms
+2024-04-12 14:53:25.736 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - 200 null application/json; charset=utf-8 46.3623ms
+2024-04-12 14:53:30.937 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:53:30.940 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:53:30.942 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:53:30.943 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2024-04-12 14:53:30.944 +03:00 [INF] Duration: 3.4091ms
+2024-04-12 14:53:30.945 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/products?%20%20page=0&size=50 - 204 null null 9.023ms
+2024-04-12 14:53:30.950 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:53:30.956 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:53:30.958 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:53:30.959 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:53:30.961 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-12 14:53:30.965 +03:00 [INF] Gets all products
+2024-04-12 14:53:30.971 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-04-12 14:53:30.976 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-12 14:53:30.979 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-04-12 14:53:30.981 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-12 14:53:30.989 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 24.0052ms
+2024-04-12 14:53:30.991 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:53:30.994 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon","stock":10,"price":15000,"createdDate":"2024-02-24T19:47:22.5695647","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon Ünitesi","stock":30,"price":5000,"createdDate":"2024-02-24T19:50:38.0487963","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Samsung Telefon","stock":10,"price":15000,"createdDate":"2024-02-24T20:01:13.1763301","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 9","stock":10,"price":10,"createdDate":"2024-04-02T16:20:50.7206205","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 10","stock":10,"price":10,"createdDate":"2024-04-02T16:20:59.2825418","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 11","stock":11,"price":11,"createdDate":"2024-04-02T16:21:05.017345","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 12","stock":12,"price":12,"createdDate":"2024-04-02T16:21:10.9891024","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 13","stock":13,"price":13,"createdDate":"2024-04-02T16:21:17.2629589","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 14","stock":14,"price":14,"createdDate":"2024-04-02T16:21:23.3952967","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 15","stock":15,"price":15,"createdDate":"2024-04-02T16:21:30.2724293","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 16","stock":16,"price":16,"createdDate":"2024-04-02T16:21:35.9450865","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 17","stock":17,"price":17,"createdDate":"2024-04-02T16:21:41.3401102","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 18","stock":18,"price":18,"createdDate":"2024-04-02T16:21:47.5619497","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 19","stock":19,"price":19,"createdDate":"2024-04-02T16:21:54.0229151","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 20","stock":20,"price":20,"createdDate":"2024-04-02T16:22:00.8597016","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 21","stock":21,"price":21,"createdDate":"2024-04-02T16:22:09.2495304","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 22","stock":22,"price":22,"createdDate":"2024-04-02T16:22:14.129288","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 23","stock":23,"price":23,"createdDate":"2024-04-02T16:22:19.6401977","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 24","stock":24,"price":24,"createdDate":"2024-04-02T16:22:26.5845971","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 25","stock":25,"price":25,"createdDate":"2024-04-02T16:22:33.5192729","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 26","stock":26,"price":26,"createdDate":"2024-04-02T16:22:38.7696542","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 27","stock":27,"price":27,"createdDate":"2024-04-02T16:22:45.4088621","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 28","stock":28,"price":28,"createdDate":"2024-04-08T17:21:28.1876209","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 29","stock":29,"price":29,"createdDate":"2024-04-08T17:21:50.0432973","update
+2024-04-12 14:53:30.998 +03:00 [INF] Duration: 41.4509ms
+2024-04-12 14:53:31.011 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - 200 null application/json; charset=utf-8 61.2534ms
+2024-04-12 14:55:04.424 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:55:04.440 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:55:04.441 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:55:04.442 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2024-04-12 14:55:04.443 +03:00 [INF] Duration: 3.7732ms
+2024-04-12 14:55:04.445 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/products?%20%20page=0&size=50 - 204 null null 22.319ms
+2024-04-12 14:55:04.449 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:55:04.452 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:55:04.454 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:55:04.455 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:55:04.457 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-12 14:55:04.459 +03:00 [INF] Gets all products
+2024-04-12 14:55:04.463 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-04-12 14:55:04.470 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-12 14:55:04.473 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-04-12 14:55:04.474 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-12 14:55:04.477 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 17.5228ms
+2024-04-12 14:55:04.479 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:55:04.481 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon","stock":10,"price":15000,"createdDate":"2024-02-24T19:47:22.5695647","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon Ünitesi","stock":30,"price":5000,"createdDate":"2024-02-24T19:50:38.0487963","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Samsung Telefon","stock":10,"price":15000,"createdDate":"2024-02-24T20:01:13.1763301","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 9","stock":10,"price":10,"createdDate":"2024-04-02T16:20:50.7206205","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 10","stock":10,"price":10,"createdDate":"2024-04-02T16:20:59.2825418","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 11","stock":11,"price":11,"createdDate":"2024-04-02T16:21:05.017345","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 12","stock":12,"price":12,"createdDate":"2024-04-02T16:21:10.9891024","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 13","stock":13,"price":13,"createdDate":"2024-04-02T16:21:17.2629589","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 14","stock":14,"price":14,"createdDate":"2024-04-02T16:21:23.3952967","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 15","stock":15,"price":15,"createdDate":"2024-04-02T16:21:30.2724293","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 16","stock":16,"price":16,"createdDate":"2024-04-02T16:21:35.9450865","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 17","stock":17,"price":17,"createdDate":"2024-04-02T16:21:41.3401102","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 18","stock":18,"price":18,"createdDate":"2024-04-02T16:21:47.5619497","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 19","stock":19,"price":19,"createdDate":"2024-04-02T16:21:54.0229151","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 20","stock":20,"price":20,"createdDate":"2024-04-02T16:22:00.8597016","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 21","stock":21,"price":21,"createdDate":"2024-04-02T16:22:09.2495304","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 22","stock":22,"price":22,"createdDate":"2024-04-02T16:22:14.129288","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 23","stock":23,"price":23,"createdDate":"2024-04-02T16:22:19.6401977","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 24","stock":24,"price":24,"createdDate":"2024-04-02T16:22:26.5845971","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 25","stock":25,"price":25,"createdDate":"2024-04-02T16:22:33.5192729","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 26","stock":26,"price":26,"createdDate":"2024-04-02T16:22:38.7696542","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 27","stock":27,"price":27,"createdDate":"2024-04-02T16:22:45.4088621","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 28","stock":28,"price":28,"createdDate":"2024-04-08T17:21:28.1876209","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 29","stock":29,"price":29,"createdDate":"2024-04-08T17:21:50.0432973","update
+2024-04-12 14:55:04.483 +03:00 [INF] Duration: 30.6076ms
+2024-04-12 14:55:04.484 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - 200 null application/json; charset=utf-8 36.4292ms
+2024-04-12 14:55:17.550 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:55:17.553 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:55:17.554 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:55:17.555 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2024-04-12 14:55:17.556 +03:00 [INF] Duration: 3.0121ms
+2024-04-12 14:55:17.557 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/products?%20%20page=0&size=50 - 204 null null 8.3305ms
+2024-04-12 14:55:17.560 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:55:17.575 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:55:17.577 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:55:17.578 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:55:17.579 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-12 14:55:17.582 +03:00 [INF] Gets all products
+2024-04-12 14:55:17.595 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-04-12 14:55:17.608 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-12 14:55:17.612 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-04-12 14:55:17.614 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-12 14:55:17.617 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 35.7688ms
+2024-04-12 14:55:17.621 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:55:17.624 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon","stock":10,"price":15000,"createdDate":"2024-02-24T19:47:22.5695647","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon Ünitesi","stock":30,"price":5000,"createdDate":"2024-02-24T19:50:38.0487963","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Samsung Telefon","stock":10,"price":15000,"createdDate":"2024-02-24T20:01:13.1763301","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 9","stock":10,"price":10,"createdDate":"2024-04-02T16:20:50.7206205","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 10","stock":10,"price":10,"createdDate":"2024-04-02T16:20:59.2825418","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 11","stock":11,"price":11,"createdDate":"2024-04-02T16:21:05.017345","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 12","stock":12,"price":12,"createdDate":"2024-04-02T16:21:10.9891024","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 13","stock":13,"price":13,"createdDate":"2024-04-02T16:21:17.2629589","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 14","stock":14,"price":14,"createdDate":"2024-04-02T16:21:23.3952967","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 15","stock":15,"price":15,"createdDate":"2024-04-02T16:21:30.2724293","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 16","stock":16,"price":16,"createdDate":"2024-04-02T16:21:35.9450865","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 17","stock":17,"price":17,"createdDate":"2024-04-02T16:21:41.3401102","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 18","stock":18,"price":18,"createdDate":"2024-04-02T16:21:47.5619497","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 19","stock":19,"price":19,"createdDate":"2024-04-02T16:21:54.0229151","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 20","stock":20,"price":20,"createdDate":"2024-04-02T16:22:00.8597016","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 21","stock":21,"price":21,"createdDate":"2024-04-02T16:22:09.2495304","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 22","stock":22,"price":22,"createdDate":"2024-04-02T16:22:14.129288","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 23","stock":23,"price":23,"createdDate":"2024-04-02T16:22:19.6401977","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 24","stock":24,"price":24,"createdDate":"2024-04-02T16:22:26.5845971","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 25","stock":25,"price":25,"createdDate":"2024-04-02T16:22:33.5192729","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 26","stock":26,"price":26,"createdDate":"2024-04-02T16:22:38.7696542","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 27","stock":27,"price":27,"createdDate":"2024-04-02T16:22:45.4088621","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 28","stock":28,"price":28,"createdDate":"2024-04-08T17:21:28.1876209","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 29","stock":29,"price":29,"createdDate":"2024-04-08T17:21:50.0432973","update
+2024-04-12 14:55:17.627 +03:00 [INF] Duration: 52.0357ms
+2024-04-12 14:55:17.629 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - 200 null application/json; charset=utf-8 69.5173ms
+2024-04-12 14:55:20.040 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:55:20.053 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:55:20.056 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:55:20.058 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:55:20.059 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-12 14:55:20.063 +03:00 [INF] Gets all products
+2024-04-12 14:55:20.066 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-04-12 14:55:20.075 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-12 14:55:20.078 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-04-12 14:55:20.080 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-12 14:55:20.084 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 22.1383ms
+2024-04-12 14:55:20.090 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:55:20.091 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon","stock":10,"price":15000,"createdDate":"2024-02-24T19:47:22.5695647","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon Ünitesi","stock":30,"price":5000,"createdDate":"2024-02-24T19:50:38.0487963","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Samsung Telefon","stock":10,"price":15000,"createdDate":"2024-02-24T20:01:13.1763301","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 9","stock":10,"price":10,"createdDate":"2024-04-02T16:20:50.7206205","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 10","stock":10,"price":10,"createdDate":"2024-04-02T16:20:59.2825418","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 11","stock":11,"price":11,"createdDate":"2024-04-02T16:21:05.017345","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 12","stock":12,"price":12,"createdDate":"2024-04-02T16:21:10.9891024","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 13","stock":13,"price":13,"createdDate":"2024-04-02T16:21:17.2629589","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 14","stock":14,"price":14,"createdDate":"2024-04-02T16:21:23.3952967","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 15","stock":15,"price":15,"createdDate":"2024-04-02T16:21:30.2724293","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 16","stock":16,"price":16,"createdDate":"2024-04-02T16:21:35.9450865","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 17","stock":17,"price":17,"createdDate":"2024-04-02T16:21:41.3401102","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 18","stock":18,"price":18,"createdDate":"2024-04-02T16:21:47.5619497","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 19","stock":19,"price":19,"createdDate":"2024-04-02T16:21:54.0229151","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 20","stock":20,"price":20,"createdDate":"2024-04-02T16:22:00.8597016","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 21","stock":21,"price":21,"createdDate":"2024-04-02T16:22:09.2495304","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 22","stock":22,"price":22,"createdDate":"2024-04-02T16:22:14.129288","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 23","stock":23,"price":23,"createdDate":"2024-04-02T16:22:19.6401977","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 24","stock":24,"price":24,"createdDate":"2024-04-02T16:22:26.5845971","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 25","stock":25,"price":25,"createdDate":"2024-04-02T16:22:33.5192729","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 26","stock":26,"price":26,"createdDate":"2024-04-02T16:22:38.7696542","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 27","stock":27,"price":27,"createdDate":"2024-04-02T16:22:45.4088621","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 28","stock":28,"price":28,"createdDate":"2024-04-08T17:21:28.1876209","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 29","stock":29,"price":29,"createdDate":"2024-04-08T17:21:50.0432973","update
+2024-04-12 14:55:20.093 +03:00 [INF] Duration: 40.7549ms
+2024-04-12 14:55:20.095 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - 200 null application/json; charset=utf-8 54.6684ms
+2024-04-12 14:57:00.782 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:57:00.804 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:57:00.807 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:57:00.809 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2024-04-12 14:57:00.811 +03:00 [INF] Duration: 6.9066ms
+2024-04-12 14:57:00.813 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/products?%20%20page=0&size=50 - 204 null null 31.5953ms
+2024-04-12 14:57:00.816 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:57:00.820 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:57:00.821 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:57:00.824 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:57:00.826 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-12 14:57:00.830 +03:00 [INF] Gets all products
+2024-04-12 14:57:00.835 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-04-12 14:57:00.842 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-12 14:57:00.846 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-04-12 14:57:00.848 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-12 14:57:00.854 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 23.521ms
+2024-04-12 14:57:00.862 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:57:00.866 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon","stock":10,"price":15000,"createdDate":"2024-02-24T19:47:22.5695647","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon Ünitesi","stock":30,"price":5000,"createdDate":"2024-02-24T19:50:38.0487963","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Samsung Telefon","stock":10,"price":15000,"createdDate":"2024-02-24T20:01:13.1763301","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 9","stock":10,"price":10,"createdDate":"2024-04-02T16:20:50.7206205","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 10","stock":10,"price":10,"createdDate":"2024-04-02T16:20:59.2825418","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 11","stock":11,"price":11,"createdDate":"2024-04-02T16:21:05.017345","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 12","stock":12,"price":12,"createdDate":"2024-04-02T16:21:10.9891024","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 13","stock":13,"price":13,"createdDate":"2024-04-02T16:21:17.2629589","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 14","stock":14,"price":14,"createdDate":"2024-04-02T16:21:23.3952967","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 15","stock":15,"price":15,"createdDate":"2024-04-02T16:21:30.2724293","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 16","stock":16,"price":16,"createdDate":"2024-04-02T16:21:35.9450865","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 17","stock":17,"price":17,"createdDate":"2024-04-02T16:21:41.3401102","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 18","stock":18,"price":18,"createdDate":"2024-04-02T16:21:47.5619497","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 19","stock":19,"price":19,"createdDate":"2024-04-02T16:21:54.0229151","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 20","stock":20,"price":20,"createdDate":"2024-04-02T16:22:00.8597016","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 21","stock":21,"price":21,"createdDate":"2024-04-02T16:22:09.2495304","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 22","stock":22,"price":22,"createdDate":"2024-04-02T16:22:14.129288","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 23","stock":23,"price":23,"createdDate":"2024-04-02T16:22:19.6401977","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 24","stock":24,"price":24,"createdDate":"2024-04-02T16:22:26.5845971","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 25","stock":25,"price":25,"createdDate":"2024-04-02T16:22:33.5192729","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 26","stock":26,"price":26,"createdDate":"2024-04-02T16:22:38.7696542","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 27","stock":27,"price":27,"createdDate":"2024-04-02T16:22:45.4088621","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 28","stock":28,"price":28,"createdDate":"2024-04-08T17:21:28.1876209","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 29","stock":29,"price":29,"createdDate":"2024-04-08T17:21:50.0432973","update
+2024-04-12 14:57:00.870 +03:00 [INF] Duration: 49.9924ms
+2024-04-12 14:57:00.871 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - 200 null application/json; charset=utf-8 56.1704ms
+2024-04-12 14:57:03.895 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - null null
+2024-04-12 14:57:03.945 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-04-12 14:57:03.947 +03:00 [INF] CORS policy execution successful.
+2024-04-12 14:57:03.961 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:57:03.963 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ECommerceAPI.API.Controllers.ProductsController (ECommerceAPI.API).
+2024-04-12 14:57:03.970 +03:00 [INF] Gets all products
+2024-04-12 14:57:03.983 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2024-04-12 14:57:03.995 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedDate], [p].[Name], [p].[Price], [p].[Stock], [p].[UpdatedDate]
+FROM [Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-12 14:57:03.998 +03:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2024-04-12 14:57:03.999 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-12 14:57:04.003 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API) in 32.8884ms
+2024-04-12 14:57:04.004 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.ProductsController.Get (ECommerceAPI.API)'
+2024-04-12 14:57:04.006 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon","stock":10,"price":15000,"createdDate":"2024-02-24T19:47:22.5695647","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon Ünitesi","stock":30,"price":5000,"createdDate":"2024-02-24T19:50:38.0487963","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Samsung Telefon","stock":10,"price":15000,"createdDate":"2024-02-24T20:01:13.1763301","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 9","stock":10,"price":10,"createdDate":"2024-04-02T16:20:50.7206205","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 10","stock":10,"price":10,"createdDate":"2024-04-02T16:20:59.2825418","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 11","stock":11,"price":11,"createdDate":"2024-04-02T16:21:05.017345","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 12","stock":12,"price":12,"createdDate":"2024-04-02T16:21:10.9891024","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 13","stock":13,"price":13,"createdDate":"2024-04-02T16:21:17.2629589","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 14","stock":14,"price":14,"createdDate":"2024-04-02T16:21:23.3952967","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 15","stock":15,"price":15,"createdDate":"2024-04-02T16:21:30.2724293","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 16","stock":16,"price":16,"createdDate":"2024-04-02T16:21:35.9450865","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 17","stock":17,"price":17,"createdDate":"2024-04-02T16:21:41.3401102","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 18","stock":18,"price":18,"createdDate":"2024-04-02T16:21:47.5619497","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 19","stock":19,"price":19,"createdDate":"2024-04-02T16:21:54.0229151","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 20","stock":20,"price":20,"createdDate":"2024-04-02T16:22:00.8597016","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 21","stock":21,"price":21,"createdDate":"2024-04-02T16:22:09.2495304","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 22","stock":22,"price":22,"createdDate":"2024-04-02T16:22:14.129288","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 23","stock":23,"price":23,"createdDate":"2024-04-02T16:22:19.6401977","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 24","stock":24,"price":24,"createdDate":"2024-04-02T16:22:26.5845971","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 25","stock":25,"price":25,"createdDate":"2024-04-02T16:22:33.5192729","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 26","stock":26,"price":26,"createdDate":"2024-04-02T16:22:38.7696542","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 27","stock":27,"price":27,"createdDate":"2024-04-02T16:22:45.4088621","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 28","stock":28,"price":28,"createdDate":"2024-04-08T17:21:28.1876209","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 29","stock":29,"price":29,"createdDate":"2024-04-08T17:21:50.0432973","update
+2024-04-12 14:57:04.009 +03:00 [INF] Duration: 64.1547ms
+2024-04-12 14:57:04.012 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - 200 null application/json; charset=utf-8 119.0928ms

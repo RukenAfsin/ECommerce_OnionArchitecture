@@ -53,6 +53,13 @@ namespace ECommerceAPI.Persistance
             services.AddScoped<IProductImageReadRepository,ProductImageReadRepository>();
             services.AddScoped<IProductImageWriteRepository, ProductImageWriteRepository>();
 
+            services.AddScoped<IBasketReadRepository, BasketReadRepository>();
+            services.AddScoped<IBasketWriteRepository, BasketWriteRepository>();
+
+
+            services.AddScoped<IBasketItemReadRepository, BasketItemReadRepository>();
+            services.AddScoped<IBasketItemWriteRepository, BasketItemWriteRepository>();
+
             services.AddScoped<IFileHelper, FileHelperManager>();
 
             services.AddScoped<IUserService, UserService>();
