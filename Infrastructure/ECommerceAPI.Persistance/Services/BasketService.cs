@@ -25,13 +25,17 @@ namespace ECommerceAPI.Persistence.Services
         readonly IBasketItemWriteRepository _basketItemWriteRepository;
         readonly IBasketItemReadRepository _basketItemReadRepository;
 
-        public BasketService(IHttpContextAccessor httpcontextAccessor, IOrderReadRepository orderReadRepository, IBasketItemWriteRepository basketItemWriteRepository, IBasketItemReadRepository basketItemReadRepository, IBasketReadRepository basketReadRepository)
+        public BasketService(IHttpContextAccessor httpcontextAccessor, IOrderReadRepository orderReadRepository,
+            IBasketItemWriteRepository basketItemWriteRepository,
+            IBasketItemReadRepository basketItemReadRepository, IBasketReadRepository basketReadRepository, UserManager<AppUser> userManager, IBasketWriteRepository basketWriteRepository)
         {
             _httpcontextAccessor = httpcontextAccessor;
             _orderReadRepository = orderReadRepository;
             _basketItemWriteRepository = basketItemWriteRepository;
             _basketItemReadRepository = basketItemReadRepository;
             _basketReadRepository = basketReadRepository;
+            _userManager = userManager;
+            _basketWriteRepository = basketWriteRepository;
         }
 
         private async Task<Basket>ContextUser()
@@ -67,7 +71,6 @@ namespace ECommerceAPI.Persistence.Services
             }
             throw new Exception("Unexpected error occurres");
         }
-
 
         public async Task AddItemToBasketAsync(VM_Create_BasketItem basketItem)
         {
