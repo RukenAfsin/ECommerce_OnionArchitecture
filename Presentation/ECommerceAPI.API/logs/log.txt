@@ -25623,3 +25623,1232 @@ Content-Type: application/json; charset=utf-8
 2024-04-12 14:57:04.006 +03:00 [INF] ResponseBody: {"totalProductCount":29,"products":[{"name":"Satranç Takımı","stock":15,"price":10,"createdDate":"2024-02-03T05:47:16.9045651","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bisiklet","stock":10,"price":15,"createdDate":"2024-02-16T18:59:32.1873577","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Mouse","stock":15,"price":150,"createdDate":"2024-02-19T07:29:34.0377846","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"termos","stock":15,"price":20,"createdDate":"2024-02-24T12:31:32.0005188","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"bilgisayar","stock":100,"price":500,"createdDate":"2024-02-24T18:15:38.7519616","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon","stock":10,"price":15000,"createdDate":"2024-02-24T19:47:22.5695647","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Televizyon Ünitesi","stock":30,"price":5000,"createdDate":"2024-02-24T19:50:38.0487963","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Samsung Telefon","stock":10,"price":15000,"createdDate":"2024-02-24T20:01:13.1763301","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 9","stock":10,"price":10,"createdDate":"2024-04-02T16:20:50.7206205","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 10","stock":10,"price":10,"createdDate":"2024-04-02T16:20:59.2825418","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 11","stock":11,"price":11,"createdDate":"2024-04-02T16:21:05.017345","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 12","stock":12,"price":12,"createdDate":"2024-04-02T16:21:10.9891024","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 13","stock":13,"price":13,"createdDate":"2024-04-02T16:21:17.2629589","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 14","stock":14,"price":14,"createdDate":"2024-04-02T16:21:23.3952967","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 15","stock":15,"price":15,"createdDate":"2024-04-02T16:21:30.2724293","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 16","stock":16,"price":16,"createdDate":"2024-04-02T16:21:35.9450865","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 17","stock":17,"price":17,"createdDate":"2024-04-02T16:21:41.3401102","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 18","stock":18,"price":18,"createdDate":"2024-04-02T16:21:47.5619497","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 19","stock":19,"price":19,"createdDate":"2024-04-02T16:21:54.0229151","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 20","stock":20,"price":20,"createdDate":"2024-04-02T16:22:00.8597016","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 21","stock":21,"price":21,"createdDate":"2024-04-02T16:22:09.2495304","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 22","stock":22,"price":22,"createdDate":"2024-04-02T16:22:14.129288","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 23","stock":23,"price":23,"createdDate":"2024-04-02T16:22:19.6401977","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 24","stock":24,"price":24,"createdDate":"2024-04-02T16:22:26.5845971","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 25","stock":25,"price":25,"createdDate":"2024-04-02T16:22:33.5192729","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 26","stock":26,"price":26,"createdDate":"2024-04-02T16:22:38.7696542","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 27","stock":27,"price":27,"createdDate":"2024-04-02T16:22:45.4088621","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 28","stock":28,"price":28,"createdDate":"2024-04-08T17:21:28.1876209","updatedDate":"0001-01-01T00:00:00","imagePath":null},{"name":"Product 29","stock":29,"price":29,"createdDate":"2024-04-08T17:21:50.0432973","update
 2024-04-12 14:57:04.009 +03:00 [INF] Duration: 64.1547ms
 2024-04-12 14:57:04.012 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/products?%20%20page=0&size=50 - 200 null application/json; charset=utf-8 119.0928ms
+2024-04-19 09:39:22.286 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-19 09:39:23.010 +03:00 [INF] Now listening on: https://localhost:7176
+2024-04-19 09:39:23.026 +03:00 [INF] Now listening on: http://localhost:5199
+2024-04-19 09:39:23.034 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-19 09:39:23.038 +03:00 [INF] Hosting environment: Development
+2024-04-19 09:39:23.039 +03:00 [INF] Content root path: C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API
+2024-04-19 09:39:23.418 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/baskets - null null
+2024-04-19 09:39:23.476 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/baskets
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:39:23.480 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:39:23.484 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2024-04-19 09:39:23.488 +03:00 [INF] Duration: 11.1966ms
+2024-04-19 09:39:23.492 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/baskets - 204 null null 82.552ms
+2024-04-19 09:39:23.497 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/baskets - null null
+2024-04-19 09:39:23.508 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/baskets
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:39:23.509 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:39:23.525 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-19 09:39:23.565 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2024-04-19 09:39:23.568 +03:00 [INF] Response:
+StatusCode: 302
+Location: https://localhost:7176/Account/Login?ReturnUrl=%2Fapi%2Fbaskets
+2024-04-19 09:39:23.568 +03:00 [INF] Duration: 60.8963ms
+2024-04-19 09:39:23.571 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/baskets - 302 0 null 73.6274ms
+2024-04-19 09:39:23.576 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/Account/Login?ReturnUrl=%2Fapi%2Fbaskets - null null
+2024-04-19 09:39:23.581 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /Account/Login
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:39:23.583 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:39:23.584 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2024-04-19 09:39:23.584 +03:00 [INF] Duration: 3.9957ms
+2024-04-19 09:39:23.586 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/Account/Login?ReturnUrl=%2Fapi%2Fbaskets - 204 null null 9.7578ms
+2024-04-19 09:39:23.587 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/Account/Login?ReturnUrl=%2Fapi%2Fbaskets - null null
+2024-04-19 09:39:23.593 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Account/Login
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:39:23.595 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:39:23.599 +03:00 [INF] Response:
+StatusCode: 404
+2024-04-19 09:39:23.600 +03:00 [INF] Duration: 6.3968ms
+2024-04-19 09:39:23.602 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/Account/Login?ReturnUrl=%2Fapi%2Fbaskets - 404 0 null 15.3086ms
+2024-04-19 09:39:23.607 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7176/Account/Login, Response status code: 404
+2024-04-19 09:39:24.774 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger - null null
+2024-04-19 09:39:25.313 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger - 301 0 null 540.2103ms
+2024-04-19 09:39:25.318 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2024-04-19 09:39:25.438 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 119.9068ms
+2024-04-19 09:39:25.453 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - null null
+2024-04-19 09:39:25.454 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - null null
+2024-04-19 09:39:25.458 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - null null
+2024-04-19 09:39:25.495 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-19 09:39:25.503 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2024-04-19 09:39:25.538 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 42.1954ms
+2024-04-19 09:39:25.550 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-19 09:39:25.550 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-19 09:39:25.582 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 123.6086ms
+2024-04-19 09:39:25.635 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-19 09:39:25.607 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - 200 143943 text/css 154.0099ms
+2024-04-19 09:39:25.642 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 188.2626ms
+2024-04-19 09:39:25.700 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 198.2293ms
+2024-04-19 09:39:25.917 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2024-04-19 09:39:25.972 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - null null
+2024-04-19 09:39:25.986 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-19 09:39:25.988 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - 200 628 image/png 15.5503ms
+2024-04-19 09:39:26.093 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 175.7036ms
+2024-04-19 09:39:27.601 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/baskets - null null
+2024-04-19 09:39:27.608 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/baskets
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:39:27.610 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:39:27.618 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-19 09:39:27.623 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2024-04-19 09:39:27.624 +03:00 [INF] Response:
+StatusCode: 302
+Location: https://localhost:7176/Account/Login?ReturnUrl=%2Fapi%2Fbaskets
+2024-04-19 09:39:27.625 +03:00 [INF] Duration: 17.7475ms
+2024-04-19 09:39:27.627 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/baskets - 302 0 null 25.7222ms
+2024-04-19 09:39:27.633 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/Account/Login?ReturnUrl=%2Fapi%2Fbaskets - null null
+2024-04-19 09:39:27.636 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Account/Login
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:39:27.637 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:39:27.638 +03:00 [INF] Response:
+StatusCode: 404
+2024-04-19 09:39:27.639 +03:00 [INF] Duration: 2.9413ms
+2024-04-19 09:39:27.640 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/Account/Login?ReturnUrl=%2Fapi%2Fbaskets - 404 0 null 8.509ms
+2024-04-19 09:39:27.644 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7176/Account/Login, Response status code: 404
+2024-04-19 09:39:28.856 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/baskets - null null
+2024-04-19 09:39:28.862 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/baskets
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:39:28.863 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:39:28.865 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2024-04-19 09:39:28.868 +03:00 [INF] Duration: 6.0025ms
+2024-04-19 09:39:28.869 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/baskets - 204 null null 13.9585ms
+2024-04-19 09:39:28.875 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/baskets - null null
+2024-04-19 09:39:28.881 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/baskets
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:39:28.884 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:39:28.887 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-19 09:39:28.888 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2024-04-19 09:39:28.889 +03:00 [INF] Response:
+StatusCode: 302
+Location: https://localhost:7176/Account/Login?ReturnUrl=%2Fapi%2Fbaskets
+2024-04-19 09:39:28.890 +03:00 [INF] Duration: 8.7103ms
+2024-04-19 09:39:28.891 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/baskets - 302 0 null 16.0519ms
+2024-04-19 09:39:28.893 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/Account/Login?ReturnUrl=%2Fapi%2Fbaskets - null null
+2024-04-19 09:39:28.899 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /Account/Login
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:39:28.901 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:39:28.902 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2024-04-19 09:39:28.903 +03:00 [INF] Duration: 4.1433ms
+2024-04-19 09:39:28.904 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/Account/Login?ReturnUrl=%2Fapi%2Fbaskets - 204 null null 11.8582ms
+2024-04-19 09:39:28.906 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/Account/Login?ReturnUrl=%2Fapi%2Fbaskets - null null
+2024-04-19 09:39:28.910 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Account/Login
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:39:28.911 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:39:28.912 +03:00 [INF] Response:
+StatusCode: 404
+2024-04-19 09:39:28.914 +03:00 [INF] Duration: 4.5073ms
+2024-04-19 09:39:28.915 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/Account/Login?ReturnUrl=%2Fapi%2Fbaskets - 404 0 null 10.1684ms
+2024-04-19 09:39:28.920 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7176/Account/Login, Response status code: 404
+2024-04-19 09:39:32.129 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/baskets - null null
+2024-04-19 09:39:32.135 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/baskets
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:39:32.136 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:39:32.137 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-19 09:39:32.138 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2024-04-19 09:39:32.140 +03:00 [INF] Response:
+StatusCode: 302
+Location: https://localhost:7176/Account/Login?ReturnUrl=%2Fapi%2Fbaskets
+2024-04-19 09:39:32.143 +03:00 [INF] Duration: 8.3169ms
+2024-04-19 09:39:32.151 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/baskets - 302 0 null 22.6099ms
+2024-04-19 09:39:32.159 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/Account/Login?ReturnUrl=%2Fapi%2Fbaskets - null null
+2024-04-19 09:39:32.163 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Account/Login
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:39:32.166 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:39:32.168 +03:00 [INF] Response:
+StatusCode: 404
+2024-04-19 09:39:32.170 +03:00 [INF] Duration: 7.5448ms
+2024-04-19 09:39:32.171 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/Account/Login?ReturnUrl=%2Fapi%2Fbaskets - 404 0 null 12.0743ms
+2024-04-19 09:39:32.175 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7176/Account/Login, Response status code: 404
+2024-04-19 09:39:43.086 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/baskets - null null
+2024-04-19 09:39:43.139 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/baskets
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:39:43.169 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:39:43.174 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2024-04-19 09:39:43.179 +03:00 [INF] Duration: 40.2875ms
+2024-04-19 09:39:43.184 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/baskets - 204 null null 95.987ms
+2024-04-19 09:39:43.189 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/baskets - null null
+2024-04-19 09:39:43.221 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/baskets
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:39:43.223 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:39:43.224 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-19 09:39:43.226 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2024-04-19 09:39:43.227 +03:00 [INF] Response:
+StatusCode: 302
+Location: https://localhost:7176/Account/Login?ReturnUrl=%2Fapi%2Fbaskets
+2024-04-19 09:39:43.228 +03:00 [INF] Duration: 6.8031ms
+2024-04-19 09:39:43.229 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/baskets - 302 0 null 40.0997ms
+2024-04-19 09:39:43.235 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/Account/Login?ReturnUrl=%2Fapi%2Fbaskets - null null
+2024-04-19 09:39:43.241 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /Account/Login
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:39:43.249 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:39:43.250 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2024-04-19 09:39:43.251 +03:00 [INF] Duration: 10.9181ms
+2024-04-19 09:39:43.264 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/Account/Login?ReturnUrl=%2Fapi%2Fbaskets - 204 null null 29.237ms
+2024-04-19 09:39:43.266 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/Account/Login?ReturnUrl=%2Fapi%2Fbaskets - null null
+2024-04-19 09:39:43.272 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Account/Login
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:39:43.273 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:39:43.298 +03:00 [INF] Response:
+StatusCode: 404
+2024-04-19 09:39:43.300 +03:00 [INF] Duration: 28.1278ms
+2024-04-19 09:39:43.302 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/Account/Login?ReturnUrl=%2Fapi%2Fbaskets - 404 0 null 37.2522ms
+2024-04-19 09:39:43.336 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7176/Account/Login, Response status code: 404
+2024-04-19 09:40:36.026 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-19 09:40:36.159 +03:00 [INF] Now listening on: https://localhost:7176
+2024-04-19 09:40:36.161 +03:00 [INF] Now listening on: http://localhost:5199
+2024-04-19 09:40:36.163 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-19 09:40:36.164 +03:00 [INF] Hosting environment: Development
+2024-04-19 09:40:36.165 +03:00 [INF] Content root path: C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API
+2024-04-19 09:40:42.568 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-19 09:40:42.941 +03:00 [INF] Now listening on: https://localhost:7176
+2024-04-19 09:40:42.943 +03:00 [INF] Now listening on: http://localhost:5199
+2024-04-19 09:40:42.947 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-19 09:40:42.948 +03:00 [INF] Hosting environment: Development
+2024-04-19 09:40:42.950 +03:00 [INF] Content root path: C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API
+2024-04-19 09:40:43.698 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger - null null
+2024-04-19 09:40:44.053 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger - 301 0 null 391.4847ms
+2024-04-19 09:40:44.061 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2024-04-19 09:40:44.174 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 112.9194ms
+2024-04-19 09:40:44.182 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - null null
+2024-04-19 09:40:44.185 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - null null
+2024-04-19 09:40:44.182 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - null null
+2024-04-19 09:40:44.191 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-19 09:40:44.198 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2024-04-19 09:40:44.239 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 47.3606ms
+2024-04-19 09:40:44.283 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-19 09:40:44.283 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-19 09:40:44.286 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 101.6936ms
+2024-04-19 09:40:44.295 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - 200 143943 text/css 113.1298ms
+2024-04-19 09:40:44.315 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-19 09:40:44.319 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 136.0156ms
+2024-04-19 09:40:44.333 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 137.9217ms
+2024-04-19 09:40:44.813 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - null null
+2024-04-19 09:40:44.813 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2024-04-19 09:40:44.822 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-19 09:40:44.825 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - 200 628 image/png 13.2037ms
+2024-04-19 09:40:44.970 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 158.0583ms
+2024-04-19 09:41:01.634 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/baskets - null null
+2024-04-19 09:41:01.672 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/baskets
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:41:01.683 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:41:01.704 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2024-04-19 09:41:01.713 +03:00 [INF] Duration: 48.8126ms
+2024-04-19 09:41:01.723 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/baskets - 204 null null 88.9933ms
+2024-04-19 09:41:01.726 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/baskets - null null
+2024-04-19 09:41:01.756 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/baskets
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:41:01.759 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:41:02.126 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidLifetimeException: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-04-19 09:41:02.136 +03:00 [INF] Admin was not authenticated. Failure message: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2024-04-19 09:41:02.140 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-19 09:41:02.151 +03:00 [INF] AuthenticationScheme: Admin was challenged.
+2024-04-19 09:41:02.154 +03:00 [INF] Response:
+StatusCode: 401
+WWW-Authenticate: [Redacted]
+2024-04-19 09:41:02.155 +03:00 [INF] Duration: 399.566ms
+2024-04-19 09:41:02.158 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/baskets - 401 0 null 432.5214ms
+2024-04-19 09:41:02.172 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/auth/refreshtokenlogin - null null
+2024-04-19 09:41:02.177 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/auth/refreshtokenlogin
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:41:02.179 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:41:02.184 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2024-04-19 09:41:02.187 +03:00 [INF] Duration: 10.2627ms
+2024-04-19 09:41:02.189 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/auth/refreshtokenlogin - 204 null null 18.191ms
+2024-04-19 09:41:02.192 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7176/api/auth/refreshtokenlogin - application/json 63
+2024-04-19 09:41:02.199 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/auth/refreshtokenlogin
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 63
+sec-ch-ua: "Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:41:02.208 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:41:02.227 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.AuthController.RefreshTokenLogin (ECommerceAPI.API)'
+2024-04-19 09:41:02.326 +03:00 [INF] Route matched with {action = "RefreshTokenLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshTokenLogin(ECommerceAPI.Application.Features.Commands.AppUser.RefreshTokenLogin.RefreshTokenLoginCommandRequest) on controller ECommerceAPI.API.Controllers.AuthController (ECommerceAPI.API).
+2024-04-19 09:41:02.478 +03:00 [INF] RequestBody: {"refreshToken":"Zi/4mRu4LSOEuu2H9jyJNuPyb9vmp6aWZrgaVob09Vg="}
+2024-04-19 09:41:04.151 +03:00 [INF] Executed DbCommand (100ms) [Parameters=[@__refreshToken_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NameSurname], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenEndDate], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[RefreshToken] = @__refreshToken_0
+2024-04-19 09:41:04.451 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.AuthController.RefreshTokenLogin (ECommerceAPI.API) in 2106.1774ms
+2024-04-19 09:41:04.455 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.AuthController.RefreshTokenLogin (ECommerceAPI.API)'
+2024-04-19 09:41:04.559 +03:00 [INF] Response:
+StatusCode: 200
+2024-04-19 09:41:04.561 +03:00 [INF] Duration: 2361.5592ms
+2024-04-19 09:41:04.567 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+ECommerceAPI.Application.Exceptions.NotFoundUserException: User Name or password Error
+   at ECommerceAPI.Persistence.Services.AuthService.RefreshTokenLoginAsync(String refreshToken) in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Infrastructure\ECommerceAPI.Persistance\Services\AuthService.cs:line 59
+   at ECommerceAPI.Application.Features.Commands.AppUser.RefreshTokenLogin.RefreshTokenLoginCommandHandler.Handle(RefreshTokenLoginCommandRequest request, CancellationToken cancellationToken) in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Core\ECommerceAPI.Application\Features\Commands\AppUser\RefreshTokenLogin\RefreshTokenLoginCommandHandler.cs:line 23
+   at ECommerceAPI.API.Controllers.AuthController.RefreshTokenLogin(RefreshTokenLoginCommandRequest refreshTokenLoginCommandRequest) in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\Controllers\AuthController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ECommerceAPI.API.Program.<>c.<<Main>b__0_6>d.MoveNext() in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\Program.cs:line 134
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-04-19 09:41:04.617 +03:00 [ERR] User Name or password Error
+2024-04-19 09:41:04.624 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7176/api/auth/refreshtokenlogin - 500 null application/json 2431.9058ms
+2024-04-19 09:41:08.037 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/baskets - null null
+2024-04-19 09:41:08.045 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/baskets
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:41:08.047 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:41:08.054 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2024-04-19 09:41:08.055 +03:00 [INF] Duration: 10.6413ms
+2024-04-19 09:41:08.056 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/baskets - 204 null null 18.9922ms
+2024-04-19 09:41:08.072 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/baskets - null null
+2024-04-19 09:41:08.088 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/baskets
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:41:08.090 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:41:08.098 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidLifetimeException: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-04-19 09:41:08.104 +03:00 [INF] Admin was not authenticated. Failure message: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2024-04-19 09:41:08.105 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-19 09:41:08.107 +03:00 [INF] AuthenticationScheme: Admin was challenged.
+2024-04-19 09:41:08.108 +03:00 [INF] Response:
+StatusCode: 401
+WWW-Authenticate: [Redacted]
+2024-04-19 09:41:08.109 +03:00 [INF] Duration: 21.127ms
+2024-04-19 09:41:08.111 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/baskets - 401 0 null 51.5632ms
+2024-04-19 09:41:08.124 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/auth/refreshtokenlogin - null null
+2024-04-19 09:41:08.130 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/auth/refreshtokenlogin
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:41:08.161 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:41:08.175 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2024-04-19 09:41:08.188 +03:00 [INF] Duration: 58.1249ms
+2024-04-19 09:41:08.236 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/auth/refreshtokenlogin - 204 null null 112.0306ms
+2024-04-19 09:41:08.241 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7176/api/auth/refreshtokenlogin - application/json 63
+2024-04-19 09:41:08.249 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/auth/refreshtokenlogin
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 63
+sec-ch-ua: "Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:41:08.253 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:41:08.255 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.AuthController.RefreshTokenLogin (ECommerceAPI.API)'
+2024-04-19 09:41:08.257 +03:00 [INF] Route matched with {action = "RefreshTokenLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshTokenLogin(ECommerceAPI.Application.Features.Commands.AppUser.RefreshTokenLogin.RefreshTokenLoginCommandRequest) on controller ECommerceAPI.API.Controllers.AuthController (ECommerceAPI.API).
+2024-04-19 09:41:08.266 +03:00 [INF] RequestBody: {"refreshToken":"Zi/4mRu4LSOEuu2H9jyJNuPyb9vmp6aWZrgaVob09Vg="}
+2024-04-19 09:41:08.305 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[@__refreshToken_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NameSurname], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenEndDate], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[RefreshToken] = @__refreshToken_0
+2024-04-19 09:41:08.804 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.AuthController.RefreshTokenLogin (ECommerceAPI.API) in 543.1168ms
+2024-04-19 09:41:08.820 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.AuthController.RefreshTokenLogin (ECommerceAPI.API)'
+2024-04-19 09:41:09.067 +03:00 [INF] Response:
+StatusCode: 200
+2024-04-19 09:41:09.085 +03:00 [INF] Duration: 835.6561ms
+2024-04-19 09:41:09.088 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+ECommerceAPI.Application.Exceptions.NotFoundUserException: User Name or password Error
+   at ECommerceAPI.Persistence.Services.AuthService.RefreshTokenLoginAsync(String refreshToken) in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Infrastructure\ECommerceAPI.Persistance\Services\AuthService.cs:line 59
+   at ECommerceAPI.Application.Features.Commands.AppUser.RefreshTokenLogin.RefreshTokenLoginCommandHandler.Handle(RefreshTokenLoginCommandRequest request, CancellationToken cancellationToken) in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Core\ECommerceAPI.Application\Features\Commands\AppUser\RefreshTokenLogin\RefreshTokenLoginCommandHandler.cs:line 23
+   at ECommerceAPI.API.Controllers.AuthController.RefreshTokenLogin(RefreshTokenLoginCommandRequest refreshTokenLoginCommandRequest) in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\Controllers\AuthController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ECommerceAPI.API.Program.<>c.<<Main>b__0_6>d.MoveNext() in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\Program.cs:line 134
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-04-19 09:41:09.105 +03:00 [ERR] User Name or password Error
+2024-04-19 09:41:09.107 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7176/api/auth/refreshtokenlogin - 500 null application/json 866.5762ms
+2024-04-19 09:41:44.094 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/baskets - null null
+2024-04-19 09:41:44.122 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/baskets
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:41:44.124 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:41:44.125 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2024-04-19 09:41:44.126 +03:00 [INF] Duration: 5.312ms
+2024-04-19 09:41:44.129 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/baskets - 204 null null 34.7007ms
+2024-04-19 09:41:44.136 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/baskets - null null
+2024-04-19 09:41:44.144 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/baskets
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:41:44.146 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:41:44.153 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidLifetimeException: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-04-19 09:41:44.156 +03:00 [INF] Admin was not authenticated. Failure message: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2024-04-19 09:41:44.157 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-19 09:41:44.159 +03:00 [INF] AuthenticationScheme: Admin was challenged.
+2024-04-19 09:41:44.160 +03:00 [INF] Response:
+StatusCode: 401
+WWW-Authenticate: [Redacted]
+2024-04-19 09:41:44.162 +03:00 [INF] Duration: 18.043ms
+2024-04-19 09:41:44.165 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/baskets - 401 0 null 29.8828ms
+2024-04-19 09:41:44.186 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/auth/refreshtokenlogin - null null
+2024-04-19 09:41:44.195 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/auth/refreshtokenlogin
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:41:44.200 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:41:44.203 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2024-04-19 09:41:44.204 +03:00 [INF] Duration: 9.2705ms
+2024-04-19 09:41:44.212 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/auth/refreshtokenlogin - 204 null null 25.5009ms
+2024-04-19 09:41:44.217 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7176/api/auth/refreshtokenlogin - application/json 63
+2024-04-19 09:41:44.220 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/auth/refreshtokenlogin
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 63
+sec-ch-ua: "Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:41:44.223 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:41:44.227 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.AuthController.RefreshTokenLogin (ECommerceAPI.API)'
+2024-04-19 09:41:44.229 +03:00 [INF] Route matched with {action = "RefreshTokenLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshTokenLogin(ECommerceAPI.Application.Features.Commands.AppUser.RefreshTokenLogin.RefreshTokenLoginCommandRequest) on controller ECommerceAPI.API.Controllers.AuthController (ECommerceAPI.API).
+2024-04-19 09:41:44.234 +03:00 [INF] RequestBody: {"refreshToken":"Zi/4mRu4LSOEuu2H9jyJNuPyb9vmp6aWZrgaVob09Vg="}
+2024-04-19 09:41:44.267 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__refreshToken_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NameSurname], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenEndDate], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[RefreshToken] = @__refreshToken_0
+2024-04-19 09:41:44.497 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.AuthController.RefreshTokenLogin (ECommerceAPI.API) in 264.3748ms
+2024-04-19 09:41:44.500 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.AuthController.RefreshTokenLogin (ECommerceAPI.API)'
+2024-04-19 09:41:44.591 +03:00 [INF] Response:
+StatusCode: 200
+2024-04-19 09:41:44.593 +03:00 [INF] Duration: 372.6708ms
+2024-04-19 09:41:44.596 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+ECommerceAPI.Application.Exceptions.NotFoundUserException: User Name or password Error
+   at ECommerceAPI.Persistence.Services.AuthService.RefreshTokenLoginAsync(String refreshToken) in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Infrastructure\ECommerceAPI.Persistance\Services\AuthService.cs:line 59
+   at ECommerceAPI.Application.Features.Commands.AppUser.RefreshTokenLogin.RefreshTokenLoginCommandHandler.Handle(RefreshTokenLoginCommandRequest request, CancellationToken cancellationToken) in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Core\ECommerceAPI.Application\Features\Commands\AppUser\RefreshTokenLogin\RefreshTokenLoginCommandHandler.cs:line 23
+   at ECommerceAPI.API.Controllers.AuthController.RefreshTokenLogin(RefreshTokenLoginCommandRequest refreshTokenLoginCommandRequest) in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\Controllers\AuthController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ECommerceAPI.API.Program.<>c.<<Main>b__0_6>d.MoveNext() in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\Program.cs:line 134
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-04-19 09:41:44.605 +03:00 [ERR] User Name or password Error
+2024-04-19 09:41:44.608 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7176/api/auth/refreshtokenlogin - 500 null application/json 392.1785ms
+2024-04-19 09:42:35.749 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-19 09:42:36.080 +03:00 [INF] Now listening on: https://localhost:7176
+2024-04-19 09:42:36.082 +03:00 [INF] Now listening on: http://localhost:5199
+2024-04-19 09:42:36.085 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-19 09:42:36.087 +03:00 [INF] Hosting environment: Development
+2024-04-19 09:42:36.089 +03:00 [INF] Content root path: C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API
+2024-04-19 09:42:38.573 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger - null null
+2024-04-19 09:42:38.748 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger - 301 0 null 180.0313ms
+2024-04-19 09:42:38.753 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2024-04-19 09:42:38.835 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 82.1147ms
+2024-04-19 09:42:38.841 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - null null
+2024-04-19 09:42:38.844 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2024-04-19 09:42:38.841 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - null null
+2024-04-19 09:42:38.841 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - null null
+2024-04-19 09:42:38.842 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-19 09:42:38.902 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 60.0067ms
+2024-04-19 09:42:38.921 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-19 09:42:38.923 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-19 09:42:38.928 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 86.4399ms
+2024-04-19 09:42:38.930 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - 200 143943 text/css 89.3454ms
+2024-04-19 09:42:38.955 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 110.8447ms
+2024-04-19 09:42:38.980 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-19 09:42:38.982 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 141.3718ms
+2024-04-19 09:42:39.154 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2024-04-19 09:42:39.192 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - null null
+2024-04-19 09:42:39.197 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-19 09:42:39.199 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - 200 628 image/png 8.1037ms
+2024-04-19 09:42:39.295 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 140.7877ms
+2024-04-19 09:43:00.576 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/baskets - null null
+2024-04-19 09:43:00.618 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/baskets
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:43:00.630 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:43:00.641 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2024-04-19 09:43:00.656 +03:00 [INF] Duration: 40.677ms
+2024-04-19 09:43:00.669 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/baskets - 204 null null 92.2625ms
+2024-04-19 09:43:00.679 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/api/baskets - null null
+2024-04-19 09:43:00.690 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/baskets
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:43:00.692 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:43:01.025 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidLifetimeException: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-04-19 09:43:01.032 +03:00 [INF] Admin was not authenticated. Failure message: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2024-04-19 09:43:01.039 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-19 09:43:01.047 +03:00 [INF] AuthenticationScheme: Admin was challenged.
+2024-04-19 09:43:01.048 +03:00 [INF] Response:
+StatusCode: 401
+WWW-Authenticate: [Redacted]
+2024-04-19 09:43:01.050 +03:00 [INF] Duration: 359.8551ms
+2024-04-19 09:43:01.055 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/api/baskets - 401 0 null 376.4682ms
+2024-04-19 09:43:01.068 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/auth/refreshtokenlogin - null null
+2024-04-19 09:43:01.073 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/auth/refreshtokenlogin
+Accept: */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:43:01.075 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:43:01.076 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2024-04-19 09:43:01.077 +03:00 [INF] Duration: 4.2823ms
+2024-04-19 09:43:01.079 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/auth/refreshtokenlogin - 204 null null 11.7004ms
+2024-04-19 09:43:01.081 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7176/api/auth/refreshtokenlogin - application/json 63
+2024-04-19 09:43:01.088 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/auth/refreshtokenlogin
+Accept: application/json, text/plain, */*
+Host: localhost:7176
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 63
+sec-ch-ua: "Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2024-04-19 09:43:01.090 +03:00 [INF] CORS policy execution successful.
+2024-04-19 09:43:01.095 +03:00 [INF] Executing endpoint 'ECommerceAPI.API.Controllers.AuthController.RefreshTokenLogin (ECommerceAPI.API)'
+2024-04-19 09:43:01.145 +03:00 [INF] Route matched with {action = "RefreshTokenLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshTokenLogin(ECommerceAPI.Application.Features.Commands.AppUser.RefreshTokenLogin.RefreshTokenLoginCommandRequest) on controller ECommerceAPI.API.Controllers.AuthController (ECommerceAPI.API).
+2024-04-19 09:43:01.214 +03:00 [INF] RequestBody: {"refreshToken":"Zi/4mRu4LSOEuu2H9jyJNuPyb9vmp6aWZrgaVob09Vg="}
+2024-04-19 09:43:02.588 +03:00 [INF] Executed DbCommand (47ms) [Parameters=[@__refreshToken_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NameSurname], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenEndDate], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[RefreshToken] = @__refreshToken_0
+2024-04-19 09:43:02.881 +03:00 [INF] Executed action ECommerceAPI.API.Controllers.AuthController.RefreshTokenLogin (ECommerceAPI.API) in 1728.852ms
+2024-04-19 09:43:02.888 +03:00 [INF] Executed endpoint 'ECommerceAPI.API.Controllers.AuthController.RefreshTokenLogin (ECommerceAPI.API)'
+2024-04-19 09:43:02.981 +03:00 [INF] Response:
+StatusCode: 200
+2024-04-19 09:43:02.984 +03:00 [INF] Duration: 1895.8803ms
+2024-04-19 09:43:02.989 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+ECommerceAPI.Application.Exceptions.NotFoundUserException: User Name or password Error
+   at ECommerceAPI.Persistence.Services.AuthService.RefreshTokenLoginAsync(String refreshToken) in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Infrastructure\ECommerceAPI.Persistance\Services\AuthService.cs:line 59
+   at ECommerceAPI.Application.Features.Commands.AppUser.RefreshTokenLogin.RefreshTokenLoginCommandHandler.Handle(RefreshTokenLoginCommandRequest request, CancellationToken cancellationToken) in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Core\ECommerceAPI.Application\Features\Commands\AppUser\RefreshTokenLogin\RefreshTokenLoginCommandHandler.cs:line 23
+   at ECommerceAPI.API.Controllers.AuthController.RefreshTokenLogin(RefreshTokenLoginCommandRequest refreshTokenLoginCommandRequest) in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\Controllers\AuthController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ECommerceAPI.API.Program.<>c.<<Main>b__0_6>d.MoveNext() in C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API\Program.cs:line 134
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-04-19 09:43:03.040 +03:00 [ERR] User Name or password Error
+2024-04-19 09:43:03.047 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7176/api/auth/refreshtokenlogin - 500 null application/json 1965.2615ms
+2024-04-19 09:43:16.279 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-19 09:43:16.518 +03:00 [INF] Now listening on: https://localhost:7176
+2024-04-19 09:43:16.520 +03:00 [INF] Now listening on: http://localhost:5199
+2024-04-19 09:43:16.522 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-19 09:43:16.523 +03:00 [INF] Hosting environment: Development
+2024-04-19 09:43:16.524 +03:00 [INF] Content root path: C:\Users\User\Desktop\Applications\ECommerceApp\ECommerceAPI\Presentation\ECommerceAPI.API
+2024-04-19 09:43:16.982 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger - null null
+2024-04-19 09:43:17.223 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger - 301 0 null 249.1468ms
+2024-04-19 09:43:17.237 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2024-04-19 09:43:17.335 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - null null
+2024-04-19 09:43:17.360 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - null null
+2024-04-19 09:43:17.373 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2024-04-19 09:43:17.373 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 132.0173ms
+2024-04-19 09:43:17.342 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - null null
+2024-04-19 09:43:17.373 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-19 09:43:17.486 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-19 09:43:17.486 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-19 09:43:17.493 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui.css - 200 143943 text/css 152.3705ms
+2024-04-19 09:43:17.492 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 122.0409ms
+2024-04-19 09:43:17.510 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-19 09:43:17.495 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 137.9566ms
+2024-04-19 09:43:17.524 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 187.9599ms
+2024-04-19 09:43:17.550 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 176.8697ms
+2024-04-19 09:43:17.993 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2024-04-19 09:43:17.993 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - null null
+2024-04-19 09:43:18.002 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-19 09:43:18.005 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/favicon-32x32.png - 200 628 image/png 12.6656ms
+2024-04-19 09:43:18.126 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 133.5079ms

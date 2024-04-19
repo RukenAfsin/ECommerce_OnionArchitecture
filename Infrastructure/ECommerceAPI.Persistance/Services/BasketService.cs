@@ -3,6 +3,7 @@ using ECommerceAPI.Application.Repositories;
 using ECommerceAPI.Application.ViewModels.Basket;
 using ECommerceAPI.Domain.Entities;
 using ECommerceAPI.Domain.Entities.Identity;
+using ECommerceAPI.Persistence.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -20,15 +21,17 @@ namespace ECommerceAPI.Persistence.Services
         readonly UserManager<AppUser> _userManager;
         readonly IOrderReadRepository _orderReadRepository;
         readonly IBasketWriteRepository _basketWriteRepository;
+        readonly IBasketReadRepository _basketReadRepository;
         readonly IBasketItemWriteRepository _basketItemWriteRepository;
         readonly IBasketItemReadRepository _basketItemReadRepository;
 
-        public BasketService(IHttpContextAccessor httpcontextAccessor, IOrderReadRepository orderReadRepository, IBasketItemWriteRepository basketItemWriteRepository, IBasketItemReadRepository basketItemReadRepository)
+        public BasketService(IHttpContextAccessor httpcontextAccessor, IOrderReadRepository orderReadRepository, IBasketItemWriteRepository basketItemWriteRepository, IBasketItemReadRepository basketItemReadRepository, IBasketReadRepository basketReadRepository)
         {
             _httpcontextAccessor = httpcontextAccessor;
             _orderReadRepository = orderReadRepository;
             _basketItemWriteRepository = basketItemWriteRepository;
             _basketItemReadRepository = basketItemReadRepository;
+            _basketReadRepository = basketReadRepository;
         }
 
         private async Task<Basket>ContextUser()
@@ -56,7 +59,7 @@ namespace ECommerceAPI.Persistence.Services
                 else
                 {
                     targetBasket = new();
-                    user.Baskets.Add(new());
+                    user.Baskets.Add(targetBasket);
                 }
                 await _basketWriteRepository.SaveAsync();
                 return targetBasket;
@@ -93,19 +96,37 @@ namespace ECommerceAPI.Persistence.Services
             }
         }
 
-        public Task<List<BasketItem>> GetBasketItemsAsync()
+        public async Task<List<BasketItem>> GetBasketItemsAsync()
         {
-           
+            Basket? basket = await ContextUser();
+            Basket? result = await _basketReadRepository.Table
+                .Include(b=>b.BasketItems)
+                .ThenInclude(bi=>bi.Product)
+                .FirstOrDefaultAsync(b=>b.Id==basket.Id);
+
+            return result.BasketItems
+                .ToList();
         }
 
-        public Task RemoveBasketItemAsync(string basketItemId)
+        public async Task RemoveBasketItemAsync(string basketItemId)
         {
-            throw new NotImplementedException();
+            BasketItem? basketItem =await  _basketItemReadRepository.GetByIdAsync(basketItemId);
+
+            if(basketItem!=null)
+            {
+                _basketItemWriteRepository.Remove(basketItem);
+                await _basketItemWriteRepository.SaveAsync();
+            }
         }
 
-        public Task UpdateQuantityAsync(VM_Update_BasketItem basketItem)
+        public async Task UpdateQuantityAsync(VM_Update_BasketItem basketItem)
         {
-            throw new NotImplementedException();
+            BasketItem? _basketItem = await _basketItemReadRepository.GetByIdAsync(basketItem.BasketItemId);
+            if(_basketItem!=null)
+            {
+                _basketItem.Quantity=basketItem.Quantity;
+               await  _basketItemWriteRepository.SaveAsync();
+            }
         }
     }
 }
