@@ -39,7 +39,7 @@ namespace ECommerceAPI.Persistance
                 options.Password.RequireDigit = false;
                 options.Password.RequireLowercase = false;
                 options.Password.RequireUppercase = false;
-            }).AddEntityFrameworkStores<ECommerceAPIDbContext>().AddUserManager<UserManager<AppUser>>(); ;
+            }).AddEntityFrameworkStores<ECommerceAPIDbContext>();
 
             services.AddScoped<ICustomerReadRepository, CustomerReadRepository>();
             services.AddScoped<ICustomerWriteRepository, CustomerWriteRepository>();
