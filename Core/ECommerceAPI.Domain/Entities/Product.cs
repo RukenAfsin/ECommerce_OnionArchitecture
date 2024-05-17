@@ -8,7 +8,7 @@ namespace ECommerceAPI.Domain.Entities
         public string Name { get; set; }
         public int Stock { get; set; }
         public float Price { get; set; }
-        public ICollection<Order> Orders { get; set; }
+        //public ICollection<Order> Orders { get; set; }
         public ICollection<ProductImage> Images { get; set; } 
         public ICollection<BasketItem>BasketItems { get; set; }
     }
